@@ -1,0 +1,70 @@
+#:mute
+
+    #:include 'common.fypp'
+
+    #:set PROGRAM_NAME = _FILE_.replace('.fypp', '') + '_' + REAL_KIND
+
+#:endmute
+program ${PROGRAM_NAME}$
+
+    use, intrinsic :: iso_fortran_env, only: ${REAL_KIND}$
+
+    use, non_intrinsic :: taylor_series_fortran
+
+
+    implicit none
+
+
+    real(${REAL_KIND}$), parameter :: step_x = 2 * acos(-1.0_${REAL_KIND}$) / ( ${NUM_TEST_POINTS}$ )
+
+
+    call execute_demo
+    print *, 'Finish; ${PROGRAM_NAME}$'
+
+
+    contains
+
+
+    subroutine execute_demo
+
+        integer :: i, file_unit
+
+        real(${REAL_KIND}$) :: reference, x
+
+
+        open( &!
+        &   newunit = file_unit                      , &!
+        &   file    = 'example/${PROGRAM_NAME}$.dat' , &!
+        &   action  = 'write'                        , &!
+        &   status  = 'unknown'                        &!
+        )
+
+
+        do i = 0, ${NUM_TEST_POINTS}$
+            x         = i * step_x
+            reference = cos(x)
+            call execute_demo_unit( file_unit, x = x, reference = reference )
+        end do
+
+
+        close(file_unit)
+
+    end subroutine execute_demo
+
+
+    subroutine execute_demo_unit(file_unit, x, reference)
+
+        integer, intent(in) :: file_unit
+
+        real(${REAL_KIND}$), intent(in) :: x, reference
+
+
+        #:for DEGREE in range(MAXVAL_DEGREE_COS)
+        #:set TARGET_INTERFACE = INTERFACE_TAYLOR_SERIES_COS(DEGREE)
+        write( file_unit, '${FMT_DEMO}$' ) ${str(DEGREE).rjust(DIGITS_DEGREE)}$, x, ${TARGET_INTERFACE}$(x), reference
+        #:endfor
+        write( file_unit, '${FMT_DEMO}$' )
+
+    end subroutine execute_demo_unit
+
+end program ${PROGRAM_NAME}$

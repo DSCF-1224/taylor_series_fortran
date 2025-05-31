@@ -1,0 +1,115 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+
+  fpm:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install fpm
+        uses: fortran-lang/setup-fpm@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check fpm
+        run: fpm -v
+
+      - name: Install fypp
+        run: |
+          pip install --upgrade fypp ninja
+          fypp --version
+
+      - name: Build th library
+        run: |
+          cd src
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          cd ..
+          fpm build --flag "-Wall -Wextra -Werror -pedantic -std=f2008 -ffree-line-length-none"
+
+      - name: Run demo
+        run: |
+          cd example
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          chmod +x ./run_fpm.sh
+          ./run_fpm.sh
+
+  ford:
+
+    needs: fpm
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install fpm
+        uses: fortran-lang/setup-fpm@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check fpm
+        run: fpm -v
+
+      - name: Install FORD to build documents (and fypp for preprocessing)
+        run: |
+          sudo apt-get update
+          sudo pip install ford
+          ford --version
+          sudo pip install --upgrade fypp ninja
+          fypp --version
+
+      - name: Install Gnuplot
+        run: |
+          sudo apt-get install -y gnuplot
+          gnuplot --version
+
+      - name: Build the documents
+        run: |
+          cd src
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          cd ../example
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          chmod +x ./run_fpm.sh
+          ./run_fpm.sh
+          chmod +x ./run_gnuplot.sh
+          ./run_gnuplot.sh
+          cd ..
+          ford ford.md
+          mkdir doc/example
+          mv example/*.dat doc/example
+          mv example/*.svg doc/example
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentation
+          path: doc
+          if-no-files-found: error
+
+      - name: Deploy documentation
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        if: ${{ github.event_name == 'push'  &&  github.ref == 'refs/heads/main' }}
+        with:
+          
+          branch: github-pages
+          folder: doc
