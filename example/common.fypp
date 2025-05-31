@@ -1,0 +1,26 @@
+#:mute
+
+    #:include '../src/common.fypp'
+    #:include '../src/with_real.fypp'
+
+    #:set NUM_TEST_POINTS = 128
+
+    #:if defined('WITH_REAL32')
+
+        #:set FMT_DEMO = '(I' + str(DIGITS_DEGREE) + ',SP,*(1X,ES15.8E2))'
+
+    #:elif defined('WITH_REAL64')
+
+        #:set FMT_DEMO = '(I' + str(DIGITS_DEGREE) + ',SP,*(1X,ES24.16E3))'
+
+    #:elif defined('WITH_REAL128')
+
+        #:set FMT_DEMO = '(I' + str(DIGITS_DEGREE) + ',SP,*(1X,ES44.35E4))'
+
+    #:else
+
+        #:stop 'WITH_REAL* is not defined.'
+
+    #:endif
+
+#:endmute

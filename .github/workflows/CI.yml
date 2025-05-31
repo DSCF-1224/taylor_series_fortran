@@ -23,20 +23,29 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install fypp
-        run: pip install --upgrade fypp ninja
+      - name: Check fpm
+        run: fpm -v
 
-      - name: Check compiler, fpm, fypp
+      - name: Install fypp
         run: |
-          gfortran --version
-          fpm -v
+          pip install --upgrade fypp ninja
           fypp --version
 
       - name: Build th library
-        run: fpm build --flag "-Wall -Wextra -Werror -pedantic -std=f2008 -ffree-line-length-none"
+        run: |
+          cd src
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          cd ..
+          fpm build --flag "-Wall -Wextra -Werror -pedantic -std=f2008 -ffree-line-length-none"
 
       - name: Run demo
-        run: fpm run --example
+        run: |
+          cd example
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          chmod +x ./run_fpm.sh
+          ./run_fpm.sh
 
   ford:
 
@@ -51,16 +60,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install FORD to build documents
+      - name: Install fpm
+        uses: fortran-lang/setup-fpm@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check fpm
+        run: fpm -v
+
+      - name: Install FORD to build documents (and fypp for preprocessing)
         run: |
           sudo apt-get update
           sudo pip install ford
+          ford --version
+          sudo pip install --upgrade fypp ninja
+          fypp --version
 
-      - name: Check FORD
-        run: ford --version
+      - name: Install Gnuplot
+        run: |
+          sudo apt-get install -y gnuplot
+          gnuplot --version
 
       - name: Build the documents
-        run: ford ford.md
+        run: |
+          cd src
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          cd ../example
+          chmod +x ./run_fypp.sh
+          ./run_fypp.sh
+          chmod +x ./run_fpm.sh
+          ./run_fpm.sh
+          chmod +x ./run_gnuplot.sh
+          ./run_gnuplot.sh
+          cd ..
+          ford ford.md
+          mkdir doc/example
+          mv example/*.dat doc/example
+          mv example/*.svg doc/example
 
       - name: Upload documentation
         uses: actions/upload-artifact@v4

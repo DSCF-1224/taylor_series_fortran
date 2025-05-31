@@ -1,0 +1,98 @@
+#:mute
+
+    #:set REAL_KINDS = ['real32', 'real64', 'real128']
+
+
+    ! ././src/submodule_cos_real32.f90:46:64:
+    ! 
+    !    46 |     real(real32), parameter :: coefficient040 = - coefficient038 / ( 39 *  40)
+    !       |                                                                1
+    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    ! f951: all warnings being treated as errors
+    ! ././src/submodule_cos_real64.f90:184:64:
+    ! 
+    !   184 |     real(real64), parameter :: coefficient178 = - coefficient176 / (177 * 178)
+    !       |                                                                1
+    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    ! f951: all warnings being treated as errors
+    #:set MAXVAL_DEGREE_COS_REAL32 =  39
+    #:set MAXVAL_DEGREE_COS_REAL64 = 177
+    #:set MAXVAL_DEGREE_COS        = MAXVAL_DEGREE_COS_REAL64
+    #:set MAXVAL_DEGREE            = MAXVAL_DEGREE_COS_REAL64
+
+    ! ././src/submodule_sin_real32.f90:45:64:
+    ! 
+    !    45 |     real(real32), parameter :: coefficient039 = - coefficient037 / ( 38 *  39)
+    !       |                                                                1
+    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    ! f951: all warnings being treated as errors
+    ! ././src/submodule_sin_real64.f90:185:64:
+    ! 
+    !   185 |     real(real64), parameter :: coefficient179 = - coefficient177 / (178 * 179)
+    !       |                                                                1
+    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    #:set MAXVAL_DEGREE_SIN_REAL32 =  38
+    #:set MAXVAL_DEGREE_SIN_REAL64 = 178
+    #:set MAXVAL_DEGREE_SIN        =                    MAXVAL_DEGREE_SIN_REAL64
+    #:set MAXVAL_DEGREE            = max(MAXVAL_DEGREE, MAXVAL_DEGREE_SIN_REAL64)
+
+    #:if MAXVAL_DEGREE < 1
+        #:stop '`MAXVAL_DEGREE` must be greater than zero !'
+    #:endif
+
+
+
+    #:set DIGITS_DEGREE = 3
+
+
+
+    #:set MODULE_NAME     = 'taylor_series_fortran'
+    #:set FUNCTION_PREFIX = MODULE_NAME.replace('_fortran', '')
+
+
+
+    #:def INTERFACE_TAYLOR_SERIES_BASE(name, degree)
+        #:if degree == ''
+            #:set RES = FUNCTION_PREFIX + '_' + name
+            $:RES
+            #:del RES
+        #:else
+            #:set RES = INTERFACE_TAYLOR_SERIES_BASE(name, '') + '_' + str(degree).zfill(DIGITS_DEGREE)
+            $:RES
+            #:del RES
+        #:endif
+    #:enddef
+
+
+
+    #:def INTERFACE_TAYLOR_SERIES_COS(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('cos', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def INTERFACE_TAYLOR_SERIES_SIN(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('sin', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_COS(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_COS(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_SIN(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_SIN(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+#:endmute
