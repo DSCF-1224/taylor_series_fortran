@@ -193,6 +193,186 @@ module taylor_series_fortran
     public :: taylor_series_cos_176
 
 
+    public :: taylor_series_exp_000
+    public :: taylor_series_exp_001
+    public :: taylor_series_exp_002
+    public :: taylor_series_exp_003
+    public :: taylor_series_exp_004
+    public :: taylor_series_exp_005
+    public :: taylor_series_exp_006
+    public :: taylor_series_exp_007
+    public :: taylor_series_exp_008
+    public :: taylor_series_exp_009
+    public :: taylor_series_exp_010
+    public :: taylor_series_exp_011
+    public :: taylor_series_exp_012
+    public :: taylor_series_exp_013
+    public :: taylor_series_exp_014
+    public :: taylor_series_exp_015
+    public :: taylor_series_exp_016
+    public :: taylor_series_exp_017
+    public :: taylor_series_exp_018
+    public :: taylor_series_exp_019
+    public :: taylor_series_exp_020
+    public :: taylor_series_exp_021
+    public :: taylor_series_exp_022
+    public :: taylor_series_exp_023
+    public :: taylor_series_exp_024
+    public :: taylor_series_exp_025
+    public :: taylor_series_exp_026
+    public :: taylor_series_exp_027
+    public :: taylor_series_exp_028
+    public :: taylor_series_exp_029
+    public :: taylor_series_exp_030
+    public :: taylor_series_exp_031
+    public :: taylor_series_exp_032
+    public :: taylor_series_exp_033
+    public :: taylor_series_exp_034
+    public :: taylor_series_exp_035
+    public :: taylor_series_exp_036
+    public :: taylor_series_exp_037
+    public :: taylor_series_exp_038
+    public :: taylor_series_exp_039
+    public :: taylor_series_exp_040
+    public :: taylor_series_exp_041
+    public :: taylor_series_exp_042
+    public :: taylor_series_exp_043
+    public :: taylor_series_exp_044
+    public :: taylor_series_exp_045
+    public :: taylor_series_exp_046
+    public :: taylor_series_exp_047
+    public :: taylor_series_exp_048
+    public :: taylor_series_exp_049
+    public :: taylor_series_exp_050
+    public :: taylor_series_exp_051
+    public :: taylor_series_exp_052
+    public :: taylor_series_exp_053
+    public :: taylor_series_exp_054
+    public :: taylor_series_exp_055
+    public :: taylor_series_exp_056
+    public :: taylor_series_exp_057
+    public :: taylor_series_exp_058
+    public :: taylor_series_exp_059
+    public :: taylor_series_exp_060
+    public :: taylor_series_exp_061
+    public :: taylor_series_exp_062
+    public :: taylor_series_exp_063
+    public :: taylor_series_exp_064
+    public :: taylor_series_exp_065
+    public :: taylor_series_exp_066
+    public :: taylor_series_exp_067
+    public :: taylor_series_exp_068
+    public :: taylor_series_exp_069
+    public :: taylor_series_exp_070
+    public :: taylor_series_exp_071
+    public :: taylor_series_exp_072
+    public :: taylor_series_exp_073
+    public :: taylor_series_exp_074
+    public :: taylor_series_exp_075
+    public :: taylor_series_exp_076
+    public :: taylor_series_exp_077
+    public :: taylor_series_exp_078
+    public :: taylor_series_exp_079
+    public :: taylor_series_exp_080
+    public :: taylor_series_exp_081
+    public :: taylor_series_exp_082
+    public :: taylor_series_exp_083
+    public :: taylor_series_exp_084
+    public :: taylor_series_exp_085
+    public :: taylor_series_exp_086
+    public :: taylor_series_exp_087
+    public :: taylor_series_exp_088
+    public :: taylor_series_exp_089
+    public :: taylor_series_exp_090
+    public :: taylor_series_exp_091
+    public :: taylor_series_exp_092
+    public :: taylor_series_exp_093
+    public :: taylor_series_exp_094
+    public :: taylor_series_exp_095
+    public :: taylor_series_exp_096
+    public :: taylor_series_exp_097
+    public :: taylor_series_exp_098
+    public :: taylor_series_exp_099
+    public :: taylor_series_exp_100
+    public :: taylor_series_exp_101
+    public :: taylor_series_exp_102
+    public :: taylor_series_exp_103
+    public :: taylor_series_exp_104
+    public :: taylor_series_exp_105
+    public :: taylor_series_exp_106
+    public :: taylor_series_exp_107
+    public :: taylor_series_exp_108
+    public :: taylor_series_exp_109
+    public :: taylor_series_exp_110
+    public :: taylor_series_exp_111
+    public :: taylor_series_exp_112
+    public :: taylor_series_exp_113
+    public :: taylor_series_exp_114
+    public :: taylor_series_exp_115
+    public :: taylor_series_exp_116
+    public :: taylor_series_exp_117
+    public :: taylor_series_exp_118
+    public :: taylor_series_exp_119
+    public :: taylor_series_exp_120
+    public :: taylor_series_exp_121
+    public :: taylor_series_exp_122
+    public :: taylor_series_exp_123
+    public :: taylor_series_exp_124
+    public :: taylor_series_exp_125
+    public :: taylor_series_exp_126
+    public :: taylor_series_exp_127
+    public :: taylor_series_exp_128
+    public :: taylor_series_exp_129
+    public :: taylor_series_exp_130
+    public :: taylor_series_exp_131
+    public :: taylor_series_exp_132
+    public :: taylor_series_exp_133
+    public :: taylor_series_exp_134
+    public :: taylor_series_exp_135
+    public :: taylor_series_exp_136
+    public :: taylor_series_exp_137
+    public :: taylor_series_exp_138
+    public :: taylor_series_exp_139
+    public :: taylor_series_exp_140
+    public :: taylor_series_exp_141
+    public :: taylor_series_exp_142
+    public :: taylor_series_exp_143
+    public :: taylor_series_exp_144
+    public :: taylor_series_exp_145
+    public :: taylor_series_exp_146
+    public :: taylor_series_exp_147
+    public :: taylor_series_exp_148
+    public :: taylor_series_exp_149
+    public :: taylor_series_exp_150
+    public :: taylor_series_exp_151
+    public :: taylor_series_exp_152
+    public :: taylor_series_exp_153
+    public :: taylor_series_exp_154
+    public :: taylor_series_exp_155
+    public :: taylor_series_exp_156
+    public :: taylor_series_exp_157
+    public :: taylor_series_exp_158
+    public :: taylor_series_exp_159
+    public :: taylor_series_exp_160
+    public :: taylor_series_exp_161
+    public :: taylor_series_exp_162
+    public :: taylor_series_exp_163
+    public :: taylor_series_exp_164
+    public :: taylor_series_exp_165
+    public :: taylor_series_exp_166
+    public :: taylor_series_exp_167
+    public :: taylor_series_exp_168
+    public :: taylor_series_exp_169
+    public :: taylor_series_exp_170
+    public :: taylor_series_exp_171
+    public :: taylor_series_exp_172
+    public :: taylor_series_exp_173
+    public :: taylor_series_exp_174
+    public :: taylor_series_exp_175
+    public :: taylor_series_exp_176
+    public :: taylor_series_exp_177
+
+
     public :: taylor_series_sin_000
     public :: taylor_series_sin_001
     public :: taylor_series_sin_002
@@ -1473,6 +1653,1115 @@ module taylor_series_fortran
     interface taylor_series_cos_176
         real( real64  ) module elemental function taylor_series_cos_176_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_176_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+
+
+    interface taylor_series_exp_000
+        real( real32  ) module elemental function taylor_series_exp_000_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_000_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_000_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_001
+        real( real32  ) module elemental function taylor_series_exp_001_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_001_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_001_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_002
+        real( real32  ) module elemental function taylor_series_exp_002_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_002_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_002_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_003
+        real( real32  ) module elemental function taylor_series_exp_003_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_003_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_003_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_004
+        real( real32  ) module elemental function taylor_series_exp_004_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_004_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_004_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_005
+        real( real32  ) module elemental function taylor_series_exp_005_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_005_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_005_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_006
+        real( real32  ) module elemental function taylor_series_exp_006_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_006_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_006_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_007
+        real( real32  ) module elemental function taylor_series_exp_007_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_007_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_007_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_008
+        real( real32  ) module elemental function taylor_series_exp_008_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_008_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_008_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_009
+        real( real32  ) module elemental function taylor_series_exp_009_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_009_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_009_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_010
+        real( real32  ) module elemental function taylor_series_exp_010_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_010_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_010_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_011
+        real( real32  ) module elemental function taylor_series_exp_011_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_011_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_011_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_012
+        real( real32  ) module elemental function taylor_series_exp_012_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_012_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_012_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_013
+        real( real32  ) module elemental function taylor_series_exp_013_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_013_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_013_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_014
+        real( real32  ) module elemental function taylor_series_exp_014_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_014_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_014_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_015
+        real( real32  ) module elemental function taylor_series_exp_015_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_015_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_015_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_016
+        real( real32  ) module elemental function taylor_series_exp_016_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_016_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_016_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_017
+        real( real32  ) module elemental function taylor_series_exp_017_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_017_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_017_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_018
+        real( real32  ) module elemental function taylor_series_exp_018_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_018_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_018_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_019
+        real( real32  ) module elemental function taylor_series_exp_019_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_019_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_019_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_020
+        real( real32  ) module elemental function taylor_series_exp_020_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_020_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_020_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_021
+        real( real32  ) module elemental function taylor_series_exp_021_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_021_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_021_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_022
+        real( real32  ) module elemental function taylor_series_exp_022_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_022_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_022_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_023
+        real( real32  ) module elemental function taylor_series_exp_023_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_023_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_023_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_024
+        real( real32  ) module elemental function taylor_series_exp_024_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_024_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_024_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_025
+        real( real32  ) module elemental function taylor_series_exp_025_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_025_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_025_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_026
+        real( real32  ) module elemental function taylor_series_exp_026_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_026_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_026_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_027
+        real( real32  ) module elemental function taylor_series_exp_027_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_027_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_027_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_028
+        real( real32  ) module elemental function taylor_series_exp_028_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_028_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_028_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_029
+        real( real32  ) module elemental function taylor_series_exp_029_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_029_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_029_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_030
+        real( real32  ) module elemental function taylor_series_exp_030_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_030_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_030_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_031
+        real( real32  ) module elemental function taylor_series_exp_031_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_031_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_031_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_032
+        real( real32  ) module elemental function taylor_series_exp_032_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_032_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_032_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_033
+        real( real32  ) module elemental function taylor_series_exp_033_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_033_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_033_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_034
+        real( real32  ) module elemental function taylor_series_exp_034_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_034_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_034_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_035
+        real( real32  ) module elemental function taylor_series_exp_035_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_035_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_035_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_036
+        real( real32  ) module elemental function taylor_series_exp_036_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_036_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_036_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_037
+        real( real32  ) module elemental function taylor_series_exp_037_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_037_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_037_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_038
+        real( real32  ) module elemental function taylor_series_exp_038_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
+        real( real64  ) module elemental function taylor_series_exp_038_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_038_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_039
+        real( real64  ) module elemental function taylor_series_exp_039_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_039_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_040
+        real( real64  ) module elemental function taylor_series_exp_040_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_040_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_041
+        real( real64  ) module elemental function taylor_series_exp_041_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_041_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_042
+        real( real64  ) module elemental function taylor_series_exp_042_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_042_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_043
+        real( real64  ) module elemental function taylor_series_exp_043_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_043_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_044
+        real( real64  ) module elemental function taylor_series_exp_044_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_044_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_045
+        real( real64  ) module elemental function taylor_series_exp_045_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_045_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_046
+        real( real64  ) module elemental function taylor_series_exp_046_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_046_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_047
+        real( real64  ) module elemental function taylor_series_exp_047_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_047_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_048
+        real( real64  ) module elemental function taylor_series_exp_048_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_048_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_049
+        real( real64  ) module elemental function taylor_series_exp_049_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_049_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_050
+        real( real64  ) module elemental function taylor_series_exp_050_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_050_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_051
+        real( real64  ) module elemental function taylor_series_exp_051_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_051_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_052
+        real( real64  ) module elemental function taylor_series_exp_052_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_052_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_053
+        real( real64  ) module elemental function taylor_series_exp_053_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_053_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_054
+        real( real64  ) module elemental function taylor_series_exp_054_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_054_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_055
+        real( real64  ) module elemental function taylor_series_exp_055_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_055_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_056
+        real( real64  ) module elemental function taylor_series_exp_056_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_056_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_057
+        real( real64  ) module elemental function taylor_series_exp_057_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_057_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_058
+        real( real64  ) module elemental function taylor_series_exp_058_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_058_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_059
+        real( real64  ) module elemental function taylor_series_exp_059_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_059_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_060
+        real( real64  ) module elemental function taylor_series_exp_060_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_060_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_061
+        real( real64  ) module elemental function taylor_series_exp_061_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_061_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_062
+        real( real64  ) module elemental function taylor_series_exp_062_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_062_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_063
+        real( real64  ) module elemental function taylor_series_exp_063_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_063_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_064
+        real( real64  ) module elemental function taylor_series_exp_064_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_064_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_065
+        real( real64  ) module elemental function taylor_series_exp_065_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_065_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_066
+        real( real64  ) module elemental function taylor_series_exp_066_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_066_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_067
+        real( real64  ) module elemental function taylor_series_exp_067_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_067_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_068
+        real( real64  ) module elemental function taylor_series_exp_068_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_068_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_069
+        real( real64  ) module elemental function taylor_series_exp_069_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_069_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_070
+        real( real64  ) module elemental function taylor_series_exp_070_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_070_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_071
+        real( real64  ) module elemental function taylor_series_exp_071_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_071_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_072
+        real( real64  ) module elemental function taylor_series_exp_072_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_072_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_073
+        real( real64  ) module elemental function taylor_series_exp_073_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_073_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_074
+        real( real64  ) module elemental function taylor_series_exp_074_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_074_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_075
+        real( real64  ) module elemental function taylor_series_exp_075_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_075_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_076
+        real( real64  ) module elemental function taylor_series_exp_076_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_076_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_077
+        real( real64  ) module elemental function taylor_series_exp_077_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_077_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_078
+        real( real64  ) module elemental function taylor_series_exp_078_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_078_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_079
+        real( real64  ) module elemental function taylor_series_exp_079_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_079_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_080
+        real( real64  ) module elemental function taylor_series_exp_080_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_080_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_081
+        real( real64  ) module elemental function taylor_series_exp_081_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_081_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_082
+        real( real64  ) module elemental function taylor_series_exp_082_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_082_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_083
+        real( real64  ) module elemental function taylor_series_exp_083_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_083_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_084
+        real( real64  ) module elemental function taylor_series_exp_084_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_084_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_085
+        real( real64  ) module elemental function taylor_series_exp_085_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_085_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_086
+        real( real64  ) module elemental function taylor_series_exp_086_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_086_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_087
+        real( real64  ) module elemental function taylor_series_exp_087_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_087_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_088
+        real( real64  ) module elemental function taylor_series_exp_088_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_088_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_089
+        real( real64  ) module elemental function taylor_series_exp_089_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_089_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_090
+        real( real64  ) module elemental function taylor_series_exp_090_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_090_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_091
+        real( real64  ) module elemental function taylor_series_exp_091_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_091_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_092
+        real( real64  ) module elemental function taylor_series_exp_092_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_092_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_093
+        real( real64  ) module elemental function taylor_series_exp_093_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_093_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_094
+        real( real64  ) module elemental function taylor_series_exp_094_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_094_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_095
+        real( real64  ) module elemental function taylor_series_exp_095_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_095_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_096
+        real( real64  ) module elemental function taylor_series_exp_096_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_096_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_097
+        real( real64  ) module elemental function taylor_series_exp_097_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_097_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_098
+        real( real64  ) module elemental function taylor_series_exp_098_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_098_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_099
+        real( real64  ) module elemental function taylor_series_exp_099_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_099_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_100
+        real( real64  ) module elemental function taylor_series_exp_100_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_100_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_101
+        real( real64  ) module elemental function taylor_series_exp_101_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_101_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_102
+        real( real64  ) module elemental function taylor_series_exp_102_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_102_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_103
+        real( real64  ) module elemental function taylor_series_exp_103_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_103_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_104
+        real( real64  ) module elemental function taylor_series_exp_104_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_104_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_105
+        real( real64  ) module elemental function taylor_series_exp_105_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_105_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_106
+        real( real64  ) module elemental function taylor_series_exp_106_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_106_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_107
+        real( real64  ) module elemental function taylor_series_exp_107_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_107_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_108
+        real( real64  ) module elemental function taylor_series_exp_108_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_108_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_109
+        real( real64  ) module elemental function taylor_series_exp_109_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_109_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_110
+        real( real64  ) module elemental function taylor_series_exp_110_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_110_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_111
+        real( real64  ) module elemental function taylor_series_exp_111_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_111_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_112
+        real( real64  ) module elemental function taylor_series_exp_112_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_112_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_113
+        real( real64  ) module elemental function taylor_series_exp_113_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_113_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_114
+        real( real64  ) module elemental function taylor_series_exp_114_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_114_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_115
+        real( real64  ) module elemental function taylor_series_exp_115_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_115_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_116
+        real( real64  ) module elemental function taylor_series_exp_116_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_116_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_117
+        real( real64  ) module elemental function taylor_series_exp_117_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_117_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_118
+        real( real64  ) module elemental function taylor_series_exp_118_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_118_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_119
+        real( real64  ) module elemental function taylor_series_exp_119_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_119_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_120
+        real( real64  ) module elemental function taylor_series_exp_120_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_120_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_121
+        real( real64  ) module elemental function taylor_series_exp_121_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_121_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_122
+        real( real64  ) module elemental function taylor_series_exp_122_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_122_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_123
+        real( real64  ) module elemental function taylor_series_exp_123_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_123_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_124
+        real( real64  ) module elemental function taylor_series_exp_124_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_124_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_125
+        real( real64  ) module elemental function taylor_series_exp_125_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_125_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_126
+        real( real64  ) module elemental function taylor_series_exp_126_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_126_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_127
+        real( real64  ) module elemental function taylor_series_exp_127_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_127_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_128
+        real( real64  ) module elemental function taylor_series_exp_128_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_128_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_129
+        real( real64  ) module elemental function taylor_series_exp_129_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_129_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_130
+        real( real64  ) module elemental function taylor_series_exp_130_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_130_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_131
+        real( real64  ) module elemental function taylor_series_exp_131_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_131_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_132
+        real( real64  ) module elemental function taylor_series_exp_132_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_132_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_133
+        real( real64  ) module elemental function taylor_series_exp_133_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_133_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_134
+        real( real64  ) module elemental function taylor_series_exp_134_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_134_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_135
+        real( real64  ) module elemental function taylor_series_exp_135_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_135_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_136
+        real( real64  ) module elemental function taylor_series_exp_136_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_136_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_137
+        real( real64  ) module elemental function taylor_series_exp_137_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_137_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_138
+        real( real64  ) module elemental function taylor_series_exp_138_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_138_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_139
+        real( real64  ) module elemental function taylor_series_exp_139_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_139_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_140
+        real( real64  ) module elemental function taylor_series_exp_140_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_140_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_141
+        real( real64  ) module elemental function taylor_series_exp_141_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_141_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_142
+        real( real64  ) module elemental function taylor_series_exp_142_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_142_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_143
+        real( real64  ) module elemental function taylor_series_exp_143_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_143_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_144
+        real( real64  ) module elemental function taylor_series_exp_144_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_144_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_145
+        real( real64  ) module elemental function taylor_series_exp_145_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_145_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_146
+        real( real64  ) module elemental function taylor_series_exp_146_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_146_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_147
+        real( real64  ) module elemental function taylor_series_exp_147_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_147_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_148
+        real( real64  ) module elemental function taylor_series_exp_148_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_148_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_149
+        real( real64  ) module elemental function taylor_series_exp_149_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_149_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_150
+        real( real64  ) module elemental function taylor_series_exp_150_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_150_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_151
+        real( real64  ) module elemental function taylor_series_exp_151_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_151_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_152
+        real( real64  ) module elemental function taylor_series_exp_152_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_152_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_153
+        real( real64  ) module elemental function taylor_series_exp_153_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_153_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_154
+        real( real64  ) module elemental function taylor_series_exp_154_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_154_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_155
+        real( real64  ) module elemental function taylor_series_exp_155_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_155_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_156
+        real( real64  ) module elemental function taylor_series_exp_156_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_156_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_157
+        real( real64  ) module elemental function taylor_series_exp_157_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_157_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_158
+        real( real64  ) module elemental function taylor_series_exp_158_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_158_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_159
+        real( real64  ) module elemental function taylor_series_exp_159_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_159_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_160
+        real( real64  ) module elemental function taylor_series_exp_160_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_160_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_161
+        real( real64  ) module elemental function taylor_series_exp_161_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_161_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_162
+        real( real64  ) module elemental function taylor_series_exp_162_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_162_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_163
+        real( real64  ) module elemental function taylor_series_exp_163_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_163_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_164
+        real( real64  ) module elemental function taylor_series_exp_164_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_164_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_165
+        real( real64  ) module elemental function taylor_series_exp_165_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_165_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_166
+        real( real64  ) module elemental function taylor_series_exp_166_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_166_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_167
+        real( real64  ) module elemental function taylor_series_exp_167_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_167_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_168
+        real( real64  ) module elemental function taylor_series_exp_168_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_168_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_169
+        real( real64  ) module elemental function taylor_series_exp_169_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_169_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_170
+        real( real64  ) module elemental function taylor_series_exp_170_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_170_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_171
+        real( real64  ) module elemental function taylor_series_exp_171_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_171_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_172
+        real( real64  ) module elemental function taylor_series_exp_172_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_172_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_173
+        real( real64  ) module elemental function taylor_series_exp_173_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_173_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_174
+        real( real64  ) module elemental function taylor_series_exp_174_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_174_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_175
+        real( real64  ) module elemental function taylor_series_exp_175_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_175_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_176
+        real( real64  ) module elemental function taylor_series_exp_176_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_176_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
+    end interface
+
+
+    interface taylor_series_exp_177
+        real( real64  ) module elemental function taylor_series_exp_177_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
+        real( real128 ) module elemental function taylor_series_exp_177_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
