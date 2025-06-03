@@ -4,11 +4,6 @@
     #:include 'with_real.fypp'
 
     #:set SUBMODULE_NAME = 'imp_' + INTERFACE_TAYLOR_SERIES_EXP('') + '_' + REAL_KIND
-
-    #:def COEFFICIENT_NAME(degree)
-    #:set RES = 'coefficient' + str(degree).zfill(DIGITS_DEGREE)
-    $:RES
-    #:enddef
     
 #:endmute
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
@@ -50,17 +45,21 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
     #:set PROCEDURE_NAME = FUNCTION_TAYLOR_SERIES_EXP(DEGREE, REAL_KIND)
     module procedure ${PROCEDURE_NAME}$
 
-    #:if DEGREE == 0
-        res = 1.0_${REAL_KIND}$
+    #:if DEGREE > 0
+        res = @{FUNCTION_HORNER(${DEGREE - 1}$)}@( x = x, pre_step = (@{COEFFICIENT_NAME(${DEGREE - 1}$)}@ + x * @{COEFFICIENT_NAME(${DEGREE}$)}@) )
     #:else
-        res = @{COEFFICIENT_NAME(${DEGREE - 1}$)}@ + x * @{COEFFICIENT_NAME(${DEGREE}$)}@
-        #:for I in reversed(range(DEGREE - 1))
-        res = @{COEFFICIENT_NAME(${I}$)}@ + x * res
-        #:endfor
+        res = @{FUNCTION_HORNER(0)}@( x = x, pre_step = 0.0_${REAL_KIND}$ )
     #:endif
 
     end procedure ${PROCEDURE_NAME}$
     #:del PROCEDURE_NAME
+
+    #:endfor
+
+    #:for DEGREE in range(MAXVAL_DEGREE_EXP - 1)
+
+    #:block BLOCK_DECLARE_HORNER('', REAL_KIND, DEGREE)
+    #:endblock BLOCK_DECLARE_HORNER
 
     #:endfor
 end submodule ${SUBMODULE_NAME}$

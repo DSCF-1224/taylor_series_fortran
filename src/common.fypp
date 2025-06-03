@@ -127,4 +127,34 @@
         #:del RES
     #:enddef
 
+
+
+    #:def COEFFICIENT_NAME(degree)
+        #:set RES = 'coefficient_' + str(degree).zfill(DIGITS_DEGREE)
+        $:RES
+    #:enddef
+
+
+    #:def FUNCTION_HORNER(degree)
+        #:set RES = 'horner_' + str(degree).zfill(DIGITS_DEGREE)
+        $:RES
+    #:enddef
+
+
+
+    #:def BLOCK_DECLARE_HORNER(code, kind, degree)
+    #:set FUNCTION_NAME = FUNCTION_HORNER(degree)
+    real(${kind}$) elemental function ${FUNCTION_NAME}$(x, pre_step)
+
+        real(${kind}$), intent(in) :: x, pre_step
+
+        #:if degree > 0
+        ${FUNCTION_NAME}$ = @{FUNCTION_HORNER(${degree - 1}$)}@( x = x, pre_step = (pre_step * x + @{COEFFICIENT_NAME(${degree}$)}@) )
+        #:else
+        ${FUNCTION_NAME}$ = pre_step * x + @{COEFFICIENT_NAME(${degree}$)}@
+        #:endif
+
+    end function
+    #:del FUNCTION_NAME
+    #:enddef
 #:endmute
