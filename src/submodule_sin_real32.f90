@@ -3,44 +3,44 @@ submodule (taylor_series_fortran) imp_taylor_series_sin_real32
     implicit none
 
 
-    real(real32), parameter :: coefficient000 =   0.0_real32
-    real(real32), parameter :: coefficient001 =   1.0_real32
-    real(real32), parameter :: coefficient002 =   0.0_real32
-    real(real32), parameter :: coefficient003 = - coefficient001 / (  2 *   3)
-    real(real32), parameter :: coefficient004 =   0.0_real32
-    real(real32), parameter :: coefficient005 = - coefficient003 / (  4 *   5)
-    real(real32), parameter :: coefficient006 =   0.0_real32
-    real(real32), parameter :: coefficient007 = - coefficient005 / (  6 *   7)
-    real(real32), parameter :: coefficient008 =   0.0_real32
-    real(real32), parameter :: coefficient009 = - coefficient007 / (  8 *   9)
-    real(real32), parameter :: coefficient010 =   0.0_real32
-    real(real32), parameter :: coefficient011 = - coefficient009 / ( 10 *  11)
-    real(real32), parameter :: coefficient012 =   0.0_real32
-    real(real32), parameter :: coefficient013 = - coefficient011 / ( 12 *  13)
-    real(real32), parameter :: coefficient014 =   0.0_real32
-    real(real32), parameter :: coefficient015 = - coefficient013 / ( 14 *  15)
-    real(real32), parameter :: coefficient016 =   0.0_real32
-    real(real32), parameter :: coefficient017 = - coefficient015 / ( 16 *  17)
-    real(real32), parameter :: coefficient018 =   0.0_real32
-    real(real32), parameter :: coefficient019 = - coefficient017 / ( 18 *  19)
-    real(real32), parameter :: coefficient020 =   0.0_real32
-    real(real32), parameter :: coefficient021 = - coefficient019 / ( 20 *  21)
-    real(real32), parameter :: coefficient022 =   0.0_real32
-    real(real32), parameter :: coefficient023 = - coefficient021 / ( 22 *  23)
-    real(real32), parameter :: coefficient024 =   0.0_real32
-    real(real32), parameter :: coefficient025 = - coefficient023 / ( 24 *  25)
-    real(real32), parameter :: coefficient026 =   0.0_real32
-    real(real32), parameter :: coefficient027 = - coefficient025 / ( 26 *  27)
-    real(real32), parameter :: coefficient028 =   0.0_real32
-    real(real32), parameter :: coefficient029 = - coefficient027 / ( 28 *  29)
-    real(real32), parameter :: coefficient030 =   0.0_real32
-    real(real32), parameter :: coefficient031 = - coefficient029 / ( 30 *  31)
-    real(real32), parameter :: coefficient032 =   0.0_real32
-    real(real32), parameter :: coefficient033 = - coefficient031 / ( 32 *  33)
-    real(real32), parameter :: coefficient034 =   0.0_real32
-    real(real32), parameter :: coefficient035 = - coefficient033 / ( 34 *  35)
-    real(real32), parameter :: coefficient036 =   0.0_real32
-    real(real32), parameter :: coefficient037 = - coefficient035 / ( 36 *  37)
+    real(real32), parameter :: coefficient_000 =   0.0_real32
+    real(real32), parameter :: coefficient_001 =   1.0_real32
+    real(real32), parameter :: coefficient_002 =   0.0_real32
+    real(real32), parameter :: coefficient_003 = - coefficient_001 / (  2 *   3)
+    real(real32), parameter :: coefficient_004 =   0.0_real32
+    real(real32), parameter :: coefficient_005 = - coefficient_003 / (  4 *   5)
+    real(real32), parameter :: coefficient_006 =   0.0_real32
+    real(real32), parameter :: coefficient_007 = - coefficient_005 / (  6 *   7)
+    real(real32), parameter :: coefficient_008 =   0.0_real32
+    real(real32), parameter :: coefficient_009 = - coefficient_007 / (  8 *   9)
+    real(real32), parameter :: coefficient_010 =   0.0_real32
+    real(real32), parameter :: coefficient_011 = - coefficient_009 / ( 10 *  11)
+    real(real32), parameter :: coefficient_012 =   0.0_real32
+    real(real32), parameter :: coefficient_013 = - coefficient_011 / ( 12 *  13)
+    real(real32), parameter :: coefficient_014 =   0.0_real32
+    real(real32), parameter :: coefficient_015 = - coefficient_013 / ( 14 *  15)
+    real(real32), parameter :: coefficient_016 =   0.0_real32
+    real(real32), parameter :: coefficient_017 = - coefficient_015 / ( 16 *  17)
+    real(real32), parameter :: coefficient_018 =   0.0_real32
+    real(real32), parameter :: coefficient_019 = - coefficient_017 / ( 18 *  19)
+    real(real32), parameter :: coefficient_020 =   0.0_real32
+    real(real32), parameter :: coefficient_021 = - coefficient_019 / ( 20 *  21)
+    real(real32), parameter :: coefficient_022 =   0.0_real32
+    real(real32), parameter :: coefficient_023 = - coefficient_021 / ( 22 *  23)
+    real(real32), parameter :: coefficient_024 =   0.0_real32
+    real(real32), parameter :: coefficient_025 = - coefficient_023 / ( 24 *  25)
+    real(real32), parameter :: coefficient_026 =   0.0_real32
+    real(real32), parameter :: coefficient_027 = - coefficient_025 / ( 26 *  27)
+    real(real32), parameter :: coefficient_028 =   0.0_real32
+    real(real32), parameter :: coefficient_029 = - coefficient_027 / ( 28 *  29)
+    real(real32), parameter :: coefficient_030 =   0.0_real32
+    real(real32), parameter :: coefficient_031 = - coefficient_029 / ( 30 *  31)
+    real(real32), parameter :: coefficient_032 =   0.0_real32
+    real(real32), parameter :: coefficient_033 = - coefficient_031 / ( 32 *  33)
+    real(real32), parameter :: coefficient_034 =   0.0_real32
+    real(real32), parameter :: coefficient_035 = - coefficient_033 / ( 34 *  35)
+    real(real32), parameter :: coefficient_036 =   0.0_real32
+    real(real32), parameter :: coefficient_037 = - coefficient_035 / ( 36 *  37)
 
 
     contains
@@ -48,933 +48,601 @@ submodule (taylor_series_fortran) imp_taylor_series_sin_real32
 
     module procedure taylor_series_sin_000_real32
 
-        res = ieee_value( x = x, class = ieee_positive_zero )
+        res = horner_000( x = x, pre_step = 0.0_real32 )
 
     end procedure taylor_series_sin_000_real32
 
 
     module procedure taylor_series_sin_001_real32
 
-        res = coefficient000 + x * coefficient001
+        res = horner_000( x = x, pre_step = (coefficient_000 + x * coefficient_001) )
 
     end procedure taylor_series_sin_001_real32
 
 
     module procedure taylor_series_sin_002_real32
 
-        res = coefficient001 + x * coefficient002
-        res = coefficient000 + x * res
+        res = horner_001( x = x, pre_step = (coefficient_001 + x * coefficient_002) )
 
     end procedure taylor_series_sin_002_real32
 
 
     module procedure taylor_series_sin_003_real32
 
-        res = coefficient002 + x * coefficient003
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_002( x = x, pre_step = (coefficient_002 + x * coefficient_003) )
 
     end procedure taylor_series_sin_003_real32
 
 
     module procedure taylor_series_sin_004_real32
 
-        res = coefficient003 + x * coefficient004
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_003( x = x, pre_step = (coefficient_003 + x * coefficient_004) )
 
     end procedure taylor_series_sin_004_real32
 
 
     module procedure taylor_series_sin_005_real32
 
-        res = coefficient004 + x * coefficient005
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_004( x = x, pre_step = (coefficient_004 + x * coefficient_005) )
 
     end procedure taylor_series_sin_005_real32
 
 
     module procedure taylor_series_sin_006_real32
 
-        res = coefficient005 + x * coefficient006
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_005( x = x, pre_step = (coefficient_005 + x * coefficient_006) )
 
     end procedure taylor_series_sin_006_real32
 
 
     module procedure taylor_series_sin_007_real32
 
-        res = coefficient006 + x * coefficient007
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_006( x = x, pre_step = (coefficient_006 + x * coefficient_007) )
 
     end procedure taylor_series_sin_007_real32
 
 
     module procedure taylor_series_sin_008_real32
 
-        res = coefficient007 + x * coefficient008
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_007( x = x, pre_step = (coefficient_007 + x * coefficient_008) )
 
     end procedure taylor_series_sin_008_real32
 
 
     module procedure taylor_series_sin_009_real32
 
-        res = coefficient008 + x * coefficient009
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_008( x = x, pre_step = (coefficient_008 + x * coefficient_009) )
 
     end procedure taylor_series_sin_009_real32
 
 
     module procedure taylor_series_sin_010_real32
 
-        res = coefficient009 + x * coefficient010
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_009( x = x, pre_step = (coefficient_009 + x * coefficient_010) )
 
     end procedure taylor_series_sin_010_real32
 
 
     module procedure taylor_series_sin_011_real32
 
-        res = coefficient010 + x * coefficient011
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_010( x = x, pre_step = (coefficient_010 + x * coefficient_011) )
 
     end procedure taylor_series_sin_011_real32
 
 
     module procedure taylor_series_sin_012_real32
 
-        res = coefficient011 + x * coefficient012
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_011( x = x, pre_step = (coefficient_011 + x * coefficient_012) )
 
     end procedure taylor_series_sin_012_real32
 
 
     module procedure taylor_series_sin_013_real32
 
-        res = coefficient012 + x * coefficient013
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_012( x = x, pre_step = (coefficient_012 + x * coefficient_013) )
 
     end procedure taylor_series_sin_013_real32
 
 
     module procedure taylor_series_sin_014_real32
 
-        res = coefficient013 + x * coefficient014
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_013( x = x, pre_step = (coefficient_013 + x * coefficient_014) )
 
     end procedure taylor_series_sin_014_real32
 
 
     module procedure taylor_series_sin_015_real32
 
-        res = coefficient014 + x * coefficient015
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_014( x = x, pre_step = (coefficient_014 + x * coefficient_015) )
 
     end procedure taylor_series_sin_015_real32
 
 
     module procedure taylor_series_sin_016_real32
 
-        res = coefficient015 + x * coefficient016
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_015( x = x, pre_step = (coefficient_015 + x * coefficient_016) )
 
     end procedure taylor_series_sin_016_real32
 
 
     module procedure taylor_series_sin_017_real32
 
-        res = coefficient016 + x * coefficient017
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_016( x = x, pre_step = (coefficient_016 + x * coefficient_017) )
 
     end procedure taylor_series_sin_017_real32
 
 
     module procedure taylor_series_sin_018_real32
 
-        res = coefficient017 + x * coefficient018
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_017( x = x, pre_step = (coefficient_017 + x * coefficient_018) )
 
     end procedure taylor_series_sin_018_real32
 
 
     module procedure taylor_series_sin_019_real32
 
-        res = coefficient018 + x * coefficient019
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_018( x = x, pre_step = (coefficient_018 + x * coefficient_019) )
 
     end procedure taylor_series_sin_019_real32
 
 
     module procedure taylor_series_sin_020_real32
 
-        res = coefficient019 + x * coefficient020
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_019( x = x, pre_step = (coefficient_019 + x * coefficient_020) )
 
     end procedure taylor_series_sin_020_real32
 
 
     module procedure taylor_series_sin_021_real32
 
-        res = coefficient020 + x * coefficient021
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_020( x = x, pre_step = (coefficient_020 + x * coefficient_021) )
 
     end procedure taylor_series_sin_021_real32
 
 
     module procedure taylor_series_sin_022_real32
 
-        res = coefficient021 + x * coefficient022
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_021( x = x, pre_step = (coefficient_021 + x * coefficient_022) )
 
     end procedure taylor_series_sin_022_real32
 
 
     module procedure taylor_series_sin_023_real32
 
-        res = coefficient022 + x * coefficient023
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_022( x = x, pre_step = (coefficient_022 + x * coefficient_023) )
 
     end procedure taylor_series_sin_023_real32
 
 
     module procedure taylor_series_sin_024_real32
 
-        res = coefficient023 + x * coefficient024
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_023( x = x, pre_step = (coefficient_023 + x * coefficient_024) )
 
     end procedure taylor_series_sin_024_real32
 
 
     module procedure taylor_series_sin_025_real32
 
-        res = coefficient024 + x * coefficient025
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_024( x = x, pre_step = (coefficient_024 + x * coefficient_025) )
 
     end procedure taylor_series_sin_025_real32
 
 
     module procedure taylor_series_sin_026_real32
 
-        res = coefficient025 + x * coefficient026
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_025( x = x, pre_step = (coefficient_025 + x * coefficient_026) )
 
     end procedure taylor_series_sin_026_real32
 
 
     module procedure taylor_series_sin_027_real32
 
-        res = coefficient026 + x * coefficient027
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_026( x = x, pre_step = (coefficient_026 + x * coefficient_027) )
 
     end procedure taylor_series_sin_027_real32
 
 
     module procedure taylor_series_sin_028_real32
 
-        res = coefficient027 + x * coefficient028
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_027( x = x, pre_step = (coefficient_027 + x * coefficient_028) )
 
     end procedure taylor_series_sin_028_real32
 
 
     module procedure taylor_series_sin_029_real32
 
-        res = coefficient028 + x * coefficient029
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_028( x = x, pre_step = (coefficient_028 + x * coefficient_029) )
 
     end procedure taylor_series_sin_029_real32
 
 
     module procedure taylor_series_sin_030_real32
 
-        res = coefficient029 + x * coefficient030
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_029( x = x, pre_step = (coefficient_029 + x * coefficient_030) )
 
     end procedure taylor_series_sin_030_real32
 
 
     module procedure taylor_series_sin_031_real32
 
-        res = coefficient030 + x * coefficient031
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_030( x = x, pre_step = (coefficient_030 + x * coefficient_031) )
 
     end procedure taylor_series_sin_031_real32
 
 
     module procedure taylor_series_sin_032_real32
 
-        res = coefficient031 + x * coefficient032
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_031( x = x, pre_step = (coefficient_031 + x * coefficient_032) )
 
     end procedure taylor_series_sin_032_real32
 
 
     module procedure taylor_series_sin_033_real32
 
-        res = coefficient032 + x * coefficient033
-        res = coefficient031 + x * res
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_032( x = x, pre_step = (coefficient_032 + x * coefficient_033) )
 
     end procedure taylor_series_sin_033_real32
 
 
     module procedure taylor_series_sin_034_real32
 
-        res = coefficient033 + x * coefficient034
-        res = coefficient032 + x * res
-        res = coefficient031 + x * res
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_033( x = x, pre_step = (coefficient_033 + x * coefficient_034) )
 
     end procedure taylor_series_sin_034_real32
 
 
     module procedure taylor_series_sin_035_real32
 
-        res = coefficient034 + x * coefficient035
-        res = coefficient033 + x * res
-        res = coefficient032 + x * res
-        res = coefficient031 + x * res
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_034( x = x, pre_step = (coefficient_034 + x * coefficient_035) )
 
     end procedure taylor_series_sin_035_real32
 
 
     module procedure taylor_series_sin_036_real32
 
-        res = coefficient035 + x * coefficient036
-        res = coefficient034 + x * res
-        res = coefficient033 + x * res
-        res = coefficient032 + x * res
-        res = coefficient031 + x * res
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_035( x = x, pre_step = (coefficient_035 + x * coefficient_036) )
 
     end procedure taylor_series_sin_036_real32
 
 
     module procedure taylor_series_sin_037_real32
 
-        res = coefficient036 + x * coefficient037
-        res = coefficient035 + x * res
-        res = coefficient034 + x * res
-        res = coefficient033 + x * res
-        res = coefficient032 + x * res
-        res = coefficient031 + x * res
-        res = coefficient030 + x * res
-        res = coefficient029 + x * res
-        res = coefficient028 + x * res
-        res = coefficient027 + x * res
-        res = coefficient026 + x * res
-        res = coefficient025 + x * res
-        res = coefficient024 + x * res
-        res = coefficient023 + x * res
-        res = coefficient022 + x * res
-        res = coefficient021 + x * res
-        res = coefficient020 + x * res
-        res = coefficient019 + x * res
-        res = coefficient018 + x * res
-        res = coefficient017 + x * res
-        res = coefficient016 + x * res
-        res = coefficient015 + x * res
-        res = coefficient014 + x * res
-        res = coefficient013 + x * res
-        res = coefficient012 + x * res
-        res = coefficient011 + x * res
-        res = coefficient010 + x * res
-        res = coefficient009 + x * res
-        res = coefficient008 + x * res
-        res = coefficient007 + x * res
-        res = coefficient006 + x * res
-        res = coefficient005 + x * res
-        res = coefficient004 + x * res
-        res = coefficient003 + x * res
-        res = coefficient002 + x * res
-        res = coefficient001 + x * res
-        res = coefficient000 + x * res
+        res = horner_036( x = x, pre_step = (coefficient_036 + x * coefficient_037) )
 
     end procedure taylor_series_sin_037_real32
+
+
+
+    real(real32) elemental function horner_000(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_000 = pre_step * x + coefficient_000
+
+    end function
+
+
+    real(real32) elemental function horner_001(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_001 = horner_000( x = x, pre_step = (pre_step * x + coefficient_001) )
+
+    end function
+
+
+    real(real32) elemental function horner_002(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_002 = horner_001( x = x, pre_step = (pre_step * x + coefficient_002) )
+
+    end function
+
+
+    real(real32) elemental function horner_003(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_003 = horner_002( x = x, pre_step = (pre_step * x + coefficient_003) )
+
+    end function
+
+
+    real(real32) elemental function horner_004(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_004 = horner_003( x = x, pre_step = (pre_step * x + coefficient_004) )
+
+    end function
+
+
+    real(real32) elemental function horner_005(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_005 = horner_004( x = x, pre_step = (pre_step * x + coefficient_005) )
+
+    end function
+
+
+    real(real32) elemental function horner_006(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_006 = horner_005( x = x, pre_step = (pre_step * x + coefficient_006) )
+
+    end function
+
+
+    real(real32) elemental function horner_007(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_007 = horner_006( x = x, pre_step = (pre_step * x + coefficient_007) )
+
+    end function
+
+
+    real(real32) elemental function horner_008(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_008 = horner_007( x = x, pre_step = (pre_step * x + coefficient_008) )
+
+    end function
+
+
+    real(real32) elemental function horner_009(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_009 = horner_008( x = x, pre_step = (pre_step * x + coefficient_009) )
+
+    end function
+
+
+    real(real32) elemental function horner_010(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_010 = horner_009( x = x, pre_step = (pre_step * x + coefficient_010) )
+
+    end function
+
+
+    real(real32) elemental function horner_011(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_011 = horner_010( x = x, pre_step = (pre_step * x + coefficient_011) )
+
+    end function
+
+
+    real(real32) elemental function horner_012(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_012 = horner_011( x = x, pre_step = (pre_step * x + coefficient_012) )
+
+    end function
+
+
+    real(real32) elemental function horner_013(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_013 = horner_012( x = x, pre_step = (pre_step * x + coefficient_013) )
+
+    end function
+
+
+    real(real32) elemental function horner_014(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_014 = horner_013( x = x, pre_step = (pre_step * x + coefficient_014) )
+
+    end function
+
+
+    real(real32) elemental function horner_015(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_015 = horner_014( x = x, pre_step = (pre_step * x + coefficient_015) )
+
+    end function
+
+
+    real(real32) elemental function horner_016(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_016 = horner_015( x = x, pre_step = (pre_step * x + coefficient_016) )
+
+    end function
+
+
+    real(real32) elemental function horner_017(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_017 = horner_016( x = x, pre_step = (pre_step * x + coefficient_017) )
+
+    end function
+
+
+    real(real32) elemental function horner_018(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_018 = horner_017( x = x, pre_step = (pre_step * x + coefficient_018) )
+
+    end function
+
+
+    real(real32) elemental function horner_019(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_019 = horner_018( x = x, pre_step = (pre_step * x + coefficient_019) )
+
+    end function
+
+
+    real(real32) elemental function horner_020(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_020 = horner_019( x = x, pre_step = (pre_step * x + coefficient_020) )
+
+    end function
+
+
+    real(real32) elemental function horner_021(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_021 = horner_020( x = x, pre_step = (pre_step * x + coefficient_021) )
+
+    end function
+
+
+    real(real32) elemental function horner_022(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_022 = horner_021( x = x, pre_step = (pre_step * x + coefficient_022) )
+
+    end function
+
+
+    real(real32) elemental function horner_023(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_023 = horner_022( x = x, pre_step = (pre_step * x + coefficient_023) )
+
+    end function
+
+
+    real(real32) elemental function horner_024(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_024 = horner_023( x = x, pre_step = (pre_step * x + coefficient_024) )
+
+    end function
+
+
+    real(real32) elemental function horner_025(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_025 = horner_024( x = x, pre_step = (pre_step * x + coefficient_025) )
+
+    end function
+
+
+    real(real32) elemental function horner_026(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_026 = horner_025( x = x, pre_step = (pre_step * x + coefficient_026) )
+
+    end function
+
+
+    real(real32) elemental function horner_027(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_027 = horner_026( x = x, pre_step = (pre_step * x + coefficient_027) )
+
+    end function
+
+
+    real(real32) elemental function horner_028(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_028 = horner_027( x = x, pre_step = (pre_step * x + coefficient_028) )
+
+    end function
+
+
+    real(real32) elemental function horner_029(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_029 = horner_028( x = x, pre_step = (pre_step * x + coefficient_029) )
+
+    end function
+
+
+    real(real32) elemental function horner_030(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_030 = horner_029( x = x, pre_step = (pre_step * x + coefficient_030) )
+
+    end function
+
+
+    real(real32) elemental function horner_031(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_031 = horner_030( x = x, pre_step = (pre_step * x + coefficient_031) )
+
+    end function
+
+
+    real(real32) elemental function horner_032(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_032 = horner_031( x = x, pre_step = (pre_step * x + coefficient_032) )
+
+    end function
+
+
+    real(real32) elemental function horner_033(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_033 = horner_032( x = x, pre_step = (pre_step * x + coefficient_033) )
+
+    end function
+
+
+    real(real32) elemental function horner_034(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_034 = horner_033( x = x, pre_step = (pre_step * x + coefficient_034) )
+
+    end function
+
+
+    real(real32) elemental function horner_035(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_035 = horner_034( x = x, pre_step = (pre_step * x + coefficient_035) )
+
+    end function
+
+
+    real(real32) elemental function horner_036(x, pre_step)
+
+        real(real32), intent(in) :: x, pre_step
+
+        horner_036 = horner_035( x = x, pre_step = (pre_step * x + coefficient_036) )
+
+    end function
 
 end submodule imp_taylor_series_sin_real32

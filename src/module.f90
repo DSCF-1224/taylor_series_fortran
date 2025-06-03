@@ -4,9 +4,6 @@ module taylor_series_fortran
     use, intrinsic :: iso_fortran_env, only: real64
     use, intrinsic :: iso_fortran_env, only: real128
 
-    use, intrinsic :: ieee_arithmetic, only: ieee_positive_zero
-    use, intrinsic :: ieee_arithmetic, only: ieee_value
-
 
     implicit none
 
