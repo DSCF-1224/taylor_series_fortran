@@ -46,7 +46,7 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
     module procedure ${PROCEDURE_NAME}$
 
     #:if DEGREE > 0
-        res = @{FUNCTION_HORNER(${DEGREE - 1}$)}@( x = x, pre_step = (@{COEFFICIENT_NAME(${DEGREE - 1}$)}@ + x * @{COEFFICIENT_NAME(${DEGREE}$)}@) )
+        res = @{FUNCTION_HORNER(${DEGREE - 1}$)}@( x = x, pre_step = @{COEFFICIENT_NAME(${DEGREE}$)}@ )
     #:else
         res = @{FUNCTION_HORNER(0)}@( x = x, pre_step = 0.0_${REAL_KIND}$ )
     #:endif
