@@ -10,7 +10,7 @@ reset session
 set terminal svg
 set output '${FILE_NAME}$.svg'
 
-set title 'exp(x) (using ${REAL_KIND}$)'
+set title 'sin(x) (using ${REAL_KIND}$)'
 
 set xlabel 'x'
 
@@ -24,7 +24,7 @@ set cblabel 'degree of taylor series'
 
 plot \
     for [i = 0:${NUM_TEST_POINTS}$:1] \
-        '${FILE_NAME}$.dat' \
+        '${FILE_NAME.replace('_error', '')}$.dat' \
             using 2:(abs($5)):1 \
             every :::i::i       \
             with lines          \
