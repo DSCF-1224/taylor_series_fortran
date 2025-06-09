@@ -163,9 +163,9 @@
         real(${kind}$), intent(in) :: x, pre_step
 
         #:if degree > 0
-        ${FUNCTION_NAME}$ = @{FUNCTION_HORNER(${degree - 1}$)}@( x = x, pre_step = (pre_step * x + @{COEFFICIENT_NAME(${degree}$)}@) )
+        ${FUNCTION_NAME}$ = @{FUNCTION_HORNER(${degree - 1}$)}@( x = x, pre_step = ieee_fma( a = pre_step, b = x, c = @{COEFFICIENT_NAME(${degree}$)}@ ) )
         #:else
-        ${FUNCTION_NAME}$ = pre_step * x + @{COEFFICIENT_NAME(${degree}$)}@
+        ${FUNCTION_NAME}$ = ieee_fma( a = pre_step, b = x, c = @{COEFFICIENT_NAME(${degree}$)}@ )
         #:endif
 
     end function

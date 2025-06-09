@@ -8,6 +8,7 @@ module ${MODULE_NAME}$
     #:for KIND in REAL_KINDS
     use, intrinsic :: iso_fortran_env, only: ${KIND}$
     #:endfor
+    use, intrinsic :: ieee_arithmetic, only: ieee_fma
 
 
     implicit none
