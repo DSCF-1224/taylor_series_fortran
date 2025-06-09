@@ -1,3 +1,4 @@
+!> Implementation of `taylor_series_sin_***` for `real128`.
 submodule (taylor_series_fortran) imp_taylor_series_sin_real128
 
     implicit none

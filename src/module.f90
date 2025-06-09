@@ -552,6 +552,7 @@ module taylor_series_fortran
 
 
 
+    !> `cos(x)` approximation by a 0th order Taylor series
     interface taylor_series_cos_000
         real( real32  ) module elemental function taylor_series_cos_000_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_000_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -559,6 +560,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 1st order Taylor series
     interface taylor_series_cos_001
         real( real32  ) module elemental function taylor_series_cos_001_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_001_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -566,6 +568,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 2nd order Taylor series
     interface taylor_series_cos_002
         real( real32  ) module elemental function taylor_series_cos_002_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_002_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -573,6 +576,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 3rd order Taylor series
     interface taylor_series_cos_003
         real( real32  ) module elemental function taylor_series_cos_003_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_003_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -580,6 +584,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 4th order Taylor series
     interface taylor_series_cos_004
         real( real32  ) module elemental function taylor_series_cos_004_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_004_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -587,6 +592,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 5th order Taylor series
     interface taylor_series_cos_005
         real( real32  ) module elemental function taylor_series_cos_005_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_005_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -594,6 +600,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 6th order Taylor series
     interface taylor_series_cos_006
         real( real32  ) module elemental function taylor_series_cos_006_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_006_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -601,6 +608,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 7th order Taylor series
     interface taylor_series_cos_007
         real( real32  ) module elemental function taylor_series_cos_007_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_007_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -608,6 +616,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 8th order Taylor series
     interface taylor_series_cos_008
         real( real32  ) module elemental function taylor_series_cos_008_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_008_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -615,6 +624,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 9th order Taylor series
     interface taylor_series_cos_009
         real( real32  ) module elemental function taylor_series_cos_009_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_009_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -622,6 +632,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 10th order Taylor series
     interface taylor_series_cos_010
         real( real32  ) module elemental function taylor_series_cos_010_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_010_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -629,6 +640,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 11th order Taylor series
     interface taylor_series_cos_011
         real( real32  ) module elemental function taylor_series_cos_011_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_011_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -636,6 +648,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 12th order Taylor series
     interface taylor_series_cos_012
         real( real32  ) module elemental function taylor_series_cos_012_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_012_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -643,6 +656,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 13th order Taylor series
     interface taylor_series_cos_013
         real( real32  ) module elemental function taylor_series_cos_013_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_013_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -650,6 +664,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 14th order Taylor series
     interface taylor_series_cos_014
         real( real32  ) module elemental function taylor_series_cos_014_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_014_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -657,6 +672,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 15th order Taylor series
     interface taylor_series_cos_015
         real( real32  ) module elemental function taylor_series_cos_015_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_015_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -664,6 +680,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 16th order Taylor series
     interface taylor_series_cos_016
         real( real32  ) module elemental function taylor_series_cos_016_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_016_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -671,6 +688,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 17th order Taylor series
     interface taylor_series_cos_017
         real( real32  ) module elemental function taylor_series_cos_017_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_017_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -678,6 +696,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 18th order Taylor series
     interface taylor_series_cos_018
         real( real32  ) module elemental function taylor_series_cos_018_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_018_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -685,6 +704,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 19th order Taylor series
     interface taylor_series_cos_019
         real( real32  ) module elemental function taylor_series_cos_019_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_019_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -692,6 +712,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 20th order Taylor series
     interface taylor_series_cos_020
         real( real32  ) module elemental function taylor_series_cos_020_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_020_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -699,6 +720,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 21st order Taylor series
     interface taylor_series_cos_021
         real( real32  ) module elemental function taylor_series_cos_021_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_021_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -706,6 +728,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 22nd order Taylor series
     interface taylor_series_cos_022
         real( real32  ) module elemental function taylor_series_cos_022_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_022_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -713,6 +736,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 23rd order Taylor series
     interface taylor_series_cos_023
         real( real32  ) module elemental function taylor_series_cos_023_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_023_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -720,6 +744,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 24th order Taylor series
     interface taylor_series_cos_024
         real( real32  ) module elemental function taylor_series_cos_024_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_024_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -727,6 +752,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 25th order Taylor series
     interface taylor_series_cos_025
         real( real32  ) module elemental function taylor_series_cos_025_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_025_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -734,6 +760,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 26th order Taylor series
     interface taylor_series_cos_026
         real( real32  ) module elemental function taylor_series_cos_026_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_026_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -741,6 +768,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 27th order Taylor series
     interface taylor_series_cos_027
         real( real32  ) module elemental function taylor_series_cos_027_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_027_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -748,6 +776,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 28th order Taylor series
     interface taylor_series_cos_028
         real( real32  ) module elemental function taylor_series_cos_028_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_028_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -755,6 +784,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 29th order Taylor series
     interface taylor_series_cos_029
         real( real32  ) module elemental function taylor_series_cos_029_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_029_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -762,6 +792,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 30th order Taylor series
     interface taylor_series_cos_030
         real( real32  ) module elemental function taylor_series_cos_030_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_030_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -769,6 +800,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 31st order Taylor series
     interface taylor_series_cos_031
         real( real32  ) module elemental function taylor_series_cos_031_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_031_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -776,6 +808,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 32nd order Taylor series
     interface taylor_series_cos_032
         real( real32  ) module elemental function taylor_series_cos_032_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_032_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -783,6 +816,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 33rd order Taylor series
     interface taylor_series_cos_033
         real( real32  ) module elemental function taylor_series_cos_033_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_033_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -790,6 +824,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 34th order Taylor series
     interface taylor_series_cos_034
         real( real32  ) module elemental function taylor_series_cos_034_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_034_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -797,6 +832,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 35th order Taylor series
     interface taylor_series_cos_035
         real( real32  ) module elemental function taylor_series_cos_035_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_035_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -804,6 +840,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 36th order Taylor series
     interface taylor_series_cos_036
         real( real32  ) module elemental function taylor_series_cos_036_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_036_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -811,6 +848,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 37th order Taylor series
     interface taylor_series_cos_037
         real( real32  ) module elemental function taylor_series_cos_037_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_037_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -818,6 +856,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 38th order Taylor series
     interface taylor_series_cos_038
         real( real32  ) module elemental function taylor_series_cos_038_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_cos_038_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -825,828 +864,966 @@ module taylor_series_fortran
     end interface
 
 
+    !> `cos(x)` approximation by a 39th order Taylor series
     interface taylor_series_cos_039
         real( real64  ) module elemental function taylor_series_cos_039_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_039_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 40th order Taylor series
     interface taylor_series_cos_040
         real( real64  ) module elemental function taylor_series_cos_040_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_040_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 41st order Taylor series
     interface taylor_series_cos_041
         real( real64  ) module elemental function taylor_series_cos_041_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_041_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 42nd order Taylor series
     interface taylor_series_cos_042
         real( real64  ) module elemental function taylor_series_cos_042_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_042_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 43rd order Taylor series
     interface taylor_series_cos_043
         real( real64  ) module elemental function taylor_series_cos_043_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_043_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 44th order Taylor series
     interface taylor_series_cos_044
         real( real64  ) module elemental function taylor_series_cos_044_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_044_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 45th order Taylor series
     interface taylor_series_cos_045
         real( real64  ) module elemental function taylor_series_cos_045_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_045_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 46th order Taylor series
     interface taylor_series_cos_046
         real( real64  ) module elemental function taylor_series_cos_046_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_046_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 47th order Taylor series
     interface taylor_series_cos_047
         real( real64  ) module elemental function taylor_series_cos_047_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_047_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 48th order Taylor series
     interface taylor_series_cos_048
         real( real64  ) module elemental function taylor_series_cos_048_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_048_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 49th order Taylor series
     interface taylor_series_cos_049
         real( real64  ) module elemental function taylor_series_cos_049_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_049_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 50th order Taylor series
     interface taylor_series_cos_050
         real( real64  ) module elemental function taylor_series_cos_050_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_050_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 51st order Taylor series
     interface taylor_series_cos_051
         real( real64  ) module elemental function taylor_series_cos_051_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_051_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 52nd order Taylor series
     interface taylor_series_cos_052
         real( real64  ) module elemental function taylor_series_cos_052_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_052_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 53rd order Taylor series
     interface taylor_series_cos_053
         real( real64  ) module elemental function taylor_series_cos_053_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_053_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 54th order Taylor series
     interface taylor_series_cos_054
         real( real64  ) module elemental function taylor_series_cos_054_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_054_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 55th order Taylor series
     interface taylor_series_cos_055
         real( real64  ) module elemental function taylor_series_cos_055_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_055_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 56th order Taylor series
     interface taylor_series_cos_056
         real( real64  ) module elemental function taylor_series_cos_056_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_056_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 57th order Taylor series
     interface taylor_series_cos_057
         real( real64  ) module elemental function taylor_series_cos_057_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_057_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 58th order Taylor series
     interface taylor_series_cos_058
         real( real64  ) module elemental function taylor_series_cos_058_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_058_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 59th order Taylor series
     interface taylor_series_cos_059
         real( real64  ) module elemental function taylor_series_cos_059_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_059_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 60th order Taylor series
     interface taylor_series_cos_060
         real( real64  ) module elemental function taylor_series_cos_060_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_060_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 61st order Taylor series
     interface taylor_series_cos_061
         real( real64  ) module elemental function taylor_series_cos_061_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_061_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 62nd order Taylor series
     interface taylor_series_cos_062
         real( real64  ) module elemental function taylor_series_cos_062_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_062_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 63rd order Taylor series
     interface taylor_series_cos_063
         real( real64  ) module elemental function taylor_series_cos_063_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_063_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 64th order Taylor series
     interface taylor_series_cos_064
         real( real64  ) module elemental function taylor_series_cos_064_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_064_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 65th order Taylor series
     interface taylor_series_cos_065
         real( real64  ) module elemental function taylor_series_cos_065_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_065_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 66th order Taylor series
     interface taylor_series_cos_066
         real( real64  ) module elemental function taylor_series_cos_066_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_066_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 67th order Taylor series
     interface taylor_series_cos_067
         real( real64  ) module elemental function taylor_series_cos_067_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_067_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 68th order Taylor series
     interface taylor_series_cos_068
         real( real64  ) module elemental function taylor_series_cos_068_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_068_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 69th order Taylor series
     interface taylor_series_cos_069
         real( real64  ) module elemental function taylor_series_cos_069_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_069_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 70th order Taylor series
     interface taylor_series_cos_070
         real( real64  ) module elemental function taylor_series_cos_070_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_070_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 71st order Taylor series
     interface taylor_series_cos_071
         real( real64  ) module elemental function taylor_series_cos_071_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_071_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 72nd order Taylor series
     interface taylor_series_cos_072
         real( real64  ) module elemental function taylor_series_cos_072_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_072_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 73rd order Taylor series
     interface taylor_series_cos_073
         real( real64  ) module elemental function taylor_series_cos_073_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_073_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 74th order Taylor series
     interface taylor_series_cos_074
         real( real64  ) module elemental function taylor_series_cos_074_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_074_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 75th order Taylor series
     interface taylor_series_cos_075
         real( real64  ) module elemental function taylor_series_cos_075_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_075_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 76th order Taylor series
     interface taylor_series_cos_076
         real( real64  ) module elemental function taylor_series_cos_076_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_076_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 77th order Taylor series
     interface taylor_series_cos_077
         real( real64  ) module elemental function taylor_series_cos_077_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_077_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 78th order Taylor series
     interface taylor_series_cos_078
         real( real64  ) module elemental function taylor_series_cos_078_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_078_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 79th order Taylor series
     interface taylor_series_cos_079
         real( real64  ) module elemental function taylor_series_cos_079_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_079_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 80th order Taylor series
     interface taylor_series_cos_080
         real( real64  ) module elemental function taylor_series_cos_080_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_080_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 81st order Taylor series
     interface taylor_series_cos_081
         real( real64  ) module elemental function taylor_series_cos_081_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_081_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 82nd order Taylor series
     interface taylor_series_cos_082
         real( real64  ) module elemental function taylor_series_cos_082_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_082_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 83rd order Taylor series
     interface taylor_series_cos_083
         real( real64  ) module elemental function taylor_series_cos_083_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_083_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 84th order Taylor series
     interface taylor_series_cos_084
         real( real64  ) module elemental function taylor_series_cos_084_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_084_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 85th order Taylor series
     interface taylor_series_cos_085
         real( real64  ) module elemental function taylor_series_cos_085_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_085_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 86th order Taylor series
     interface taylor_series_cos_086
         real( real64  ) module elemental function taylor_series_cos_086_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_086_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 87th order Taylor series
     interface taylor_series_cos_087
         real( real64  ) module elemental function taylor_series_cos_087_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_087_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 88th order Taylor series
     interface taylor_series_cos_088
         real( real64  ) module elemental function taylor_series_cos_088_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_088_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 89th order Taylor series
     interface taylor_series_cos_089
         real( real64  ) module elemental function taylor_series_cos_089_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_089_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 90th order Taylor series
     interface taylor_series_cos_090
         real( real64  ) module elemental function taylor_series_cos_090_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_090_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 91st order Taylor series
     interface taylor_series_cos_091
         real( real64  ) module elemental function taylor_series_cos_091_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_091_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 92nd order Taylor series
     interface taylor_series_cos_092
         real( real64  ) module elemental function taylor_series_cos_092_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_092_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 93rd order Taylor series
     interface taylor_series_cos_093
         real( real64  ) module elemental function taylor_series_cos_093_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_093_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 94th order Taylor series
     interface taylor_series_cos_094
         real( real64  ) module elemental function taylor_series_cos_094_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_094_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 95th order Taylor series
     interface taylor_series_cos_095
         real( real64  ) module elemental function taylor_series_cos_095_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_095_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 96th order Taylor series
     interface taylor_series_cos_096
         real( real64  ) module elemental function taylor_series_cos_096_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_096_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 97th order Taylor series
     interface taylor_series_cos_097
         real( real64  ) module elemental function taylor_series_cos_097_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_097_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 98th order Taylor series
     interface taylor_series_cos_098
         real( real64  ) module elemental function taylor_series_cos_098_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_098_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 99th order Taylor series
     interface taylor_series_cos_099
         real( real64  ) module elemental function taylor_series_cos_099_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_099_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 100th order Taylor series
     interface taylor_series_cos_100
         real( real64  ) module elemental function taylor_series_cos_100_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_100_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 101st order Taylor series
     interface taylor_series_cos_101
         real( real64  ) module elemental function taylor_series_cos_101_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_101_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 102nd order Taylor series
     interface taylor_series_cos_102
         real( real64  ) module elemental function taylor_series_cos_102_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_102_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 103rd order Taylor series
     interface taylor_series_cos_103
         real( real64  ) module elemental function taylor_series_cos_103_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_103_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 104th order Taylor series
     interface taylor_series_cos_104
         real( real64  ) module elemental function taylor_series_cos_104_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_104_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 105th order Taylor series
     interface taylor_series_cos_105
         real( real64  ) module elemental function taylor_series_cos_105_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_105_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 106th order Taylor series
     interface taylor_series_cos_106
         real( real64  ) module elemental function taylor_series_cos_106_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_106_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 107th order Taylor series
     interface taylor_series_cos_107
         real( real64  ) module elemental function taylor_series_cos_107_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_107_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 108th order Taylor series
     interface taylor_series_cos_108
         real( real64  ) module elemental function taylor_series_cos_108_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_108_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 109th order Taylor series
     interface taylor_series_cos_109
         real( real64  ) module elemental function taylor_series_cos_109_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_109_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 110th order Taylor series
     interface taylor_series_cos_110
         real( real64  ) module elemental function taylor_series_cos_110_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_110_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 111th order Taylor series
     interface taylor_series_cos_111
         real( real64  ) module elemental function taylor_series_cos_111_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_111_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 112th order Taylor series
     interface taylor_series_cos_112
         real( real64  ) module elemental function taylor_series_cos_112_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_112_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 113th order Taylor series
     interface taylor_series_cos_113
         real( real64  ) module elemental function taylor_series_cos_113_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_113_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 114th order Taylor series
     interface taylor_series_cos_114
         real( real64  ) module elemental function taylor_series_cos_114_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_114_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 115th order Taylor series
     interface taylor_series_cos_115
         real( real64  ) module elemental function taylor_series_cos_115_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_115_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 116th order Taylor series
     interface taylor_series_cos_116
         real( real64  ) module elemental function taylor_series_cos_116_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_116_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 117th order Taylor series
     interface taylor_series_cos_117
         real( real64  ) module elemental function taylor_series_cos_117_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_117_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 118th order Taylor series
     interface taylor_series_cos_118
         real( real64  ) module elemental function taylor_series_cos_118_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_118_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 119th order Taylor series
     interface taylor_series_cos_119
         real( real64  ) module elemental function taylor_series_cos_119_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_119_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 120th order Taylor series
     interface taylor_series_cos_120
         real( real64  ) module elemental function taylor_series_cos_120_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_120_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 121st order Taylor series
     interface taylor_series_cos_121
         real( real64  ) module elemental function taylor_series_cos_121_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_121_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 122nd order Taylor series
     interface taylor_series_cos_122
         real( real64  ) module elemental function taylor_series_cos_122_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_122_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 123rd order Taylor series
     interface taylor_series_cos_123
         real( real64  ) module elemental function taylor_series_cos_123_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_123_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 124th order Taylor series
     interface taylor_series_cos_124
         real( real64  ) module elemental function taylor_series_cos_124_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_124_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 125th order Taylor series
     interface taylor_series_cos_125
         real( real64  ) module elemental function taylor_series_cos_125_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_125_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 126th order Taylor series
     interface taylor_series_cos_126
         real( real64  ) module elemental function taylor_series_cos_126_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_126_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 127th order Taylor series
     interface taylor_series_cos_127
         real( real64  ) module elemental function taylor_series_cos_127_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_127_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 128th order Taylor series
     interface taylor_series_cos_128
         real( real64  ) module elemental function taylor_series_cos_128_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_128_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 129th order Taylor series
     interface taylor_series_cos_129
         real( real64  ) module elemental function taylor_series_cos_129_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_129_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 130th order Taylor series
     interface taylor_series_cos_130
         real( real64  ) module elemental function taylor_series_cos_130_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_130_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 131st order Taylor series
     interface taylor_series_cos_131
         real( real64  ) module elemental function taylor_series_cos_131_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_131_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 132nd order Taylor series
     interface taylor_series_cos_132
         real( real64  ) module elemental function taylor_series_cos_132_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_132_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 133rd order Taylor series
     interface taylor_series_cos_133
         real( real64  ) module elemental function taylor_series_cos_133_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_133_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 134th order Taylor series
     interface taylor_series_cos_134
         real( real64  ) module elemental function taylor_series_cos_134_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_134_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 135th order Taylor series
     interface taylor_series_cos_135
         real( real64  ) module elemental function taylor_series_cos_135_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_135_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 136th order Taylor series
     interface taylor_series_cos_136
         real( real64  ) module elemental function taylor_series_cos_136_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_136_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 137th order Taylor series
     interface taylor_series_cos_137
         real( real64  ) module elemental function taylor_series_cos_137_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_137_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 138th order Taylor series
     interface taylor_series_cos_138
         real( real64  ) module elemental function taylor_series_cos_138_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_138_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 139th order Taylor series
     interface taylor_series_cos_139
         real( real64  ) module elemental function taylor_series_cos_139_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_139_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 140th order Taylor series
     interface taylor_series_cos_140
         real( real64  ) module elemental function taylor_series_cos_140_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_140_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 141st order Taylor series
     interface taylor_series_cos_141
         real( real64  ) module elemental function taylor_series_cos_141_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_141_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 142nd order Taylor series
     interface taylor_series_cos_142
         real( real64  ) module elemental function taylor_series_cos_142_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_142_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 143rd order Taylor series
     interface taylor_series_cos_143
         real( real64  ) module elemental function taylor_series_cos_143_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_143_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 144th order Taylor series
     interface taylor_series_cos_144
         real( real64  ) module elemental function taylor_series_cos_144_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_144_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 145th order Taylor series
     interface taylor_series_cos_145
         real( real64  ) module elemental function taylor_series_cos_145_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_145_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 146th order Taylor series
     interface taylor_series_cos_146
         real( real64  ) module elemental function taylor_series_cos_146_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_146_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 147th order Taylor series
     interface taylor_series_cos_147
         real( real64  ) module elemental function taylor_series_cos_147_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_147_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 148th order Taylor series
     interface taylor_series_cos_148
         real( real64  ) module elemental function taylor_series_cos_148_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_148_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 149th order Taylor series
     interface taylor_series_cos_149
         real( real64  ) module elemental function taylor_series_cos_149_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_149_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 150th order Taylor series
     interface taylor_series_cos_150
         real( real64  ) module elemental function taylor_series_cos_150_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_150_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 151st order Taylor series
     interface taylor_series_cos_151
         real( real64  ) module elemental function taylor_series_cos_151_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_151_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 152nd order Taylor series
     interface taylor_series_cos_152
         real( real64  ) module elemental function taylor_series_cos_152_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_152_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 153rd order Taylor series
     interface taylor_series_cos_153
         real( real64  ) module elemental function taylor_series_cos_153_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_153_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 154th order Taylor series
     interface taylor_series_cos_154
         real( real64  ) module elemental function taylor_series_cos_154_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_154_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 155th order Taylor series
     interface taylor_series_cos_155
         real( real64  ) module elemental function taylor_series_cos_155_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_155_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 156th order Taylor series
     interface taylor_series_cos_156
         real( real64  ) module elemental function taylor_series_cos_156_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_156_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 157th order Taylor series
     interface taylor_series_cos_157
         real( real64  ) module elemental function taylor_series_cos_157_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_157_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 158th order Taylor series
     interface taylor_series_cos_158
         real( real64  ) module elemental function taylor_series_cos_158_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_158_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 159th order Taylor series
     interface taylor_series_cos_159
         real( real64  ) module elemental function taylor_series_cos_159_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_159_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 160th order Taylor series
     interface taylor_series_cos_160
         real( real64  ) module elemental function taylor_series_cos_160_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_160_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 161st order Taylor series
     interface taylor_series_cos_161
         real( real64  ) module elemental function taylor_series_cos_161_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_161_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 162nd order Taylor series
     interface taylor_series_cos_162
         real( real64  ) module elemental function taylor_series_cos_162_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_162_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 163rd order Taylor series
     interface taylor_series_cos_163
         real( real64  ) module elemental function taylor_series_cos_163_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_163_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 164th order Taylor series
     interface taylor_series_cos_164
         real( real64  ) module elemental function taylor_series_cos_164_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_164_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 165th order Taylor series
     interface taylor_series_cos_165
         real( real64  ) module elemental function taylor_series_cos_165_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_165_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 166th order Taylor series
     interface taylor_series_cos_166
         real( real64  ) module elemental function taylor_series_cos_166_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_166_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 167th order Taylor series
     interface taylor_series_cos_167
         real( real64  ) module elemental function taylor_series_cos_167_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_167_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 168th order Taylor series
     interface taylor_series_cos_168
         real( real64  ) module elemental function taylor_series_cos_168_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_168_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 169th order Taylor series
     interface taylor_series_cos_169
         real( real64  ) module elemental function taylor_series_cos_169_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_169_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 170th order Taylor series
     interface taylor_series_cos_170
         real( real64  ) module elemental function taylor_series_cos_170_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_170_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 171st order Taylor series
     interface taylor_series_cos_171
         real( real64  ) module elemental function taylor_series_cos_171_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_171_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 172nd order Taylor series
     interface taylor_series_cos_172
         real( real64  ) module elemental function taylor_series_cos_172_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_172_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 173rd order Taylor series
     interface taylor_series_cos_173
         real( real64  ) module elemental function taylor_series_cos_173_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_173_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 174th order Taylor series
     interface taylor_series_cos_174
         real( real64  ) module elemental function taylor_series_cos_174_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_174_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 175th order Taylor series
     interface taylor_series_cos_175
         real( real64  ) module elemental function taylor_series_cos_175_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_175_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `cos(x)` approximation by a 176th order Taylor series
     interface taylor_series_cos_176
         real( real64  ) module elemental function taylor_series_cos_176_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_cos_176_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
@@ -1655,6 +1832,7 @@ module taylor_series_fortran
 
 
 
+    !> `exp(x)` approximation by a 0th order Taylor series
     interface taylor_series_exp_000
         real( real32  ) module elemental function taylor_series_exp_000_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_000_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1662,6 +1840,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 1st order Taylor series
     interface taylor_series_exp_001
         real( real32  ) module elemental function taylor_series_exp_001_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_001_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1669,6 +1848,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 2nd order Taylor series
     interface taylor_series_exp_002
         real( real32  ) module elemental function taylor_series_exp_002_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_002_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1676,6 +1856,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 3rd order Taylor series
     interface taylor_series_exp_003
         real( real32  ) module elemental function taylor_series_exp_003_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_003_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1683,6 +1864,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 4th order Taylor series
     interface taylor_series_exp_004
         real( real32  ) module elemental function taylor_series_exp_004_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_004_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1690,6 +1872,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 5th order Taylor series
     interface taylor_series_exp_005
         real( real32  ) module elemental function taylor_series_exp_005_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_005_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1697,6 +1880,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 6th order Taylor series
     interface taylor_series_exp_006
         real( real32  ) module elemental function taylor_series_exp_006_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_006_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1704,6 +1888,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 7th order Taylor series
     interface taylor_series_exp_007
         real( real32  ) module elemental function taylor_series_exp_007_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_007_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1711,6 +1896,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 8th order Taylor series
     interface taylor_series_exp_008
         real( real32  ) module elemental function taylor_series_exp_008_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_008_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1718,6 +1904,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 9th order Taylor series
     interface taylor_series_exp_009
         real( real32  ) module elemental function taylor_series_exp_009_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_009_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1725,6 +1912,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 10th order Taylor series
     interface taylor_series_exp_010
         real( real32  ) module elemental function taylor_series_exp_010_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_010_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1732,6 +1920,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 11th order Taylor series
     interface taylor_series_exp_011
         real( real32  ) module elemental function taylor_series_exp_011_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_011_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1739,6 +1928,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 12th order Taylor series
     interface taylor_series_exp_012
         real( real32  ) module elemental function taylor_series_exp_012_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_012_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1746,6 +1936,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 13th order Taylor series
     interface taylor_series_exp_013
         real( real32  ) module elemental function taylor_series_exp_013_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_013_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1753,6 +1944,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 14th order Taylor series
     interface taylor_series_exp_014
         real( real32  ) module elemental function taylor_series_exp_014_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_014_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1760,6 +1952,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 15th order Taylor series
     interface taylor_series_exp_015
         real( real32  ) module elemental function taylor_series_exp_015_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_015_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1767,6 +1960,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 16th order Taylor series
     interface taylor_series_exp_016
         real( real32  ) module elemental function taylor_series_exp_016_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_016_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1774,6 +1968,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 17th order Taylor series
     interface taylor_series_exp_017
         real( real32  ) module elemental function taylor_series_exp_017_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_017_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1781,6 +1976,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 18th order Taylor series
     interface taylor_series_exp_018
         real( real32  ) module elemental function taylor_series_exp_018_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_018_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1788,6 +1984,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 19th order Taylor series
     interface taylor_series_exp_019
         real( real32  ) module elemental function taylor_series_exp_019_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_019_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1795,6 +1992,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 20th order Taylor series
     interface taylor_series_exp_020
         real( real32  ) module elemental function taylor_series_exp_020_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_020_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1802,6 +2000,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 21st order Taylor series
     interface taylor_series_exp_021
         real( real32  ) module elemental function taylor_series_exp_021_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_021_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1809,6 +2008,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 22nd order Taylor series
     interface taylor_series_exp_022
         real( real32  ) module elemental function taylor_series_exp_022_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_022_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1816,6 +2016,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 23rd order Taylor series
     interface taylor_series_exp_023
         real( real32  ) module elemental function taylor_series_exp_023_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_023_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1823,6 +2024,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 24th order Taylor series
     interface taylor_series_exp_024
         real( real32  ) module elemental function taylor_series_exp_024_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_024_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1830,6 +2032,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 25th order Taylor series
     interface taylor_series_exp_025
         real( real32  ) module elemental function taylor_series_exp_025_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_025_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1837,6 +2040,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 26th order Taylor series
     interface taylor_series_exp_026
         real( real32  ) module elemental function taylor_series_exp_026_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_026_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1844,6 +2048,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 27th order Taylor series
     interface taylor_series_exp_027
         real( real32  ) module elemental function taylor_series_exp_027_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_027_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1851,6 +2056,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 28th order Taylor series
     interface taylor_series_exp_028
         real( real32  ) module elemental function taylor_series_exp_028_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_028_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1858,6 +2064,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 29th order Taylor series
     interface taylor_series_exp_029
         real( real32  ) module elemental function taylor_series_exp_029_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_029_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1865,6 +2072,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 30th order Taylor series
     interface taylor_series_exp_030
         real( real32  ) module elemental function taylor_series_exp_030_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_030_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1872,6 +2080,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 31st order Taylor series
     interface taylor_series_exp_031
         real( real32  ) module elemental function taylor_series_exp_031_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_031_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1879,6 +2088,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 32nd order Taylor series
     interface taylor_series_exp_032
         real( real32  ) module elemental function taylor_series_exp_032_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_032_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1886,6 +2096,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 33rd order Taylor series
     interface taylor_series_exp_033
         real( real32  ) module elemental function taylor_series_exp_033_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_033_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1893,6 +2104,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 34th order Taylor series
     interface taylor_series_exp_034
         real( real32  ) module elemental function taylor_series_exp_034_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_034_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1900,6 +2112,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 35th order Taylor series
     interface taylor_series_exp_035
         real( real32  ) module elemental function taylor_series_exp_035_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_035_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1907,6 +2120,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 36th order Taylor series
     interface taylor_series_exp_036
         real( real32  ) module elemental function taylor_series_exp_036_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_036_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1914,6 +2128,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 37th order Taylor series
     interface taylor_series_exp_037
         real( real32  ) module elemental function taylor_series_exp_037_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_037_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1921,6 +2136,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 38th order Taylor series
     interface taylor_series_exp_038
         real( real32  ) module elemental function taylor_series_exp_038_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_exp_038_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -1928,834 +2144,973 @@ module taylor_series_fortran
     end interface
 
 
+    !> `exp(x)` approximation by a 39th order Taylor series
     interface taylor_series_exp_039
         real( real64  ) module elemental function taylor_series_exp_039_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_039_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 40th order Taylor series
     interface taylor_series_exp_040
         real( real64  ) module elemental function taylor_series_exp_040_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_040_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 41st order Taylor series
     interface taylor_series_exp_041
         real( real64  ) module elemental function taylor_series_exp_041_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_041_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 42nd order Taylor series
     interface taylor_series_exp_042
         real( real64  ) module elemental function taylor_series_exp_042_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_042_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 43rd order Taylor series
     interface taylor_series_exp_043
         real( real64  ) module elemental function taylor_series_exp_043_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_043_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 44th order Taylor series
     interface taylor_series_exp_044
         real( real64  ) module elemental function taylor_series_exp_044_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_044_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 45th order Taylor series
     interface taylor_series_exp_045
         real( real64  ) module elemental function taylor_series_exp_045_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_045_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 46th order Taylor series
     interface taylor_series_exp_046
         real( real64  ) module elemental function taylor_series_exp_046_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_046_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 47th order Taylor series
     interface taylor_series_exp_047
         real( real64  ) module elemental function taylor_series_exp_047_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_047_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 48th order Taylor series
     interface taylor_series_exp_048
         real( real64  ) module elemental function taylor_series_exp_048_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_048_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 49th order Taylor series
     interface taylor_series_exp_049
         real( real64  ) module elemental function taylor_series_exp_049_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_049_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 50th order Taylor series
     interface taylor_series_exp_050
         real( real64  ) module elemental function taylor_series_exp_050_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_050_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 51st order Taylor series
     interface taylor_series_exp_051
         real( real64  ) module elemental function taylor_series_exp_051_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_051_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 52nd order Taylor series
     interface taylor_series_exp_052
         real( real64  ) module elemental function taylor_series_exp_052_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_052_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 53rd order Taylor series
     interface taylor_series_exp_053
         real( real64  ) module elemental function taylor_series_exp_053_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_053_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 54th order Taylor series
     interface taylor_series_exp_054
         real( real64  ) module elemental function taylor_series_exp_054_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_054_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 55th order Taylor series
     interface taylor_series_exp_055
         real( real64  ) module elemental function taylor_series_exp_055_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_055_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 56th order Taylor series
     interface taylor_series_exp_056
         real( real64  ) module elemental function taylor_series_exp_056_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_056_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 57th order Taylor series
     interface taylor_series_exp_057
         real( real64  ) module elemental function taylor_series_exp_057_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_057_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 58th order Taylor series
     interface taylor_series_exp_058
         real( real64  ) module elemental function taylor_series_exp_058_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_058_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 59th order Taylor series
     interface taylor_series_exp_059
         real( real64  ) module elemental function taylor_series_exp_059_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_059_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 60th order Taylor series
     interface taylor_series_exp_060
         real( real64  ) module elemental function taylor_series_exp_060_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_060_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 61st order Taylor series
     interface taylor_series_exp_061
         real( real64  ) module elemental function taylor_series_exp_061_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_061_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 62nd order Taylor series
     interface taylor_series_exp_062
         real( real64  ) module elemental function taylor_series_exp_062_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_062_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 63rd order Taylor series
     interface taylor_series_exp_063
         real( real64  ) module elemental function taylor_series_exp_063_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_063_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 64th order Taylor series
     interface taylor_series_exp_064
         real( real64  ) module elemental function taylor_series_exp_064_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_064_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 65th order Taylor series
     interface taylor_series_exp_065
         real( real64  ) module elemental function taylor_series_exp_065_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_065_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 66th order Taylor series
     interface taylor_series_exp_066
         real( real64  ) module elemental function taylor_series_exp_066_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_066_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 67th order Taylor series
     interface taylor_series_exp_067
         real( real64  ) module elemental function taylor_series_exp_067_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_067_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 68th order Taylor series
     interface taylor_series_exp_068
         real( real64  ) module elemental function taylor_series_exp_068_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_068_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 69th order Taylor series
     interface taylor_series_exp_069
         real( real64  ) module elemental function taylor_series_exp_069_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_069_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 70th order Taylor series
     interface taylor_series_exp_070
         real( real64  ) module elemental function taylor_series_exp_070_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_070_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 71st order Taylor series
     interface taylor_series_exp_071
         real( real64  ) module elemental function taylor_series_exp_071_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_071_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 72nd order Taylor series
     interface taylor_series_exp_072
         real( real64  ) module elemental function taylor_series_exp_072_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_072_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 73rd order Taylor series
     interface taylor_series_exp_073
         real( real64  ) module elemental function taylor_series_exp_073_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_073_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 74th order Taylor series
     interface taylor_series_exp_074
         real( real64  ) module elemental function taylor_series_exp_074_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_074_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 75th order Taylor series
     interface taylor_series_exp_075
         real( real64  ) module elemental function taylor_series_exp_075_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_075_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 76th order Taylor series
     interface taylor_series_exp_076
         real( real64  ) module elemental function taylor_series_exp_076_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_076_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 77th order Taylor series
     interface taylor_series_exp_077
         real( real64  ) module elemental function taylor_series_exp_077_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_077_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 78th order Taylor series
     interface taylor_series_exp_078
         real( real64  ) module elemental function taylor_series_exp_078_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_078_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 79th order Taylor series
     interface taylor_series_exp_079
         real( real64  ) module elemental function taylor_series_exp_079_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_079_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 80th order Taylor series
     interface taylor_series_exp_080
         real( real64  ) module elemental function taylor_series_exp_080_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_080_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 81st order Taylor series
     interface taylor_series_exp_081
         real( real64  ) module elemental function taylor_series_exp_081_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_081_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 82nd order Taylor series
     interface taylor_series_exp_082
         real( real64  ) module elemental function taylor_series_exp_082_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_082_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 83rd order Taylor series
     interface taylor_series_exp_083
         real( real64  ) module elemental function taylor_series_exp_083_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_083_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 84th order Taylor series
     interface taylor_series_exp_084
         real( real64  ) module elemental function taylor_series_exp_084_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_084_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 85th order Taylor series
     interface taylor_series_exp_085
         real( real64  ) module elemental function taylor_series_exp_085_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_085_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 86th order Taylor series
     interface taylor_series_exp_086
         real( real64  ) module elemental function taylor_series_exp_086_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_086_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 87th order Taylor series
     interface taylor_series_exp_087
         real( real64  ) module elemental function taylor_series_exp_087_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_087_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 88th order Taylor series
     interface taylor_series_exp_088
         real( real64  ) module elemental function taylor_series_exp_088_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_088_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 89th order Taylor series
     interface taylor_series_exp_089
         real( real64  ) module elemental function taylor_series_exp_089_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_089_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 90th order Taylor series
     interface taylor_series_exp_090
         real( real64  ) module elemental function taylor_series_exp_090_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_090_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 91st order Taylor series
     interface taylor_series_exp_091
         real( real64  ) module elemental function taylor_series_exp_091_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_091_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 92nd order Taylor series
     interface taylor_series_exp_092
         real( real64  ) module elemental function taylor_series_exp_092_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_092_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 93rd order Taylor series
     interface taylor_series_exp_093
         real( real64  ) module elemental function taylor_series_exp_093_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_093_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 94th order Taylor series
     interface taylor_series_exp_094
         real( real64  ) module elemental function taylor_series_exp_094_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_094_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 95th order Taylor series
     interface taylor_series_exp_095
         real( real64  ) module elemental function taylor_series_exp_095_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_095_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 96th order Taylor series
     interface taylor_series_exp_096
         real( real64  ) module elemental function taylor_series_exp_096_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_096_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 97th order Taylor series
     interface taylor_series_exp_097
         real( real64  ) module elemental function taylor_series_exp_097_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_097_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 98th order Taylor series
     interface taylor_series_exp_098
         real( real64  ) module elemental function taylor_series_exp_098_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_098_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 99th order Taylor series
     interface taylor_series_exp_099
         real( real64  ) module elemental function taylor_series_exp_099_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_099_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 100th order Taylor series
     interface taylor_series_exp_100
         real( real64  ) module elemental function taylor_series_exp_100_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_100_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 101st order Taylor series
     interface taylor_series_exp_101
         real( real64  ) module elemental function taylor_series_exp_101_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_101_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 102nd order Taylor series
     interface taylor_series_exp_102
         real( real64  ) module elemental function taylor_series_exp_102_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_102_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 103rd order Taylor series
     interface taylor_series_exp_103
         real( real64  ) module elemental function taylor_series_exp_103_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_103_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 104th order Taylor series
     interface taylor_series_exp_104
         real( real64  ) module elemental function taylor_series_exp_104_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_104_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 105th order Taylor series
     interface taylor_series_exp_105
         real( real64  ) module elemental function taylor_series_exp_105_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_105_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 106th order Taylor series
     interface taylor_series_exp_106
         real( real64  ) module elemental function taylor_series_exp_106_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_106_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 107th order Taylor series
     interface taylor_series_exp_107
         real( real64  ) module elemental function taylor_series_exp_107_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_107_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 108th order Taylor series
     interface taylor_series_exp_108
         real( real64  ) module elemental function taylor_series_exp_108_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_108_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 109th order Taylor series
     interface taylor_series_exp_109
         real( real64  ) module elemental function taylor_series_exp_109_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_109_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 110th order Taylor series
     interface taylor_series_exp_110
         real( real64  ) module elemental function taylor_series_exp_110_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_110_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 111th order Taylor series
     interface taylor_series_exp_111
         real( real64  ) module elemental function taylor_series_exp_111_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_111_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 112th order Taylor series
     interface taylor_series_exp_112
         real( real64  ) module elemental function taylor_series_exp_112_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_112_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 113th order Taylor series
     interface taylor_series_exp_113
         real( real64  ) module elemental function taylor_series_exp_113_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_113_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 114th order Taylor series
     interface taylor_series_exp_114
         real( real64  ) module elemental function taylor_series_exp_114_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_114_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 115th order Taylor series
     interface taylor_series_exp_115
         real( real64  ) module elemental function taylor_series_exp_115_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_115_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 116th order Taylor series
     interface taylor_series_exp_116
         real( real64  ) module elemental function taylor_series_exp_116_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_116_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 117th order Taylor series
     interface taylor_series_exp_117
         real( real64  ) module elemental function taylor_series_exp_117_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_117_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 118th order Taylor series
     interface taylor_series_exp_118
         real( real64  ) module elemental function taylor_series_exp_118_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_118_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 119th order Taylor series
     interface taylor_series_exp_119
         real( real64  ) module elemental function taylor_series_exp_119_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_119_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 120th order Taylor series
     interface taylor_series_exp_120
         real( real64  ) module elemental function taylor_series_exp_120_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_120_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 121st order Taylor series
     interface taylor_series_exp_121
         real( real64  ) module elemental function taylor_series_exp_121_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_121_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 122nd order Taylor series
     interface taylor_series_exp_122
         real( real64  ) module elemental function taylor_series_exp_122_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_122_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 123rd order Taylor series
     interface taylor_series_exp_123
         real( real64  ) module elemental function taylor_series_exp_123_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_123_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 124th order Taylor series
     interface taylor_series_exp_124
         real( real64  ) module elemental function taylor_series_exp_124_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_124_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 125th order Taylor series
     interface taylor_series_exp_125
         real( real64  ) module elemental function taylor_series_exp_125_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_125_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 126th order Taylor series
     interface taylor_series_exp_126
         real( real64  ) module elemental function taylor_series_exp_126_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_126_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 127th order Taylor series
     interface taylor_series_exp_127
         real( real64  ) module elemental function taylor_series_exp_127_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_127_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 128th order Taylor series
     interface taylor_series_exp_128
         real( real64  ) module elemental function taylor_series_exp_128_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_128_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 129th order Taylor series
     interface taylor_series_exp_129
         real( real64  ) module elemental function taylor_series_exp_129_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_129_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 130th order Taylor series
     interface taylor_series_exp_130
         real( real64  ) module elemental function taylor_series_exp_130_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_130_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 131st order Taylor series
     interface taylor_series_exp_131
         real( real64  ) module elemental function taylor_series_exp_131_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_131_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 132nd order Taylor series
     interface taylor_series_exp_132
         real( real64  ) module elemental function taylor_series_exp_132_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_132_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 133rd order Taylor series
     interface taylor_series_exp_133
         real( real64  ) module elemental function taylor_series_exp_133_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_133_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 134th order Taylor series
     interface taylor_series_exp_134
         real( real64  ) module elemental function taylor_series_exp_134_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_134_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 135th order Taylor series
     interface taylor_series_exp_135
         real( real64  ) module elemental function taylor_series_exp_135_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_135_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 136th order Taylor series
     interface taylor_series_exp_136
         real( real64  ) module elemental function taylor_series_exp_136_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_136_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 137th order Taylor series
     interface taylor_series_exp_137
         real( real64  ) module elemental function taylor_series_exp_137_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_137_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 138th order Taylor series
     interface taylor_series_exp_138
         real( real64  ) module elemental function taylor_series_exp_138_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_138_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 139th order Taylor series
     interface taylor_series_exp_139
         real( real64  ) module elemental function taylor_series_exp_139_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_139_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 140th order Taylor series
     interface taylor_series_exp_140
         real( real64  ) module elemental function taylor_series_exp_140_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_140_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 141st order Taylor series
     interface taylor_series_exp_141
         real( real64  ) module elemental function taylor_series_exp_141_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_141_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 142nd order Taylor series
     interface taylor_series_exp_142
         real( real64  ) module elemental function taylor_series_exp_142_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_142_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 143rd order Taylor series
     interface taylor_series_exp_143
         real( real64  ) module elemental function taylor_series_exp_143_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_143_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 144th order Taylor series
     interface taylor_series_exp_144
         real( real64  ) module elemental function taylor_series_exp_144_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_144_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 145th order Taylor series
     interface taylor_series_exp_145
         real( real64  ) module elemental function taylor_series_exp_145_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_145_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 146th order Taylor series
     interface taylor_series_exp_146
         real( real64  ) module elemental function taylor_series_exp_146_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_146_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 147th order Taylor series
     interface taylor_series_exp_147
         real( real64  ) module elemental function taylor_series_exp_147_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_147_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 148th order Taylor series
     interface taylor_series_exp_148
         real( real64  ) module elemental function taylor_series_exp_148_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_148_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 149th order Taylor series
     interface taylor_series_exp_149
         real( real64  ) module elemental function taylor_series_exp_149_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_149_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 150th order Taylor series
     interface taylor_series_exp_150
         real( real64  ) module elemental function taylor_series_exp_150_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_150_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 151st order Taylor series
     interface taylor_series_exp_151
         real( real64  ) module elemental function taylor_series_exp_151_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_151_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 152nd order Taylor series
     interface taylor_series_exp_152
         real( real64  ) module elemental function taylor_series_exp_152_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_152_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 153rd order Taylor series
     interface taylor_series_exp_153
         real( real64  ) module elemental function taylor_series_exp_153_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_153_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 154th order Taylor series
     interface taylor_series_exp_154
         real( real64  ) module elemental function taylor_series_exp_154_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_154_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 155th order Taylor series
     interface taylor_series_exp_155
         real( real64  ) module elemental function taylor_series_exp_155_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_155_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 156th order Taylor series
     interface taylor_series_exp_156
         real( real64  ) module elemental function taylor_series_exp_156_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_156_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 157th order Taylor series
     interface taylor_series_exp_157
         real( real64  ) module elemental function taylor_series_exp_157_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_157_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 158th order Taylor series
     interface taylor_series_exp_158
         real( real64  ) module elemental function taylor_series_exp_158_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_158_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 159th order Taylor series
     interface taylor_series_exp_159
         real( real64  ) module elemental function taylor_series_exp_159_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_159_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 160th order Taylor series
     interface taylor_series_exp_160
         real( real64  ) module elemental function taylor_series_exp_160_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_160_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 161st order Taylor series
     interface taylor_series_exp_161
         real( real64  ) module elemental function taylor_series_exp_161_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_161_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 162nd order Taylor series
     interface taylor_series_exp_162
         real( real64  ) module elemental function taylor_series_exp_162_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_162_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 163rd order Taylor series
     interface taylor_series_exp_163
         real( real64  ) module elemental function taylor_series_exp_163_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_163_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 164th order Taylor series
     interface taylor_series_exp_164
         real( real64  ) module elemental function taylor_series_exp_164_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_164_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 165th order Taylor series
     interface taylor_series_exp_165
         real( real64  ) module elemental function taylor_series_exp_165_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_165_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 166th order Taylor series
     interface taylor_series_exp_166
         real( real64  ) module elemental function taylor_series_exp_166_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_166_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 167th order Taylor series
     interface taylor_series_exp_167
         real( real64  ) module elemental function taylor_series_exp_167_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_167_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 168th order Taylor series
     interface taylor_series_exp_168
         real( real64  ) module elemental function taylor_series_exp_168_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_168_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 169th order Taylor series
     interface taylor_series_exp_169
         real( real64  ) module elemental function taylor_series_exp_169_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_169_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 170th order Taylor series
     interface taylor_series_exp_170
         real( real64  ) module elemental function taylor_series_exp_170_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_170_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 171st order Taylor series
     interface taylor_series_exp_171
         real( real64  ) module elemental function taylor_series_exp_171_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_171_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 172nd order Taylor series
     interface taylor_series_exp_172
         real( real64  ) module elemental function taylor_series_exp_172_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_172_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 173rd order Taylor series
     interface taylor_series_exp_173
         real( real64  ) module elemental function taylor_series_exp_173_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_173_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 174th order Taylor series
     interface taylor_series_exp_174
         real( real64  ) module elemental function taylor_series_exp_174_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_174_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 175th order Taylor series
     interface taylor_series_exp_175
         real( real64  ) module elemental function taylor_series_exp_175_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_175_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 176th order Taylor series
     interface taylor_series_exp_176
         real( real64  ) module elemental function taylor_series_exp_176_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_176_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `exp(x)` approximation by a 177th order Taylor series
     interface taylor_series_exp_177
         real( real64  ) module elemental function taylor_series_exp_177_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_exp_177_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
@@ -2764,6 +3119,7 @@ module taylor_series_fortran
 
 
 
+    !> `sin(x)` approximation by a 0th order Taylor series
     interface taylor_series_sin_000
         real( real32  ) module elemental function taylor_series_sin_000_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_000_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2771,6 +3127,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 1st order Taylor series
     interface taylor_series_sin_001
         real( real32  ) module elemental function taylor_series_sin_001_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_001_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2778,6 +3135,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 2nd order Taylor series
     interface taylor_series_sin_002
         real( real32  ) module elemental function taylor_series_sin_002_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_002_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2785,6 +3143,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 3rd order Taylor series
     interface taylor_series_sin_003
         real( real32  ) module elemental function taylor_series_sin_003_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_003_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2792,6 +3151,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 4th order Taylor series
     interface taylor_series_sin_004
         real( real32  ) module elemental function taylor_series_sin_004_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_004_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2799,6 +3159,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 5th order Taylor series
     interface taylor_series_sin_005
         real( real32  ) module elemental function taylor_series_sin_005_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_005_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2806,6 +3167,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 6th order Taylor series
     interface taylor_series_sin_006
         real( real32  ) module elemental function taylor_series_sin_006_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_006_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2813,6 +3175,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 7th order Taylor series
     interface taylor_series_sin_007
         real( real32  ) module elemental function taylor_series_sin_007_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_007_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2820,6 +3183,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 8th order Taylor series
     interface taylor_series_sin_008
         real( real32  ) module elemental function taylor_series_sin_008_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_008_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2827,6 +3191,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 9th order Taylor series
     interface taylor_series_sin_009
         real( real32  ) module elemental function taylor_series_sin_009_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_009_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2834,6 +3199,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 10th order Taylor series
     interface taylor_series_sin_010
         real( real32  ) module elemental function taylor_series_sin_010_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_010_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2841,6 +3207,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 11th order Taylor series
     interface taylor_series_sin_011
         real( real32  ) module elemental function taylor_series_sin_011_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_011_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2848,6 +3215,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 12th order Taylor series
     interface taylor_series_sin_012
         real( real32  ) module elemental function taylor_series_sin_012_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_012_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2855,6 +3223,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 13th order Taylor series
     interface taylor_series_sin_013
         real( real32  ) module elemental function taylor_series_sin_013_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_013_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2862,6 +3231,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 14th order Taylor series
     interface taylor_series_sin_014
         real( real32  ) module elemental function taylor_series_sin_014_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_014_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2869,6 +3239,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 15th order Taylor series
     interface taylor_series_sin_015
         real( real32  ) module elemental function taylor_series_sin_015_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_015_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2876,6 +3247,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 16th order Taylor series
     interface taylor_series_sin_016
         real( real32  ) module elemental function taylor_series_sin_016_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_016_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2883,6 +3255,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 17th order Taylor series
     interface taylor_series_sin_017
         real( real32  ) module elemental function taylor_series_sin_017_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_017_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2890,6 +3263,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 18th order Taylor series
     interface taylor_series_sin_018
         real( real32  ) module elemental function taylor_series_sin_018_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_018_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2897,6 +3271,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 19th order Taylor series
     interface taylor_series_sin_019
         real( real32  ) module elemental function taylor_series_sin_019_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_019_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2904,6 +3279,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 20th order Taylor series
     interface taylor_series_sin_020
         real( real32  ) module elemental function taylor_series_sin_020_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_020_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2911,6 +3287,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 21st order Taylor series
     interface taylor_series_sin_021
         real( real32  ) module elemental function taylor_series_sin_021_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_021_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2918,6 +3295,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 22nd order Taylor series
     interface taylor_series_sin_022
         real( real32  ) module elemental function taylor_series_sin_022_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_022_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2925,6 +3303,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 23rd order Taylor series
     interface taylor_series_sin_023
         real( real32  ) module elemental function taylor_series_sin_023_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_023_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2932,6 +3311,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 24th order Taylor series
     interface taylor_series_sin_024
         real( real32  ) module elemental function taylor_series_sin_024_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_024_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2939,6 +3319,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 25th order Taylor series
     interface taylor_series_sin_025
         real( real32  ) module elemental function taylor_series_sin_025_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_025_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2946,6 +3327,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 26th order Taylor series
     interface taylor_series_sin_026
         real( real32  ) module elemental function taylor_series_sin_026_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_026_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2953,6 +3335,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 27th order Taylor series
     interface taylor_series_sin_027
         real( real32  ) module elemental function taylor_series_sin_027_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_027_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2960,6 +3343,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 28th order Taylor series
     interface taylor_series_sin_028
         real( real32  ) module elemental function taylor_series_sin_028_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_028_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2967,6 +3351,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 29th order Taylor series
     interface taylor_series_sin_029
         real( real32  ) module elemental function taylor_series_sin_029_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_029_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2974,6 +3359,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 30th order Taylor series
     interface taylor_series_sin_030
         real( real32  ) module elemental function taylor_series_sin_030_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_030_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2981,6 +3367,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 31st order Taylor series
     interface taylor_series_sin_031
         real( real32  ) module elemental function taylor_series_sin_031_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_031_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2988,6 +3375,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 32nd order Taylor series
     interface taylor_series_sin_032
         real( real32  ) module elemental function taylor_series_sin_032_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_032_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -2995,6 +3383,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 33rd order Taylor series
     interface taylor_series_sin_033
         real( real32  ) module elemental function taylor_series_sin_033_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_033_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -3002,6 +3391,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 34th order Taylor series
     interface taylor_series_sin_034
         real( real32  ) module elemental function taylor_series_sin_034_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_034_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -3009,6 +3399,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 35th order Taylor series
     interface taylor_series_sin_035
         real( real32  ) module elemental function taylor_series_sin_035_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_035_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -3016,6 +3407,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 36th order Taylor series
     interface taylor_series_sin_036
         real( real32  ) module elemental function taylor_series_sin_036_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_036_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -3023,6 +3415,7 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 37th order Taylor series
     interface taylor_series_sin_037
         real( real32  ) module elemental function taylor_series_sin_037_real32  (x) result(res); real( real32  ), intent(in) :: x; end function
         real( real64  ) module elemental function taylor_series_sin_037_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
@@ -3030,840 +3423,980 @@ module taylor_series_fortran
     end interface
 
 
+    !> `sin(x)` approximation by a 38th order Taylor series
     interface taylor_series_sin_038
         real( real64  ) module elemental function taylor_series_sin_038_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_038_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 39th order Taylor series
     interface taylor_series_sin_039
         real( real64  ) module elemental function taylor_series_sin_039_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_039_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 40th order Taylor series
     interface taylor_series_sin_040
         real( real64  ) module elemental function taylor_series_sin_040_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_040_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 41st order Taylor series
     interface taylor_series_sin_041
         real( real64  ) module elemental function taylor_series_sin_041_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_041_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 42nd order Taylor series
     interface taylor_series_sin_042
         real( real64  ) module elemental function taylor_series_sin_042_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_042_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 43rd order Taylor series
     interface taylor_series_sin_043
         real( real64  ) module elemental function taylor_series_sin_043_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_043_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 44th order Taylor series
     interface taylor_series_sin_044
         real( real64  ) module elemental function taylor_series_sin_044_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_044_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 45th order Taylor series
     interface taylor_series_sin_045
         real( real64  ) module elemental function taylor_series_sin_045_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_045_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 46th order Taylor series
     interface taylor_series_sin_046
         real( real64  ) module elemental function taylor_series_sin_046_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_046_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 47th order Taylor series
     interface taylor_series_sin_047
         real( real64  ) module elemental function taylor_series_sin_047_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_047_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 48th order Taylor series
     interface taylor_series_sin_048
         real( real64  ) module elemental function taylor_series_sin_048_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_048_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 49th order Taylor series
     interface taylor_series_sin_049
         real( real64  ) module elemental function taylor_series_sin_049_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_049_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 50th order Taylor series
     interface taylor_series_sin_050
         real( real64  ) module elemental function taylor_series_sin_050_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_050_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 51st order Taylor series
     interface taylor_series_sin_051
         real( real64  ) module elemental function taylor_series_sin_051_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_051_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 52nd order Taylor series
     interface taylor_series_sin_052
         real( real64  ) module elemental function taylor_series_sin_052_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_052_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 53rd order Taylor series
     interface taylor_series_sin_053
         real( real64  ) module elemental function taylor_series_sin_053_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_053_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 54th order Taylor series
     interface taylor_series_sin_054
         real( real64  ) module elemental function taylor_series_sin_054_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_054_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 55th order Taylor series
     interface taylor_series_sin_055
         real( real64  ) module elemental function taylor_series_sin_055_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_055_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 56th order Taylor series
     interface taylor_series_sin_056
         real( real64  ) module elemental function taylor_series_sin_056_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_056_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 57th order Taylor series
     interface taylor_series_sin_057
         real( real64  ) module elemental function taylor_series_sin_057_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_057_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 58th order Taylor series
     interface taylor_series_sin_058
         real( real64  ) module elemental function taylor_series_sin_058_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_058_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 59th order Taylor series
     interface taylor_series_sin_059
         real( real64  ) module elemental function taylor_series_sin_059_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_059_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 60th order Taylor series
     interface taylor_series_sin_060
         real( real64  ) module elemental function taylor_series_sin_060_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_060_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 61st order Taylor series
     interface taylor_series_sin_061
         real( real64  ) module elemental function taylor_series_sin_061_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_061_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 62nd order Taylor series
     interface taylor_series_sin_062
         real( real64  ) module elemental function taylor_series_sin_062_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_062_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 63rd order Taylor series
     interface taylor_series_sin_063
         real( real64  ) module elemental function taylor_series_sin_063_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_063_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 64th order Taylor series
     interface taylor_series_sin_064
         real( real64  ) module elemental function taylor_series_sin_064_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_064_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 65th order Taylor series
     interface taylor_series_sin_065
         real( real64  ) module elemental function taylor_series_sin_065_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_065_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 66th order Taylor series
     interface taylor_series_sin_066
         real( real64  ) module elemental function taylor_series_sin_066_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_066_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 67th order Taylor series
     interface taylor_series_sin_067
         real( real64  ) module elemental function taylor_series_sin_067_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_067_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 68th order Taylor series
     interface taylor_series_sin_068
         real( real64  ) module elemental function taylor_series_sin_068_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_068_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 69th order Taylor series
     interface taylor_series_sin_069
         real( real64  ) module elemental function taylor_series_sin_069_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_069_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 70th order Taylor series
     interface taylor_series_sin_070
         real( real64  ) module elemental function taylor_series_sin_070_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_070_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 71st order Taylor series
     interface taylor_series_sin_071
         real( real64  ) module elemental function taylor_series_sin_071_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_071_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 72nd order Taylor series
     interface taylor_series_sin_072
         real( real64  ) module elemental function taylor_series_sin_072_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_072_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 73rd order Taylor series
     interface taylor_series_sin_073
         real( real64  ) module elemental function taylor_series_sin_073_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_073_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 74th order Taylor series
     interface taylor_series_sin_074
         real( real64  ) module elemental function taylor_series_sin_074_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_074_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 75th order Taylor series
     interface taylor_series_sin_075
         real( real64  ) module elemental function taylor_series_sin_075_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_075_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 76th order Taylor series
     interface taylor_series_sin_076
         real( real64  ) module elemental function taylor_series_sin_076_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_076_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 77th order Taylor series
     interface taylor_series_sin_077
         real( real64  ) module elemental function taylor_series_sin_077_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_077_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 78th order Taylor series
     interface taylor_series_sin_078
         real( real64  ) module elemental function taylor_series_sin_078_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_078_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 79th order Taylor series
     interface taylor_series_sin_079
         real( real64  ) module elemental function taylor_series_sin_079_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_079_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 80th order Taylor series
     interface taylor_series_sin_080
         real( real64  ) module elemental function taylor_series_sin_080_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_080_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 81st order Taylor series
     interface taylor_series_sin_081
         real( real64  ) module elemental function taylor_series_sin_081_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_081_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 82nd order Taylor series
     interface taylor_series_sin_082
         real( real64  ) module elemental function taylor_series_sin_082_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_082_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 83rd order Taylor series
     interface taylor_series_sin_083
         real( real64  ) module elemental function taylor_series_sin_083_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_083_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 84th order Taylor series
     interface taylor_series_sin_084
         real( real64  ) module elemental function taylor_series_sin_084_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_084_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 85th order Taylor series
     interface taylor_series_sin_085
         real( real64  ) module elemental function taylor_series_sin_085_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_085_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 86th order Taylor series
     interface taylor_series_sin_086
         real( real64  ) module elemental function taylor_series_sin_086_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_086_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 87th order Taylor series
     interface taylor_series_sin_087
         real( real64  ) module elemental function taylor_series_sin_087_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_087_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 88th order Taylor series
     interface taylor_series_sin_088
         real( real64  ) module elemental function taylor_series_sin_088_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_088_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 89th order Taylor series
     interface taylor_series_sin_089
         real( real64  ) module elemental function taylor_series_sin_089_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_089_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 90th order Taylor series
     interface taylor_series_sin_090
         real( real64  ) module elemental function taylor_series_sin_090_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_090_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 91st order Taylor series
     interface taylor_series_sin_091
         real( real64  ) module elemental function taylor_series_sin_091_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_091_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 92nd order Taylor series
     interface taylor_series_sin_092
         real( real64  ) module elemental function taylor_series_sin_092_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_092_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 93rd order Taylor series
     interface taylor_series_sin_093
         real( real64  ) module elemental function taylor_series_sin_093_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_093_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 94th order Taylor series
     interface taylor_series_sin_094
         real( real64  ) module elemental function taylor_series_sin_094_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_094_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 95th order Taylor series
     interface taylor_series_sin_095
         real( real64  ) module elemental function taylor_series_sin_095_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_095_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 96th order Taylor series
     interface taylor_series_sin_096
         real( real64  ) module elemental function taylor_series_sin_096_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_096_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 97th order Taylor series
     interface taylor_series_sin_097
         real( real64  ) module elemental function taylor_series_sin_097_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_097_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 98th order Taylor series
     interface taylor_series_sin_098
         real( real64  ) module elemental function taylor_series_sin_098_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_098_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 99th order Taylor series
     interface taylor_series_sin_099
         real( real64  ) module elemental function taylor_series_sin_099_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_099_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 100th order Taylor series
     interface taylor_series_sin_100
         real( real64  ) module elemental function taylor_series_sin_100_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_100_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 101st order Taylor series
     interface taylor_series_sin_101
         real( real64  ) module elemental function taylor_series_sin_101_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_101_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 102nd order Taylor series
     interface taylor_series_sin_102
         real( real64  ) module elemental function taylor_series_sin_102_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_102_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 103rd order Taylor series
     interface taylor_series_sin_103
         real( real64  ) module elemental function taylor_series_sin_103_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_103_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 104th order Taylor series
     interface taylor_series_sin_104
         real( real64  ) module elemental function taylor_series_sin_104_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_104_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 105th order Taylor series
     interface taylor_series_sin_105
         real( real64  ) module elemental function taylor_series_sin_105_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_105_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 106th order Taylor series
     interface taylor_series_sin_106
         real( real64  ) module elemental function taylor_series_sin_106_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_106_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 107th order Taylor series
     interface taylor_series_sin_107
         real( real64  ) module elemental function taylor_series_sin_107_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_107_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 108th order Taylor series
     interface taylor_series_sin_108
         real( real64  ) module elemental function taylor_series_sin_108_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_108_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 109th order Taylor series
     interface taylor_series_sin_109
         real( real64  ) module elemental function taylor_series_sin_109_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_109_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 110th order Taylor series
     interface taylor_series_sin_110
         real( real64  ) module elemental function taylor_series_sin_110_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_110_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 111th order Taylor series
     interface taylor_series_sin_111
         real( real64  ) module elemental function taylor_series_sin_111_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_111_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 112th order Taylor series
     interface taylor_series_sin_112
         real( real64  ) module elemental function taylor_series_sin_112_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_112_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 113th order Taylor series
     interface taylor_series_sin_113
         real( real64  ) module elemental function taylor_series_sin_113_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_113_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 114th order Taylor series
     interface taylor_series_sin_114
         real( real64  ) module elemental function taylor_series_sin_114_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_114_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 115th order Taylor series
     interface taylor_series_sin_115
         real( real64  ) module elemental function taylor_series_sin_115_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_115_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 116th order Taylor series
     interface taylor_series_sin_116
         real( real64  ) module elemental function taylor_series_sin_116_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_116_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 117th order Taylor series
     interface taylor_series_sin_117
         real( real64  ) module elemental function taylor_series_sin_117_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_117_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 118th order Taylor series
     interface taylor_series_sin_118
         real( real64  ) module elemental function taylor_series_sin_118_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_118_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 119th order Taylor series
     interface taylor_series_sin_119
         real( real64  ) module elemental function taylor_series_sin_119_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_119_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 120th order Taylor series
     interface taylor_series_sin_120
         real( real64  ) module elemental function taylor_series_sin_120_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_120_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 121st order Taylor series
     interface taylor_series_sin_121
         real( real64  ) module elemental function taylor_series_sin_121_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_121_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 122nd order Taylor series
     interface taylor_series_sin_122
         real( real64  ) module elemental function taylor_series_sin_122_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_122_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 123rd order Taylor series
     interface taylor_series_sin_123
         real( real64  ) module elemental function taylor_series_sin_123_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_123_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 124th order Taylor series
     interface taylor_series_sin_124
         real( real64  ) module elemental function taylor_series_sin_124_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_124_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 125th order Taylor series
     interface taylor_series_sin_125
         real( real64  ) module elemental function taylor_series_sin_125_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_125_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 126th order Taylor series
     interface taylor_series_sin_126
         real( real64  ) module elemental function taylor_series_sin_126_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_126_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 127th order Taylor series
     interface taylor_series_sin_127
         real( real64  ) module elemental function taylor_series_sin_127_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_127_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 128th order Taylor series
     interface taylor_series_sin_128
         real( real64  ) module elemental function taylor_series_sin_128_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_128_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 129th order Taylor series
     interface taylor_series_sin_129
         real( real64  ) module elemental function taylor_series_sin_129_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_129_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 130th order Taylor series
     interface taylor_series_sin_130
         real( real64  ) module elemental function taylor_series_sin_130_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_130_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 131st order Taylor series
     interface taylor_series_sin_131
         real( real64  ) module elemental function taylor_series_sin_131_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_131_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 132nd order Taylor series
     interface taylor_series_sin_132
         real( real64  ) module elemental function taylor_series_sin_132_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_132_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 133rd order Taylor series
     interface taylor_series_sin_133
         real( real64  ) module elemental function taylor_series_sin_133_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_133_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 134th order Taylor series
     interface taylor_series_sin_134
         real( real64  ) module elemental function taylor_series_sin_134_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_134_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 135th order Taylor series
     interface taylor_series_sin_135
         real( real64  ) module elemental function taylor_series_sin_135_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_135_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 136th order Taylor series
     interface taylor_series_sin_136
         real( real64  ) module elemental function taylor_series_sin_136_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_136_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 137th order Taylor series
     interface taylor_series_sin_137
         real( real64  ) module elemental function taylor_series_sin_137_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_137_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 138th order Taylor series
     interface taylor_series_sin_138
         real( real64  ) module elemental function taylor_series_sin_138_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_138_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 139th order Taylor series
     interface taylor_series_sin_139
         real( real64  ) module elemental function taylor_series_sin_139_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_139_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 140th order Taylor series
     interface taylor_series_sin_140
         real( real64  ) module elemental function taylor_series_sin_140_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_140_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 141st order Taylor series
     interface taylor_series_sin_141
         real( real64  ) module elemental function taylor_series_sin_141_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_141_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 142nd order Taylor series
     interface taylor_series_sin_142
         real( real64  ) module elemental function taylor_series_sin_142_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_142_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 143rd order Taylor series
     interface taylor_series_sin_143
         real( real64  ) module elemental function taylor_series_sin_143_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_143_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 144th order Taylor series
     interface taylor_series_sin_144
         real( real64  ) module elemental function taylor_series_sin_144_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_144_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 145th order Taylor series
     interface taylor_series_sin_145
         real( real64  ) module elemental function taylor_series_sin_145_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_145_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 146th order Taylor series
     interface taylor_series_sin_146
         real( real64  ) module elemental function taylor_series_sin_146_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_146_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 147th order Taylor series
     interface taylor_series_sin_147
         real( real64  ) module elemental function taylor_series_sin_147_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_147_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 148th order Taylor series
     interface taylor_series_sin_148
         real( real64  ) module elemental function taylor_series_sin_148_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_148_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 149th order Taylor series
     interface taylor_series_sin_149
         real( real64  ) module elemental function taylor_series_sin_149_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_149_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 150th order Taylor series
     interface taylor_series_sin_150
         real( real64  ) module elemental function taylor_series_sin_150_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_150_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 151st order Taylor series
     interface taylor_series_sin_151
         real( real64  ) module elemental function taylor_series_sin_151_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_151_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 152nd order Taylor series
     interface taylor_series_sin_152
         real( real64  ) module elemental function taylor_series_sin_152_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_152_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 153rd order Taylor series
     interface taylor_series_sin_153
         real( real64  ) module elemental function taylor_series_sin_153_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_153_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 154th order Taylor series
     interface taylor_series_sin_154
         real( real64  ) module elemental function taylor_series_sin_154_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_154_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 155th order Taylor series
     interface taylor_series_sin_155
         real( real64  ) module elemental function taylor_series_sin_155_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_155_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 156th order Taylor series
     interface taylor_series_sin_156
         real( real64  ) module elemental function taylor_series_sin_156_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_156_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 157th order Taylor series
     interface taylor_series_sin_157
         real( real64  ) module elemental function taylor_series_sin_157_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_157_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 158th order Taylor series
     interface taylor_series_sin_158
         real( real64  ) module elemental function taylor_series_sin_158_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_158_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 159th order Taylor series
     interface taylor_series_sin_159
         real( real64  ) module elemental function taylor_series_sin_159_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_159_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 160th order Taylor series
     interface taylor_series_sin_160
         real( real64  ) module elemental function taylor_series_sin_160_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_160_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 161st order Taylor series
     interface taylor_series_sin_161
         real( real64  ) module elemental function taylor_series_sin_161_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_161_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 162nd order Taylor series
     interface taylor_series_sin_162
         real( real64  ) module elemental function taylor_series_sin_162_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_162_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 163rd order Taylor series
     interface taylor_series_sin_163
         real( real64  ) module elemental function taylor_series_sin_163_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_163_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 164th order Taylor series
     interface taylor_series_sin_164
         real( real64  ) module elemental function taylor_series_sin_164_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_164_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 165th order Taylor series
     interface taylor_series_sin_165
         real( real64  ) module elemental function taylor_series_sin_165_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_165_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 166th order Taylor series
     interface taylor_series_sin_166
         real( real64  ) module elemental function taylor_series_sin_166_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_166_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 167th order Taylor series
     interface taylor_series_sin_167
         real( real64  ) module elemental function taylor_series_sin_167_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_167_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 168th order Taylor series
     interface taylor_series_sin_168
         real( real64  ) module elemental function taylor_series_sin_168_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_168_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 169th order Taylor series
     interface taylor_series_sin_169
         real( real64  ) module elemental function taylor_series_sin_169_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_169_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 170th order Taylor series
     interface taylor_series_sin_170
         real( real64  ) module elemental function taylor_series_sin_170_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_170_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 171st order Taylor series
     interface taylor_series_sin_171
         real( real64  ) module elemental function taylor_series_sin_171_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_171_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 172nd order Taylor series
     interface taylor_series_sin_172
         real( real64  ) module elemental function taylor_series_sin_172_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_172_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 173rd order Taylor series
     interface taylor_series_sin_173
         real( real64  ) module elemental function taylor_series_sin_173_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_173_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 174th order Taylor series
     interface taylor_series_sin_174
         real( real64  ) module elemental function taylor_series_sin_174_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_174_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 175th order Taylor series
     interface taylor_series_sin_175
         real( real64  ) module elemental function taylor_series_sin_175_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_175_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 176th order Taylor series
     interface taylor_series_sin_176
         real( real64  ) module elemental function taylor_series_sin_176_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_176_real128 (x) result(res); real( real128 ), intent(in) :: x; end function
     end interface
 
 
+    !> `sin(x)` approximation by a 177th order Taylor series
     interface taylor_series_sin_177
         real( real64  ) module elemental function taylor_series_sin_177_real64  (x) result(res); real( real64  ), intent(in) :: x; end function
         real( real128 ) module elemental function taylor_series_sin_177_real128 (x) result(res); real( real128 ), intent(in) :: x; end function

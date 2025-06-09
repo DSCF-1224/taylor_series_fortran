@@ -1,3 +1,4 @@
+!> Implementation of `taylor_series_exp_***` for `real128`.
 submodule (taylor_series_fortran) imp_taylor_series_exp_real128
 
     implicit none

@@ -1,3 +1,4 @@
+!> Implementation of `taylor_series_sin_***` for `real32`.
 submodule (taylor_series_fortran) imp_taylor_series_sin_real32
 
     implicit none
