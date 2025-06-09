@@ -4,8 +4,11 @@
     #:include 'with_real.fypp'
 
     #:set SUBMODULE_NAME = 'imp_' + INTERFACE_TAYLOR_SERIES_SIN('') + '_' + REAL_KIND
-    
+
+    #:set SUBMODULE_DESCRIPTION = 'Implementation of `' + INTERFACE_TAYLOR_SERIES_SIN("*" * 3) + '` for `' + REAL_KIND + '`.'
+
 #:endmute
+!> ${SUBMODULE_DESCRIPTION}$
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     implicit none

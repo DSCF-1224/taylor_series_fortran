@@ -41,6 +41,7 @@ module ${MODULE_NAME}$
 
     #:for DEGREE in range(MAXVAL_DEGREE_COS)
     #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_COS(DEGREE)
+    !> `cos(x)` approximation by a @{TO_ORDINAL(${DEGREE}$)}@ order Taylor series
     interface ${INTERFACE_NAME}$
     #:for KIND in REAL_KINDS
         #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_COS(DEGREE, KIND)
@@ -65,6 +66,7 @@ module ${MODULE_NAME}$
 
     #:for DEGREE in range(MAXVAL_DEGREE_EXP)
     #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_EXP(DEGREE)
+    !> `exp(x)` approximation by a @{TO_ORDINAL(${DEGREE}$)}@ order Taylor series
     interface ${INTERFACE_NAME}$
     #:for KIND in REAL_KINDS
         #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_EXP(DEGREE, KIND)
@@ -89,6 +91,7 @@ module ${MODULE_NAME}$
 
     #:for DEGREE in range(MAXVAL_DEGREE_SIN)
     #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_SIN(DEGREE)
+    !> `sin(x)` approximation by a @{TO_ORDINAL(${DEGREE}$)}@ order Taylor series
     interface ${INTERFACE_NAME}$
     #:for KIND in REAL_KINDS
         #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_SIN(DEGREE, KIND)

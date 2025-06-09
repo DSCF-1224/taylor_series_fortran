@@ -142,6 +142,20 @@
 
 
 
+    #:def TO_ORDINAL(n)
+    #:if 10 <= ( int(n) % 100 ) and ( int(n) % 100 ) <= 20
+        #:set SUFFIX = 'th'
+    #:else
+        #:set SUFFIX = {1: 'st', 2: 'nd', 3: 'rd'}.get( int(n) % 10, 'th' )
+    #:endif
+    #:set RES = str(n) + SUFFIX
+    $:RES
+    #:del RES
+    #:del SUFFIX
+    #:enddef
+
+
+
     #:def BLOCK_DECLARE_HORNER(code, kind, degree)
     #:set FUNCTION_NAME = FUNCTION_HORNER(degree)
     real(${kind}$) elemental function ${FUNCTION_NAME}$(x, pre_step)
