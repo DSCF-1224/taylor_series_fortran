@@ -195,1239 +195,1239 @@ submodule (taylor_series_fortran) imp_taylor_series_exp_real128
 
     module procedure taylor_series_exp_001_real128
 
-        res = horner_000( x = x, pre_step = (coefficient_000 + x * coefficient_001) )
+        res = horner_000( x = x, pre_step = coefficient_001 )
 
     end procedure taylor_series_exp_001_real128
 
 
     module procedure taylor_series_exp_002_real128
 
-        res = horner_001( x = x, pre_step = (coefficient_001 + x * coefficient_002) )
+        res = horner_001( x = x, pre_step = coefficient_002 )
 
     end procedure taylor_series_exp_002_real128
 
 
     module procedure taylor_series_exp_003_real128
 
-        res = horner_002( x = x, pre_step = (coefficient_002 + x * coefficient_003) )
+        res = horner_002( x = x, pre_step = coefficient_003 )
 
     end procedure taylor_series_exp_003_real128
 
 
     module procedure taylor_series_exp_004_real128
 
-        res = horner_003( x = x, pre_step = (coefficient_003 + x * coefficient_004) )
+        res = horner_003( x = x, pre_step = coefficient_004 )
 
     end procedure taylor_series_exp_004_real128
 
 
     module procedure taylor_series_exp_005_real128
 
-        res = horner_004( x = x, pre_step = (coefficient_004 + x * coefficient_005) )
+        res = horner_004( x = x, pre_step = coefficient_005 )
 
     end procedure taylor_series_exp_005_real128
 
 
     module procedure taylor_series_exp_006_real128
 
-        res = horner_005( x = x, pre_step = (coefficient_005 + x * coefficient_006) )
+        res = horner_005( x = x, pre_step = coefficient_006 )
 
     end procedure taylor_series_exp_006_real128
 
 
     module procedure taylor_series_exp_007_real128
 
-        res = horner_006( x = x, pre_step = (coefficient_006 + x * coefficient_007) )
+        res = horner_006( x = x, pre_step = coefficient_007 )
 
     end procedure taylor_series_exp_007_real128
 
 
     module procedure taylor_series_exp_008_real128
 
-        res = horner_007( x = x, pre_step = (coefficient_007 + x * coefficient_008) )
+        res = horner_007( x = x, pre_step = coefficient_008 )
 
     end procedure taylor_series_exp_008_real128
 
 
     module procedure taylor_series_exp_009_real128
 
-        res = horner_008( x = x, pre_step = (coefficient_008 + x * coefficient_009) )
+        res = horner_008( x = x, pre_step = coefficient_009 )
 
     end procedure taylor_series_exp_009_real128
 
 
     module procedure taylor_series_exp_010_real128
 
-        res = horner_009( x = x, pre_step = (coefficient_009 + x * coefficient_010) )
+        res = horner_009( x = x, pre_step = coefficient_010 )
 
     end procedure taylor_series_exp_010_real128
 
 
     module procedure taylor_series_exp_011_real128
 
-        res = horner_010( x = x, pre_step = (coefficient_010 + x * coefficient_011) )
+        res = horner_010( x = x, pre_step = coefficient_011 )
 
     end procedure taylor_series_exp_011_real128
 
 
     module procedure taylor_series_exp_012_real128
 
-        res = horner_011( x = x, pre_step = (coefficient_011 + x * coefficient_012) )
+        res = horner_011( x = x, pre_step = coefficient_012 )
 
     end procedure taylor_series_exp_012_real128
 
 
     module procedure taylor_series_exp_013_real128
 
-        res = horner_012( x = x, pre_step = (coefficient_012 + x * coefficient_013) )
+        res = horner_012( x = x, pre_step = coefficient_013 )
 
     end procedure taylor_series_exp_013_real128
 
 
     module procedure taylor_series_exp_014_real128
 
-        res = horner_013( x = x, pre_step = (coefficient_013 + x * coefficient_014) )
+        res = horner_013( x = x, pre_step = coefficient_014 )
 
     end procedure taylor_series_exp_014_real128
 
 
     module procedure taylor_series_exp_015_real128
 
-        res = horner_014( x = x, pre_step = (coefficient_014 + x * coefficient_015) )
+        res = horner_014( x = x, pre_step = coefficient_015 )
 
     end procedure taylor_series_exp_015_real128
 
 
     module procedure taylor_series_exp_016_real128
 
-        res = horner_015( x = x, pre_step = (coefficient_015 + x * coefficient_016) )
+        res = horner_015( x = x, pre_step = coefficient_016 )
 
     end procedure taylor_series_exp_016_real128
 
 
     module procedure taylor_series_exp_017_real128
 
-        res = horner_016( x = x, pre_step = (coefficient_016 + x * coefficient_017) )
+        res = horner_016( x = x, pre_step = coefficient_017 )
 
     end procedure taylor_series_exp_017_real128
 
 
     module procedure taylor_series_exp_018_real128
 
-        res = horner_017( x = x, pre_step = (coefficient_017 + x * coefficient_018) )
+        res = horner_017( x = x, pre_step = coefficient_018 )
 
     end procedure taylor_series_exp_018_real128
 
 
     module procedure taylor_series_exp_019_real128
 
-        res = horner_018( x = x, pre_step = (coefficient_018 + x * coefficient_019) )
+        res = horner_018( x = x, pre_step = coefficient_019 )
 
     end procedure taylor_series_exp_019_real128
 
 
     module procedure taylor_series_exp_020_real128
 
-        res = horner_019( x = x, pre_step = (coefficient_019 + x * coefficient_020) )
+        res = horner_019( x = x, pre_step = coefficient_020 )
 
     end procedure taylor_series_exp_020_real128
 
 
     module procedure taylor_series_exp_021_real128
 
-        res = horner_020( x = x, pre_step = (coefficient_020 + x * coefficient_021) )
+        res = horner_020( x = x, pre_step = coefficient_021 )
 
     end procedure taylor_series_exp_021_real128
 
 
     module procedure taylor_series_exp_022_real128
 
-        res = horner_021( x = x, pre_step = (coefficient_021 + x * coefficient_022) )
+        res = horner_021( x = x, pre_step = coefficient_022 )
 
     end procedure taylor_series_exp_022_real128
 
 
     module procedure taylor_series_exp_023_real128
 
-        res = horner_022( x = x, pre_step = (coefficient_022 + x * coefficient_023) )
+        res = horner_022( x = x, pre_step = coefficient_023 )
 
     end procedure taylor_series_exp_023_real128
 
 
     module procedure taylor_series_exp_024_real128
 
-        res = horner_023( x = x, pre_step = (coefficient_023 + x * coefficient_024) )
+        res = horner_023( x = x, pre_step = coefficient_024 )
 
     end procedure taylor_series_exp_024_real128
 
 
     module procedure taylor_series_exp_025_real128
 
-        res = horner_024( x = x, pre_step = (coefficient_024 + x * coefficient_025) )
+        res = horner_024( x = x, pre_step = coefficient_025 )
 
     end procedure taylor_series_exp_025_real128
 
 
     module procedure taylor_series_exp_026_real128
 
-        res = horner_025( x = x, pre_step = (coefficient_025 + x * coefficient_026) )
+        res = horner_025( x = x, pre_step = coefficient_026 )
 
     end procedure taylor_series_exp_026_real128
 
 
     module procedure taylor_series_exp_027_real128
 
-        res = horner_026( x = x, pre_step = (coefficient_026 + x * coefficient_027) )
+        res = horner_026( x = x, pre_step = coefficient_027 )
 
     end procedure taylor_series_exp_027_real128
 
 
     module procedure taylor_series_exp_028_real128
 
-        res = horner_027( x = x, pre_step = (coefficient_027 + x * coefficient_028) )
+        res = horner_027( x = x, pre_step = coefficient_028 )
 
     end procedure taylor_series_exp_028_real128
 
 
     module procedure taylor_series_exp_029_real128
 
-        res = horner_028( x = x, pre_step = (coefficient_028 + x * coefficient_029) )
+        res = horner_028( x = x, pre_step = coefficient_029 )
 
     end procedure taylor_series_exp_029_real128
 
 
     module procedure taylor_series_exp_030_real128
 
-        res = horner_029( x = x, pre_step = (coefficient_029 + x * coefficient_030) )
+        res = horner_029( x = x, pre_step = coefficient_030 )
 
     end procedure taylor_series_exp_030_real128
 
 
     module procedure taylor_series_exp_031_real128
 
-        res = horner_030( x = x, pre_step = (coefficient_030 + x * coefficient_031) )
+        res = horner_030( x = x, pre_step = coefficient_031 )
 
     end procedure taylor_series_exp_031_real128
 
 
     module procedure taylor_series_exp_032_real128
 
-        res = horner_031( x = x, pre_step = (coefficient_031 + x * coefficient_032) )
+        res = horner_031( x = x, pre_step = coefficient_032 )
 
     end procedure taylor_series_exp_032_real128
 
 
     module procedure taylor_series_exp_033_real128
 
-        res = horner_032( x = x, pre_step = (coefficient_032 + x * coefficient_033) )
+        res = horner_032( x = x, pre_step = coefficient_033 )
 
     end procedure taylor_series_exp_033_real128
 
 
     module procedure taylor_series_exp_034_real128
 
-        res = horner_033( x = x, pre_step = (coefficient_033 + x * coefficient_034) )
+        res = horner_033( x = x, pre_step = coefficient_034 )
 
     end procedure taylor_series_exp_034_real128
 
 
     module procedure taylor_series_exp_035_real128
 
-        res = horner_034( x = x, pre_step = (coefficient_034 + x * coefficient_035) )
+        res = horner_034( x = x, pre_step = coefficient_035 )
 
     end procedure taylor_series_exp_035_real128
 
 
     module procedure taylor_series_exp_036_real128
 
-        res = horner_035( x = x, pre_step = (coefficient_035 + x * coefficient_036) )
+        res = horner_035( x = x, pre_step = coefficient_036 )
 
     end procedure taylor_series_exp_036_real128
 
 
     module procedure taylor_series_exp_037_real128
 
-        res = horner_036( x = x, pre_step = (coefficient_036 + x * coefficient_037) )
+        res = horner_036( x = x, pre_step = coefficient_037 )
 
     end procedure taylor_series_exp_037_real128
 
 
     module procedure taylor_series_exp_038_real128
 
-        res = horner_037( x = x, pre_step = (coefficient_037 + x * coefficient_038) )
+        res = horner_037( x = x, pre_step = coefficient_038 )
 
     end procedure taylor_series_exp_038_real128
 
 
     module procedure taylor_series_exp_039_real128
 
-        res = horner_038( x = x, pre_step = (coefficient_038 + x * coefficient_039) )
+        res = horner_038( x = x, pre_step = coefficient_039 )
 
     end procedure taylor_series_exp_039_real128
 
 
     module procedure taylor_series_exp_040_real128
 
-        res = horner_039( x = x, pre_step = (coefficient_039 + x * coefficient_040) )
+        res = horner_039( x = x, pre_step = coefficient_040 )
 
     end procedure taylor_series_exp_040_real128
 
 
     module procedure taylor_series_exp_041_real128
 
-        res = horner_040( x = x, pre_step = (coefficient_040 + x * coefficient_041) )
+        res = horner_040( x = x, pre_step = coefficient_041 )
 
     end procedure taylor_series_exp_041_real128
 
 
     module procedure taylor_series_exp_042_real128
 
-        res = horner_041( x = x, pre_step = (coefficient_041 + x * coefficient_042) )
+        res = horner_041( x = x, pre_step = coefficient_042 )
 
     end procedure taylor_series_exp_042_real128
 
 
     module procedure taylor_series_exp_043_real128
 
-        res = horner_042( x = x, pre_step = (coefficient_042 + x * coefficient_043) )
+        res = horner_042( x = x, pre_step = coefficient_043 )
 
     end procedure taylor_series_exp_043_real128
 
 
     module procedure taylor_series_exp_044_real128
 
-        res = horner_043( x = x, pre_step = (coefficient_043 + x * coefficient_044) )
+        res = horner_043( x = x, pre_step = coefficient_044 )
 
     end procedure taylor_series_exp_044_real128
 
 
     module procedure taylor_series_exp_045_real128
 
-        res = horner_044( x = x, pre_step = (coefficient_044 + x * coefficient_045) )
+        res = horner_044( x = x, pre_step = coefficient_045 )
 
     end procedure taylor_series_exp_045_real128
 
 
     module procedure taylor_series_exp_046_real128
 
-        res = horner_045( x = x, pre_step = (coefficient_045 + x * coefficient_046) )
+        res = horner_045( x = x, pre_step = coefficient_046 )
 
     end procedure taylor_series_exp_046_real128
 
 
     module procedure taylor_series_exp_047_real128
 
-        res = horner_046( x = x, pre_step = (coefficient_046 + x * coefficient_047) )
+        res = horner_046( x = x, pre_step = coefficient_047 )
 
     end procedure taylor_series_exp_047_real128
 
 
     module procedure taylor_series_exp_048_real128
 
-        res = horner_047( x = x, pre_step = (coefficient_047 + x * coefficient_048) )
+        res = horner_047( x = x, pre_step = coefficient_048 )
 
     end procedure taylor_series_exp_048_real128
 
 
     module procedure taylor_series_exp_049_real128
 
-        res = horner_048( x = x, pre_step = (coefficient_048 + x * coefficient_049) )
+        res = horner_048( x = x, pre_step = coefficient_049 )
 
     end procedure taylor_series_exp_049_real128
 
 
     module procedure taylor_series_exp_050_real128
 
-        res = horner_049( x = x, pre_step = (coefficient_049 + x * coefficient_050) )
+        res = horner_049( x = x, pre_step = coefficient_050 )
 
     end procedure taylor_series_exp_050_real128
 
 
     module procedure taylor_series_exp_051_real128
 
-        res = horner_050( x = x, pre_step = (coefficient_050 + x * coefficient_051) )
+        res = horner_050( x = x, pre_step = coefficient_051 )
 
     end procedure taylor_series_exp_051_real128
 
 
     module procedure taylor_series_exp_052_real128
 
-        res = horner_051( x = x, pre_step = (coefficient_051 + x * coefficient_052) )
+        res = horner_051( x = x, pre_step = coefficient_052 )
 
     end procedure taylor_series_exp_052_real128
 
 
     module procedure taylor_series_exp_053_real128
 
-        res = horner_052( x = x, pre_step = (coefficient_052 + x * coefficient_053) )
+        res = horner_052( x = x, pre_step = coefficient_053 )
 
     end procedure taylor_series_exp_053_real128
 
 
     module procedure taylor_series_exp_054_real128
 
-        res = horner_053( x = x, pre_step = (coefficient_053 + x * coefficient_054) )
+        res = horner_053( x = x, pre_step = coefficient_054 )
 
     end procedure taylor_series_exp_054_real128
 
 
     module procedure taylor_series_exp_055_real128
 
-        res = horner_054( x = x, pre_step = (coefficient_054 + x * coefficient_055) )
+        res = horner_054( x = x, pre_step = coefficient_055 )
 
     end procedure taylor_series_exp_055_real128
 
 
     module procedure taylor_series_exp_056_real128
 
-        res = horner_055( x = x, pre_step = (coefficient_055 + x * coefficient_056) )
+        res = horner_055( x = x, pre_step = coefficient_056 )
 
     end procedure taylor_series_exp_056_real128
 
 
     module procedure taylor_series_exp_057_real128
 
-        res = horner_056( x = x, pre_step = (coefficient_056 + x * coefficient_057) )
+        res = horner_056( x = x, pre_step = coefficient_057 )
 
     end procedure taylor_series_exp_057_real128
 
 
     module procedure taylor_series_exp_058_real128
 
-        res = horner_057( x = x, pre_step = (coefficient_057 + x * coefficient_058) )
+        res = horner_057( x = x, pre_step = coefficient_058 )
 
     end procedure taylor_series_exp_058_real128
 
 
     module procedure taylor_series_exp_059_real128
 
-        res = horner_058( x = x, pre_step = (coefficient_058 + x * coefficient_059) )
+        res = horner_058( x = x, pre_step = coefficient_059 )
 
     end procedure taylor_series_exp_059_real128
 
 
     module procedure taylor_series_exp_060_real128
 
-        res = horner_059( x = x, pre_step = (coefficient_059 + x * coefficient_060) )
+        res = horner_059( x = x, pre_step = coefficient_060 )
 
     end procedure taylor_series_exp_060_real128
 
 
     module procedure taylor_series_exp_061_real128
 
-        res = horner_060( x = x, pre_step = (coefficient_060 + x * coefficient_061) )
+        res = horner_060( x = x, pre_step = coefficient_061 )
 
     end procedure taylor_series_exp_061_real128
 
 
     module procedure taylor_series_exp_062_real128
 
-        res = horner_061( x = x, pre_step = (coefficient_061 + x * coefficient_062) )
+        res = horner_061( x = x, pre_step = coefficient_062 )
 
     end procedure taylor_series_exp_062_real128
 
 
     module procedure taylor_series_exp_063_real128
 
-        res = horner_062( x = x, pre_step = (coefficient_062 + x * coefficient_063) )
+        res = horner_062( x = x, pre_step = coefficient_063 )
 
     end procedure taylor_series_exp_063_real128
 
 
     module procedure taylor_series_exp_064_real128
 
-        res = horner_063( x = x, pre_step = (coefficient_063 + x * coefficient_064) )
+        res = horner_063( x = x, pre_step = coefficient_064 )
 
     end procedure taylor_series_exp_064_real128
 
 
     module procedure taylor_series_exp_065_real128
 
-        res = horner_064( x = x, pre_step = (coefficient_064 + x * coefficient_065) )
+        res = horner_064( x = x, pre_step = coefficient_065 )
 
     end procedure taylor_series_exp_065_real128
 
 
     module procedure taylor_series_exp_066_real128
 
-        res = horner_065( x = x, pre_step = (coefficient_065 + x * coefficient_066) )
+        res = horner_065( x = x, pre_step = coefficient_066 )
 
     end procedure taylor_series_exp_066_real128
 
 
     module procedure taylor_series_exp_067_real128
 
-        res = horner_066( x = x, pre_step = (coefficient_066 + x * coefficient_067) )
+        res = horner_066( x = x, pre_step = coefficient_067 )
 
     end procedure taylor_series_exp_067_real128
 
 
     module procedure taylor_series_exp_068_real128
 
-        res = horner_067( x = x, pre_step = (coefficient_067 + x * coefficient_068) )
+        res = horner_067( x = x, pre_step = coefficient_068 )
 
     end procedure taylor_series_exp_068_real128
 
 
     module procedure taylor_series_exp_069_real128
 
-        res = horner_068( x = x, pre_step = (coefficient_068 + x * coefficient_069) )
+        res = horner_068( x = x, pre_step = coefficient_069 )
 
     end procedure taylor_series_exp_069_real128
 
 
     module procedure taylor_series_exp_070_real128
 
-        res = horner_069( x = x, pre_step = (coefficient_069 + x * coefficient_070) )
+        res = horner_069( x = x, pre_step = coefficient_070 )
 
     end procedure taylor_series_exp_070_real128
 
 
     module procedure taylor_series_exp_071_real128
 
-        res = horner_070( x = x, pre_step = (coefficient_070 + x * coefficient_071) )
+        res = horner_070( x = x, pre_step = coefficient_071 )
 
     end procedure taylor_series_exp_071_real128
 
 
     module procedure taylor_series_exp_072_real128
 
-        res = horner_071( x = x, pre_step = (coefficient_071 + x * coefficient_072) )
+        res = horner_071( x = x, pre_step = coefficient_072 )
 
     end procedure taylor_series_exp_072_real128
 
 
     module procedure taylor_series_exp_073_real128
 
-        res = horner_072( x = x, pre_step = (coefficient_072 + x * coefficient_073) )
+        res = horner_072( x = x, pre_step = coefficient_073 )
 
     end procedure taylor_series_exp_073_real128
 
 
     module procedure taylor_series_exp_074_real128
 
-        res = horner_073( x = x, pre_step = (coefficient_073 + x * coefficient_074) )
+        res = horner_073( x = x, pre_step = coefficient_074 )
 
     end procedure taylor_series_exp_074_real128
 
 
     module procedure taylor_series_exp_075_real128
 
-        res = horner_074( x = x, pre_step = (coefficient_074 + x * coefficient_075) )
+        res = horner_074( x = x, pre_step = coefficient_075 )
 
     end procedure taylor_series_exp_075_real128
 
 
     module procedure taylor_series_exp_076_real128
 
-        res = horner_075( x = x, pre_step = (coefficient_075 + x * coefficient_076) )
+        res = horner_075( x = x, pre_step = coefficient_076 )
 
     end procedure taylor_series_exp_076_real128
 
 
     module procedure taylor_series_exp_077_real128
 
-        res = horner_076( x = x, pre_step = (coefficient_076 + x * coefficient_077) )
+        res = horner_076( x = x, pre_step = coefficient_077 )
 
     end procedure taylor_series_exp_077_real128
 
 
     module procedure taylor_series_exp_078_real128
 
-        res = horner_077( x = x, pre_step = (coefficient_077 + x * coefficient_078) )
+        res = horner_077( x = x, pre_step = coefficient_078 )
 
     end procedure taylor_series_exp_078_real128
 
 
     module procedure taylor_series_exp_079_real128
 
-        res = horner_078( x = x, pre_step = (coefficient_078 + x * coefficient_079) )
+        res = horner_078( x = x, pre_step = coefficient_079 )
 
     end procedure taylor_series_exp_079_real128
 
 
     module procedure taylor_series_exp_080_real128
 
-        res = horner_079( x = x, pre_step = (coefficient_079 + x * coefficient_080) )
+        res = horner_079( x = x, pre_step = coefficient_080 )
 
     end procedure taylor_series_exp_080_real128
 
 
     module procedure taylor_series_exp_081_real128
 
-        res = horner_080( x = x, pre_step = (coefficient_080 + x * coefficient_081) )
+        res = horner_080( x = x, pre_step = coefficient_081 )
 
     end procedure taylor_series_exp_081_real128
 
 
     module procedure taylor_series_exp_082_real128
 
-        res = horner_081( x = x, pre_step = (coefficient_081 + x * coefficient_082) )
+        res = horner_081( x = x, pre_step = coefficient_082 )
 
     end procedure taylor_series_exp_082_real128
 
 
     module procedure taylor_series_exp_083_real128
 
-        res = horner_082( x = x, pre_step = (coefficient_082 + x * coefficient_083) )
+        res = horner_082( x = x, pre_step = coefficient_083 )
 
     end procedure taylor_series_exp_083_real128
 
 
     module procedure taylor_series_exp_084_real128
 
-        res = horner_083( x = x, pre_step = (coefficient_083 + x * coefficient_084) )
+        res = horner_083( x = x, pre_step = coefficient_084 )
 
     end procedure taylor_series_exp_084_real128
 
 
     module procedure taylor_series_exp_085_real128
 
-        res = horner_084( x = x, pre_step = (coefficient_084 + x * coefficient_085) )
+        res = horner_084( x = x, pre_step = coefficient_085 )
 
     end procedure taylor_series_exp_085_real128
 
 
     module procedure taylor_series_exp_086_real128
 
-        res = horner_085( x = x, pre_step = (coefficient_085 + x * coefficient_086) )
+        res = horner_085( x = x, pre_step = coefficient_086 )
 
     end procedure taylor_series_exp_086_real128
 
 
     module procedure taylor_series_exp_087_real128
 
-        res = horner_086( x = x, pre_step = (coefficient_086 + x * coefficient_087) )
+        res = horner_086( x = x, pre_step = coefficient_087 )
 
     end procedure taylor_series_exp_087_real128
 
 
     module procedure taylor_series_exp_088_real128
 
-        res = horner_087( x = x, pre_step = (coefficient_087 + x * coefficient_088) )
+        res = horner_087( x = x, pre_step = coefficient_088 )
 
     end procedure taylor_series_exp_088_real128
 
 
     module procedure taylor_series_exp_089_real128
 
-        res = horner_088( x = x, pre_step = (coefficient_088 + x * coefficient_089) )
+        res = horner_088( x = x, pre_step = coefficient_089 )
 
     end procedure taylor_series_exp_089_real128
 
 
     module procedure taylor_series_exp_090_real128
 
-        res = horner_089( x = x, pre_step = (coefficient_089 + x * coefficient_090) )
+        res = horner_089( x = x, pre_step = coefficient_090 )
 
     end procedure taylor_series_exp_090_real128
 
 
     module procedure taylor_series_exp_091_real128
 
-        res = horner_090( x = x, pre_step = (coefficient_090 + x * coefficient_091) )
+        res = horner_090( x = x, pre_step = coefficient_091 )
 
     end procedure taylor_series_exp_091_real128
 
 
     module procedure taylor_series_exp_092_real128
 
-        res = horner_091( x = x, pre_step = (coefficient_091 + x * coefficient_092) )
+        res = horner_091( x = x, pre_step = coefficient_092 )
 
     end procedure taylor_series_exp_092_real128
 
 
     module procedure taylor_series_exp_093_real128
 
-        res = horner_092( x = x, pre_step = (coefficient_092 + x * coefficient_093) )
+        res = horner_092( x = x, pre_step = coefficient_093 )
 
     end procedure taylor_series_exp_093_real128
 
 
     module procedure taylor_series_exp_094_real128
 
-        res = horner_093( x = x, pre_step = (coefficient_093 + x * coefficient_094) )
+        res = horner_093( x = x, pre_step = coefficient_094 )
 
     end procedure taylor_series_exp_094_real128
 
 
     module procedure taylor_series_exp_095_real128
 
-        res = horner_094( x = x, pre_step = (coefficient_094 + x * coefficient_095) )
+        res = horner_094( x = x, pre_step = coefficient_095 )
 
     end procedure taylor_series_exp_095_real128
 
 
     module procedure taylor_series_exp_096_real128
 
-        res = horner_095( x = x, pre_step = (coefficient_095 + x * coefficient_096) )
+        res = horner_095( x = x, pre_step = coefficient_096 )
 
     end procedure taylor_series_exp_096_real128
 
 
     module procedure taylor_series_exp_097_real128
 
-        res = horner_096( x = x, pre_step = (coefficient_096 + x * coefficient_097) )
+        res = horner_096( x = x, pre_step = coefficient_097 )
 
     end procedure taylor_series_exp_097_real128
 
 
     module procedure taylor_series_exp_098_real128
 
-        res = horner_097( x = x, pre_step = (coefficient_097 + x * coefficient_098) )
+        res = horner_097( x = x, pre_step = coefficient_098 )
 
     end procedure taylor_series_exp_098_real128
 
 
     module procedure taylor_series_exp_099_real128
 
-        res = horner_098( x = x, pre_step = (coefficient_098 + x * coefficient_099) )
+        res = horner_098( x = x, pre_step = coefficient_099 )
 
     end procedure taylor_series_exp_099_real128
 
 
     module procedure taylor_series_exp_100_real128
 
-        res = horner_099( x = x, pre_step = (coefficient_099 + x * coefficient_100) )
+        res = horner_099( x = x, pre_step = coefficient_100 )
 
     end procedure taylor_series_exp_100_real128
 
 
     module procedure taylor_series_exp_101_real128
 
-        res = horner_100( x = x, pre_step = (coefficient_100 + x * coefficient_101) )
+        res = horner_100( x = x, pre_step = coefficient_101 )
 
     end procedure taylor_series_exp_101_real128
 
 
     module procedure taylor_series_exp_102_real128
 
-        res = horner_101( x = x, pre_step = (coefficient_101 + x * coefficient_102) )
+        res = horner_101( x = x, pre_step = coefficient_102 )
 
     end procedure taylor_series_exp_102_real128
 
 
     module procedure taylor_series_exp_103_real128
 
-        res = horner_102( x = x, pre_step = (coefficient_102 + x * coefficient_103) )
+        res = horner_102( x = x, pre_step = coefficient_103 )
 
     end procedure taylor_series_exp_103_real128
 
 
     module procedure taylor_series_exp_104_real128
 
-        res = horner_103( x = x, pre_step = (coefficient_103 + x * coefficient_104) )
+        res = horner_103( x = x, pre_step = coefficient_104 )
 
     end procedure taylor_series_exp_104_real128
 
 
     module procedure taylor_series_exp_105_real128
 
-        res = horner_104( x = x, pre_step = (coefficient_104 + x * coefficient_105) )
+        res = horner_104( x = x, pre_step = coefficient_105 )
 
     end procedure taylor_series_exp_105_real128
 
 
     module procedure taylor_series_exp_106_real128
 
-        res = horner_105( x = x, pre_step = (coefficient_105 + x * coefficient_106) )
+        res = horner_105( x = x, pre_step = coefficient_106 )
 
     end procedure taylor_series_exp_106_real128
 
 
     module procedure taylor_series_exp_107_real128
 
-        res = horner_106( x = x, pre_step = (coefficient_106 + x * coefficient_107) )
+        res = horner_106( x = x, pre_step = coefficient_107 )
 
     end procedure taylor_series_exp_107_real128
 
 
     module procedure taylor_series_exp_108_real128
 
-        res = horner_107( x = x, pre_step = (coefficient_107 + x * coefficient_108) )
+        res = horner_107( x = x, pre_step = coefficient_108 )
 
     end procedure taylor_series_exp_108_real128
 
 
     module procedure taylor_series_exp_109_real128
 
-        res = horner_108( x = x, pre_step = (coefficient_108 + x * coefficient_109) )
+        res = horner_108( x = x, pre_step = coefficient_109 )
 
     end procedure taylor_series_exp_109_real128
 
 
     module procedure taylor_series_exp_110_real128
 
-        res = horner_109( x = x, pre_step = (coefficient_109 + x * coefficient_110) )
+        res = horner_109( x = x, pre_step = coefficient_110 )
 
     end procedure taylor_series_exp_110_real128
 
 
     module procedure taylor_series_exp_111_real128
 
-        res = horner_110( x = x, pre_step = (coefficient_110 + x * coefficient_111) )
+        res = horner_110( x = x, pre_step = coefficient_111 )
 
     end procedure taylor_series_exp_111_real128
 
 
     module procedure taylor_series_exp_112_real128
 
-        res = horner_111( x = x, pre_step = (coefficient_111 + x * coefficient_112) )
+        res = horner_111( x = x, pre_step = coefficient_112 )
 
     end procedure taylor_series_exp_112_real128
 
 
     module procedure taylor_series_exp_113_real128
 
-        res = horner_112( x = x, pre_step = (coefficient_112 + x * coefficient_113) )
+        res = horner_112( x = x, pre_step = coefficient_113 )
 
     end procedure taylor_series_exp_113_real128
 
 
     module procedure taylor_series_exp_114_real128
 
-        res = horner_113( x = x, pre_step = (coefficient_113 + x * coefficient_114) )
+        res = horner_113( x = x, pre_step = coefficient_114 )
 
     end procedure taylor_series_exp_114_real128
 
 
     module procedure taylor_series_exp_115_real128
 
-        res = horner_114( x = x, pre_step = (coefficient_114 + x * coefficient_115) )
+        res = horner_114( x = x, pre_step = coefficient_115 )
 
     end procedure taylor_series_exp_115_real128
 
 
     module procedure taylor_series_exp_116_real128
 
-        res = horner_115( x = x, pre_step = (coefficient_115 + x * coefficient_116) )
+        res = horner_115( x = x, pre_step = coefficient_116 )
 
     end procedure taylor_series_exp_116_real128
 
 
     module procedure taylor_series_exp_117_real128
 
-        res = horner_116( x = x, pre_step = (coefficient_116 + x * coefficient_117) )
+        res = horner_116( x = x, pre_step = coefficient_117 )
 
     end procedure taylor_series_exp_117_real128
 
 
     module procedure taylor_series_exp_118_real128
 
-        res = horner_117( x = x, pre_step = (coefficient_117 + x * coefficient_118) )
+        res = horner_117( x = x, pre_step = coefficient_118 )
 
     end procedure taylor_series_exp_118_real128
 
 
     module procedure taylor_series_exp_119_real128
 
-        res = horner_118( x = x, pre_step = (coefficient_118 + x * coefficient_119) )
+        res = horner_118( x = x, pre_step = coefficient_119 )
 
     end procedure taylor_series_exp_119_real128
 
 
     module procedure taylor_series_exp_120_real128
 
-        res = horner_119( x = x, pre_step = (coefficient_119 + x * coefficient_120) )
+        res = horner_119( x = x, pre_step = coefficient_120 )
 
     end procedure taylor_series_exp_120_real128
 
 
     module procedure taylor_series_exp_121_real128
 
-        res = horner_120( x = x, pre_step = (coefficient_120 + x * coefficient_121) )
+        res = horner_120( x = x, pre_step = coefficient_121 )
 
     end procedure taylor_series_exp_121_real128
 
 
     module procedure taylor_series_exp_122_real128
 
-        res = horner_121( x = x, pre_step = (coefficient_121 + x * coefficient_122) )
+        res = horner_121( x = x, pre_step = coefficient_122 )
 
     end procedure taylor_series_exp_122_real128
 
 
     module procedure taylor_series_exp_123_real128
 
-        res = horner_122( x = x, pre_step = (coefficient_122 + x * coefficient_123) )
+        res = horner_122( x = x, pre_step = coefficient_123 )
 
     end procedure taylor_series_exp_123_real128
 
 
     module procedure taylor_series_exp_124_real128
 
-        res = horner_123( x = x, pre_step = (coefficient_123 + x * coefficient_124) )
+        res = horner_123( x = x, pre_step = coefficient_124 )
 
     end procedure taylor_series_exp_124_real128
 
 
     module procedure taylor_series_exp_125_real128
 
-        res = horner_124( x = x, pre_step = (coefficient_124 + x * coefficient_125) )
+        res = horner_124( x = x, pre_step = coefficient_125 )
 
     end procedure taylor_series_exp_125_real128
 
 
     module procedure taylor_series_exp_126_real128
 
-        res = horner_125( x = x, pre_step = (coefficient_125 + x * coefficient_126) )
+        res = horner_125( x = x, pre_step = coefficient_126 )
 
     end procedure taylor_series_exp_126_real128
 
 
     module procedure taylor_series_exp_127_real128
 
-        res = horner_126( x = x, pre_step = (coefficient_126 + x * coefficient_127) )
+        res = horner_126( x = x, pre_step = coefficient_127 )
 
     end procedure taylor_series_exp_127_real128
 
 
     module procedure taylor_series_exp_128_real128
 
-        res = horner_127( x = x, pre_step = (coefficient_127 + x * coefficient_128) )
+        res = horner_127( x = x, pre_step = coefficient_128 )
 
     end procedure taylor_series_exp_128_real128
 
 
     module procedure taylor_series_exp_129_real128
 
-        res = horner_128( x = x, pre_step = (coefficient_128 + x * coefficient_129) )
+        res = horner_128( x = x, pre_step = coefficient_129 )
 
     end procedure taylor_series_exp_129_real128
 
 
     module procedure taylor_series_exp_130_real128
 
-        res = horner_129( x = x, pre_step = (coefficient_129 + x * coefficient_130) )
+        res = horner_129( x = x, pre_step = coefficient_130 )
 
     end procedure taylor_series_exp_130_real128
 
 
     module procedure taylor_series_exp_131_real128
 
-        res = horner_130( x = x, pre_step = (coefficient_130 + x * coefficient_131) )
+        res = horner_130( x = x, pre_step = coefficient_131 )
 
     end procedure taylor_series_exp_131_real128
 
 
     module procedure taylor_series_exp_132_real128
 
-        res = horner_131( x = x, pre_step = (coefficient_131 + x * coefficient_132) )
+        res = horner_131( x = x, pre_step = coefficient_132 )
 
     end procedure taylor_series_exp_132_real128
 
 
     module procedure taylor_series_exp_133_real128
 
-        res = horner_132( x = x, pre_step = (coefficient_132 + x * coefficient_133) )
+        res = horner_132( x = x, pre_step = coefficient_133 )
 
     end procedure taylor_series_exp_133_real128
 
 
     module procedure taylor_series_exp_134_real128
 
-        res = horner_133( x = x, pre_step = (coefficient_133 + x * coefficient_134) )
+        res = horner_133( x = x, pre_step = coefficient_134 )
 
     end procedure taylor_series_exp_134_real128
 
 
     module procedure taylor_series_exp_135_real128
 
-        res = horner_134( x = x, pre_step = (coefficient_134 + x * coefficient_135) )
+        res = horner_134( x = x, pre_step = coefficient_135 )
 
     end procedure taylor_series_exp_135_real128
 
 
     module procedure taylor_series_exp_136_real128
 
-        res = horner_135( x = x, pre_step = (coefficient_135 + x * coefficient_136) )
+        res = horner_135( x = x, pre_step = coefficient_136 )
 
     end procedure taylor_series_exp_136_real128
 
 
     module procedure taylor_series_exp_137_real128
 
-        res = horner_136( x = x, pre_step = (coefficient_136 + x * coefficient_137) )
+        res = horner_136( x = x, pre_step = coefficient_137 )
 
     end procedure taylor_series_exp_137_real128
 
 
     module procedure taylor_series_exp_138_real128
 
-        res = horner_137( x = x, pre_step = (coefficient_137 + x * coefficient_138) )
+        res = horner_137( x = x, pre_step = coefficient_138 )
 
     end procedure taylor_series_exp_138_real128
 
 
     module procedure taylor_series_exp_139_real128
 
-        res = horner_138( x = x, pre_step = (coefficient_138 + x * coefficient_139) )
+        res = horner_138( x = x, pre_step = coefficient_139 )
 
     end procedure taylor_series_exp_139_real128
 
 
     module procedure taylor_series_exp_140_real128
 
-        res = horner_139( x = x, pre_step = (coefficient_139 + x * coefficient_140) )
+        res = horner_139( x = x, pre_step = coefficient_140 )
 
     end procedure taylor_series_exp_140_real128
 
 
     module procedure taylor_series_exp_141_real128
 
-        res = horner_140( x = x, pre_step = (coefficient_140 + x * coefficient_141) )
+        res = horner_140( x = x, pre_step = coefficient_141 )
 
     end procedure taylor_series_exp_141_real128
 
 
     module procedure taylor_series_exp_142_real128
 
-        res = horner_141( x = x, pre_step = (coefficient_141 + x * coefficient_142) )
+        res = horner_141( x = x, pre_step = coefficient_142 )
 
     end procedure taylor_series_exp_142_real128
 
 
     module procedure taylor_series_exp_143_real128
 
-        res = horner_142( x = x, pre_step = (coefficient_142 + x * coefficient_143) )
+        res = horner_142( x = x, pre_step = coefficient_143 )
 
     end procedure taylor_series_exp_143_real128
 
 
     module procedure taylor_series_exp_144_real128
 
-        res = horner_143( x = x, pre_step = (coefficient_143 + x * coefficient_144) )
+        res = horner_143( x = x, pre_step = coefficient_144 )
 
     end procedure taylor_series_exp_144_real128
 
 
     module procedure taylor_series_exp_145_real128
 
-        res = horner_144( x = x, pre_step = (coefficient_144 + x * coefficient_145) )
+        res = horner_144( x = x, pre_step = coefficient_145 )
 
     end procedure taylor_series_exp_145_real128
 
 
     module procedure taylor_series_exp_146_real128
 
-        res = horner_145( x = x, pre_step = (coefficient_145 + x * coefficient_146) )
+        res = horner_145( x = x, pre_step = coefficient_146 )
 
     end procedure taylor_series_exp_146_real128
 
 
     module procedure taylor_series_exp_147_real128
 
-        res = horner_146( x = x, pre_step = (coefficient_146 + x * coefficient_147) )
+        res = horner_146( x = x, pre_step = coefficient_147 )
 
     end procedure taylor_series_exp_147_real128
 
 
     module procedure taylor_series_exp_148_real128
 
-        res = horner_147( x = x, pre_step = (coefficient_147 + x * coefficient_148) )
+        res = horner_147( x = x, pre_step = coefficient_148 )
 
     end procedure taylor_series_exp_148_real128
 
 
     module procedure taylor_series_exp_149_real128
 
-        res = horner_148( x = x, pre_step = (coefficient_148 + x * coefficient_149) )
+        res = horner_148( x = x, pre_step = coefficient_149 )
 
     end procedure taylor_series_exp_149_real128
 
 
     module procedure taylor_series_exp_150_real128
 
-        res = horner_149( x = x, pre_step = (coefficient_149 + x * coefficient_150) )
+        res = horner_149( x = x, pre_step = coefficient_150 )
 
     end procedure taylor_series_exp_150_real128
 
 
     module procedure taylor_series_exp_151_real128
 
-        res = horner_150( x = x, pre_step = (coefficient_150 + x * coefficient_151) )
+        res = horner_150( x = x, pre_step = coefficient_151 )
 
     end procedure taylor_series_exp_151_real128
 
 
     module procedure taylor_series_exp_152_real128
 
-        res = horner_151( x = x, pre_step = (coefficient_151 + x * coefficient_152) )
+        res = horner_151( x = x, pre_step = coefficient_152 )
 
     end procedure taylor_series_exp_152_real128
 
 
     module procedure taylor_series_exp_153_real128
 
-        res = horner_152( x = x, pre_step = (coefficient_152 + x * coefficient_153) )
+        res = horner_152( x = x, pre_step = coefficient_153 )
 
     end procedure taylor_series_exp_153_real128
 
 
     module procedure taylor_series_exp_154_real128
 
-        res = horner_153( x = x, pre_step = (coefficient_153 + x * coefficient_154) )
+        res = horner_153( x = x, pre_step = coefficient_154 )
 
     end procedure taylor_series_exp_154_real128
 
 
     module procedure taylor_series_exp_155_real128
 
-        res = horner_154( x = x, pre_step = (coefficient_154 + x * coefficient_155) )
+        res = horner_154( x = x, pre_step = coefficient_155 )
 
     end procedure taylor_series_exp_155_real128
 
 
     module procedure taylor_series_exp_156_real128
 
-        res = horner_155( x = x, pre_step = (coefficient_155 + x * coefficient_156) )
+        res = horner_155( x = x, pre_step = coefficient_156 )
 
     end procedure taylor_series_exp_156_real128
 
 
     module procedure taylor_series_exp_157_real128
 
-        res = horner_156( x = x, pre_step = (coefficient_156 + x * coefficient_157) )
+        res = horner_156( x = x, pre_step = coefficient_157 )
 
     end procedure taylor_series_exp_157_real128
 
 
     module procedure taylor_series_exp_158_real128
 
-        res = horner_157( x = x, pre_step = (coefficient_157 + x * coefficient_158) )
+        res = horner_157( x = x, pre_step = coefficient_158 )
 
     end procedure taylor_series_exp_158_real128
 
 
     module procedure taylor_series_exp_159_real128
 
-        res = horner_158( x = x, pre_step = (coefficient_158 + x * coefficient_159) )
+        res = horner_158( x = x, pre_step = coefficient_159 )
 
     end procedure taylor_series_exp_159_real128
 
 
     module procedure taylor_series_exp_160_real128
 
-        res = horner_159( x = x, pre_step = (coefficient_159 + x * coefficient_160) )
+        res = horner_159( x = x, pre_step = coefficient_160 )
 
     end procedure taylor_series_exp_160_real128
 
 
     module procedure taylor_series_exp_161_real128
 
-        res = horner_160( x = x, pre_step = (coefficient_160 + x * coefficient_161) )
+        res = horner_160( x = x, pre_step = coefficient_161 )
 
     end procedure taylor_series_exp_161_real128
 
 
     module procedure taylor_series_exp_162_real128
 
-        res = horner_161( x = x, pre_step = (coefficient_161 + x * coefficient_162) )
+        res = horner_161( x = x, pre_step = coefficient_162 )
 
     end procedure taylor_series_exp_162_real128
 
 
     module procedure taylor_series_exp_163_real128
 
-        res = horner_162( x = x, pre_step = (coefficient_162 + x * coefficient_163) )
+        res = horner_162( x = x, pre_step = coefficient_163 )
 
     end procedure taylor_series_exp_163_real128
 
 
     module procedure taylor_series_exp_164_real128
 
-        res = horner_163( x = x, pre_step = (coefficient_163 + x * coefficient_164) )
+        res = horner_163( x = x, pre_step = coefficient_164 )
 
     end procedure taylor_series_exp_164_real128
 
 
     module procedure taylor_series_exp_165_real128
 
-        res = horner_164( x = x, pre_step = (coefficient_164 + x * coefficient_165) )
+        res = horner_164( x = x, pre_step = coefficient_165 )
 
     end procedure taylor_series_exp_165_real128
 
 
     module procedure taylor_series_exp_166_real128
 
-        res = horner_165( x = x, pre_step = (coefficient_165 + x * coefficient_166) )
+        res = horner_165( x = x, pre_step = coefficient_166 )
 
     end procedure taylor_series_exp_166_real128
 
 
     module procedure taylor_series_exp_167_real128
 
-        res = horner_166( x = x, pre_step = (coefficient_166 + x * coefficient_167) )
+        res = horner_166( x = x, pre_step = coefficient_167 )
 
     end procedure taylor_series_exp_167_real128
 
 
     module procedure taylor_series_exp_168_real128
 
-        res = horner_167( x = x, pre_step = (coefficient_167 + x * coefficient_168) )
+        res = horner_167( x = x, pre_step = coefficient_168 )
 
     end procedure taylor_series_exp_168_real128
 
 
     module procedure taylor_series_exp_169_real128
 
-        res = horner_168( x = x, pre_step = (coefficient_168 + x * coefficient_169) )
+        res = horner_168( x = x, pre_step = coefficient_169 )
 
     end procedure taylor_series_exp_169_real128
 
 
     module procedure taylor_series_exp_170_real128
 
-        res = horner_169( x = x, pre_step = (coefficient_169 + x * coefficient_170) )
+        res = horner_169( x = x, pre_step = coefficient_170 )
 
     end procedure taylor_series_exp_170_real128
 
 
     module procedure taylor_series_exp_171_real128
 
-        res = horner_170( x = x, pre_step = (coefficient_170 + x * coefficient_171) )
+        res = horner_170( x = x, pre_step = coefficient_171 )
 
     end procedure taylor_series_exp_171_real128
 
 
     module procedure taylor_series_exp_172_real128
 
-        res = horner_171( x = x, pre_step = (coefficient_171 + x * coefficient_172) )
+        res = horner_171( x = x, pre_step = coefficient_172 )
 
     end procedure taylor_series_exp_172_real128
 
 
     module procedure taylor_series_exp_173_real128
 
-        res = horner_172( x = x, pre_step = (coefficient_172 + x * coefficient_173) )
+        res = horner_172( x = x, pre_step = coefficient_173 )
 
     end procedure taylor_series_exp_173_real128
 
 
     module procedure taylor_series_exp_174_real128
 
-        res = horner_173( x = x, pre_step = (coefficient_173 + x * coefficient_174) )
+        res = horner_173( x = x, pre_step = coefficient_174 )
 
     end procedure taylor_series_exp_174_real128
 
 
     module procedure taylor_series_exp_175_real128
 
-        res = horner_174( x = x, pre_step = (coefficient_174 + x * coefficient_175) )
+        res = horner_174( x = x, pre_step = coefficient_175 )
 
     end procedure taylor_series_exp_175_real128
 
 
     module procedure taylor_series_exp_176_real128
 
-        res = horner_175( x = x, pre_step = (coefficient_175 + x * coefficient_176) )
+        res = horner_175( x = x, pre_step = coefficient_176 )
 
     end procedure taylor_series_exp_176_real128
 
 
     module procedure taylor_series_exp_177_real128
 
-        res = horner_176( x = x, pre_step = (coefficient_176 + x * coefficient_177) )
+        res = horner_176( x = x, pre_step = coefficient_177 )
 
     end procedure taylor_series_exp_177_real128
 

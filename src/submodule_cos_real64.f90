@@ -194,1232 +194,1232 @@ submodule (taylor_series_fortran) imp_taylor_series_cos_real64
 
     module procedure taylor_series_cos_001_real64
 
-        res = horner_000( x = x, pre_step = (coefficient_000 + x * coefficient_001) )
+        res = taylor_series_cos_000_real64(x)
 
     end procedure taylor_series_cos_001_real64
 
 
     module procedure taylor_series_cos_002_real64
 
-        res = horner_001( x = x, pre_step = (coefficient_001 + x * coefficient_002) )
+        res = horner_001( x = x, pre_step = coefficient_002 )
 
     end procedure taylor_series_cos_002_real64
 
 
     module procedure taylor_series_cos_003_real64
 
-        res = horner_002( x = x, pre_step = (coefficient_002 + x * coefficient_003) )
+        res = taylor_series_cos_002_real64(x)
 
     end procedure taylor_series_cos_003_real64
 
 
     module procedure taylor_series_cos_004_real64
 
-        res = horner_003( x = x, pre_step = (coefficient_003 + x * coefficient_004) )
+        res = horner_003( x = x, pre_step = coefficient_004 )
 
     end procedure taylor_series_cos_004_real64
 
 
     module procedure taylor_series_cos_005_real64
 
-        res = horner_004( x = x, pre_step = (coefficient_004 + x * coefficient_005) )
+        res = taylor_series_cos_004_real64(x)
 
     end procedure taylor_series_cos_005_real64
 
 
     module procedure taylor_series_cos_006_real64
 
-        res = horner_005( x = x, pre_step = (coefficient_005 + x * coefficient_006) )
+        res = horner_005( x = x, pre_step = coefficient_006 )
 
     end procedure taylor_series_cos_006_real64
 
 
     module procedure taylor_series_cos_007_real64
 
-        res = horner_006( x = x, pre_step = (coefficient_006 + x * coefficient_007) )
+        res = taylor_series_cos_006_real64(x)
 
     end procedure taylor_series_cos_007_real64
 
 
     module procedure taylor_series_cos_008_real64
 
-        res = horner_007( x = x, pre_step = (coefficient_007 + x * coefficient_008) )
+        res = horner_007( x = x, pre_step = coefficient_008 )
 
     end procedure taylor_series_cos_008_real64
 
 
     module procedure taylor_series_cos_009_real64
 
-        res = horner_008( x = x, pre_step = (coefficient_008 + x * coefficient_009) )
+        res = taylor_series_cos_008_real64(x)
 
     end procedure taylor_series_cos_009_real64
 
 
     module procedure taylor_series_cos_010_real64
 
-        res = horner_009( x = x, pre_step = (coefficient_009 + x * coefficient_010) )
+        res = horner_009( x = x, pre_step = coefficient_010 )
 
     end procedure taylor_series_cos_010_real64
 
 
     module procedure taylor_series_cos_011_real64
 
-        res = horner_010( x = x, pre_step = (coefficient_010 + x * coefficient_011) )
+        res = taylor_series_cos_010_real64(x)
 
     end procedure taylor_series_cos_011_real64
 
 
     module procedure taylor_series_cos_012_real64
 
-        res = horner_011( x = x, pre_step = (coefficient_011 + x * coefficient_012) )
+        res = horner_011( x = x, pre_step = coefficient_012 )
 
     end procedure taylor_series_cos_012_real64
 
 
     module procedure taylor_series_cos_013_real64
 
-        res = horner_012( x = x, pre_step = (coefficient_012 + x * coefficient_013) )
+        res = taylor_series_cos_012_real64(x)
 
     end procedure taylor_series_cos_013_real64
 
 
     module procedure taylor_series_cos_014_real64
 
-        res = horner_013( x = x, pre_step = (coefficient_013 + x * coefficient_014) )
+        res = horner_013( x = x, pre_step = coefficient_014 )
 
     end procedure taylor_series_cos_014_real64
 
 
     module procedure taylor_series_cos_015_real64
 
-        res = horner_014( x = x, pre_step = (coefficient_014 + x * coefficient_015) )
+        res = taylor_series_cos_014_real64(x)
 
     end procedure taylor_series_cos_015_real64
 
 
     module procedure taylor_series_cos_016_real64
 
-        res = horner_015( x = x, pre_step = (coefficient_015 + x * coefficient_016) )
+        res = horner_015( x = x, pre_step = coefficient_016 )
 
     end procedure taylor_series_cos_016_real64
 
 
     module procedure taylor_series_cos_017_real64
 
-        res = horner_016( x = x, pre_step = (coefficient_016 + x * coefficient_017) )
+        res = taylor_series_cos_016_real64(x)
 
     end procedure taylor_series_cos_017_real64
 
 
     module procedure taylor_series_cos_018_real64
 
-        res = horner_017( x = x, pre_step = (coefficient_017 + x * coefficient_018) )
+        res = horner_017( x = x, pre_step = coefficient_018 )
 
     end procedure taylor_series_cos_018_real64
 
 
     module procedure taylor_series_cos_019_real64
 
-        res = horner_018( x = x, pre_step = (coefficient_018 + x * coefficient_019) )
+        res = taylor_series_cos_018_real64(x)
 
     end procedure taylor_series_cos_019_real64
 
 
     module procedure taylor_series_cos_020_real64
 
-        res = horner_019( x = x, pre_step = (coefficient_019 + x * coefficient_020) )
+        res = horner_019( x = x, pre_step = coefficient_020 )
 
     end procedure taylor_series_cos_020_real64
 
 
     module procedure taylor_series_cos_021_real64
 
-        res = horner_020( x = x, pre_step = (coefficient_020 + x * coefficient_021) )
+        res = taylor_series_cos_020_real64(x)
 
     end procedure taylor_series_cos_021_real64
 
 
     module procedure taylor_series_cos_022_real64
 
-        res = horner_021( x = x, pre_step = (coefficient_021 + x * coefficient_022) )
+        res = horner_021( x = x, pre_step = coefficient_022 )
 
     end procedure taylor_series_cos_022_real64
 
 
     module procedure taylor_series_cos_023_real64
 
-        res = horner_022( x = x, pre_step = (coefficient_022 + x * coefficient_023) )
+        res = taylor_series_cos_022_real64(x)
 
     end procedure taylor_series_cos_023_real64
 
 
     module procedure taylor_series_cos_024_real64
 
-        res = horner_023( x = x, pre_step = (coefficient_023 + x * coefficient_024) )
+        res = horner_023( x = x, pre_step = coefficient_024 )
 
     end procedure taylor_series_cos_024_real64
 
 
     module procedure taylor_series_cos_025_real64
 
-        res = horner_024( x = x, pre_step = (coefficient_024 + x * coefficient_025) )
+        res = taylor_series_cos_024_real64(x)
 
     end procedure taylor_series_cos_025_real64
 
 
     module procedure taylor_series_cos_026_real64
 
-        res = horner_025( x = x, pre_step = (coefficient_025 + x * coefficient_026) )
+        res = horner_025( x = x, pre_step = coefficient_026 )
 
     end procedure taylor_series_cos_026_real64
 
 
     module procedure taylor_series_cos_027_real64
 
-        res = horner_026( x = x, pre_step = (coefficient_026 + x * coefficient_027) )
+        res = taylor_series_cos_026_real64(x)
 
     end procedure taylor_series_cos_027_real64
 
 
     module procedure taylor_series_cos_028_real64
 
-        res = horner_027( x = x, pre_step = (coefficient_027 + x * coefficient_028) )
+        res = horner_027( x = x, pre_step = coefficient_028 )
 
     end procedure taylor_series_cos_028_real64
 
 
     module procedure taylor_series_cos_029_real64
 
-        res = horner_028( x = x, pre_step = (coefficient_028 + x * coefficient_029) )
+        res = taylor_series_cos_028_real64(x)
 
     end procedure taylor_series_cos_029_real64
 
 
     module procedure taylor_series_cos_030_real64
 
-        res = horner_029( x = x, pre_step = (coefficient_029 + x * coefficient_030) )
+        res = horner_029( x = x, pre_step = coefficient_030 )
 
     end procedure taylor_series_cos_030_real64
 
 
     module procedure taylor_series_cos_031_real64
 
-        res = horner_030( x = x, pre_step = (coefficient_030 + x * coefficient_031) )
+        res = taylor_series_cos_030_real64(x)
 
     end procedure taylor_series_cos_031_real64
 
 
     module procedure taylor_series_cos_032_real64
 
-        res = horner_031( x = x, pre_step = (coefficient_031 + x * coefficient_032) )
+        res = horner_031( x = x, pre_step = coefficient_032 )
 
     end procedure taylor_series_cos_032_real64
 
 
     module procedure taylor_series_cos_033_real64
 
-        res = horner_032( x = x, pre_step = (coefficient_032 + x * coefficient_033) )
+        res = taylor_series_cos_032_real64(x)
 
     end procedure taylor_series_cos_033_real64
 
 
     module procedure taylor_series_cos_034_real64
 
-        res = horner_033( x = x, pre_step = (coefficient_033 + x * coefficient_034) )
+        res = horner_033( x = x, pre_step = coefficient_034 )
 
     end procedure taylor_series_cos_034_real64
 
 
     module procedure taylor_series_cos_035_real64
 
-        res = horner_034( x = x, pre_step = (coefficient_034 + x * coefficient_035) )
+        res = taylor_series_cos_034_real64(x)
 
     end procedure taylor_series_cos_035_real64
 
 
     module procedure taylor_series_cos_036_real64
 
-        res = horner_035( x = x, pre_step = (coefficient_035 + x * coefficient_036) )
+        res = horner_035( x = x, pre_step = coefficient_036 )
 
     end procedure taylor_series_cos_036_real64
 
 
     module procedure taylor_series_cos_037_real64
 
-        res = horner_036( x = x, pre_step = (coefficient_036 + x * coefficient_037) )
+        res = taylor_series_cos_036_real64(x)
 
     end procedure taylor_series_cos_037_real64
 
 
     module procedure taylor_series_cos_038_real64
 
-        res = horner_037( x = x, pre_step = (coefficient_037 + x * coefficient_038) )
+        res = horner_037( x = x, pre_step = coefficient_038 )
 
     end procedure taylor_series_cos_038_real64
 
 
     module procedure taylor_series_cos_039_real64
 
-        res = horner_038( x = x, pre_step = (coefficient_038 + x * coefficient_039) )
+        res = taylor_series_cos_038_real64(x)
 
     end procedure taylor_series_cos_039_real64
 
 
     module procedure taylor_series_cos_040_real64
 
-        res = horner_039( x = x, pre_step = (coefficient_039 + x * coefficient_040) )
+        res = horner_039( x = x, pre_step = coefficient_040 )
 
     end procedure taylor_series_cos_040_real64
 
 
     module procedure taylor_series_cos_041_real64
 
-        res = horner_040( x = x, pre_step = (coefficient_040 + x * coefficient_041) )
+        res = taylor_series_cos_040_real64(x)
 
     end procedure taylor_series_cos_041_real64
 
 
     module procedure taylor_series_cos_042_real64
 
-        res = horner_041( x = x, pre_step = (coefficient_041 + x * coefficient_042) )
+        res = horner_041( x = x, pre_step = coefficient_042 )
 
     end procedure taylor_series_cos_042_real64
 
 
     module procedure taylor_series_cos_043_real64
 
-        res = horner_042( x = x, pre_step = (coefficient_042 + x * coefficient_043) )
+        res = taylor_series_cos_042_real64(x)
 
     end procedure taylor_series_cos_043_real64
 
 
     module procedure taylor_series_cos_044_real64
 
-        res = horner_043( x = x, pre_step = (coefficient_043 + x * coefficient_044) )
+        res = horner_043( x = x, pre_step = coefficient_044 )
 
     end procedure taylor_series_cos_044_real64
 
 
     module procedure taylor_series_cos_045_real64
 
-        res = horner_044( x = x, pre_step = (coefficient_044 + x * coefficient_045) )
+        res = taylor_series_cos_044_real64(x)
 
     end procedure taylor_series_cos_045_real64
 
 
     module procedure taylor_series_cos_046_real64
 
-        res = horner_045( x = x, pre_step = (coefficient_045 + x * coefficient_046) )
+        res = horner_045( x = x, pre_step = coefficient_046 )
 
     end procedure taylor_series_cos_046_real64
 
 
     module procedure taylor_series_cos_047_real64
 
-        res = horner_046( x = x, pre_step = (coefficient_046 + x * coefficient_047) )
+        res = taylor_series_cos_046_real64(x)
 
     end procedure taylor_series_cos_047_real64
 
 
     module procedure taylor_series_cos_048_real64
 
-        res = horner_047( x = x, pre_step = (coefficient_047 + x * coefficient_048) )
+        res = horner_047( x = x, pre_step = coefficient_048 )
 
     end procedure taylor_series_cos_048_real64
 
 
     module procedure taylor_series_cos_049_real64
 
-        res = horner_048( x = x, pre_step = (coefficient_048 + x * coefficient_049) )
+        res = taylor_series_cos_048_real64(x)
 
     end procedure taylor_series_cos_049_real64
 
 
     module procedure taylor_series_cos_050_real64
 
-        res = horner_049( x = x, pre_step = (coefficient_049 + x * coefficient_050) )
+        res = horner_049( x = x, pre_step = coefficient_050 )
 
     end procedure taylor_series_cos_050_real64
 
 
     module procedure taylor_series_cos_051_real64
 
-        res = horner_050( x = x, pre_step = (coefficient_050 + x * coefficient_051) )
+        res = taylor_series_cos_050_real64(x)
 
     end procedure taylor_series_cos_051_real64
 
 
     module procedure taylor_series_cos_052_real64
 
-        res = horner_051( x = x, pre_step = (coefficient_051 + x * coefficient_052) )
+        res = horner_051( x = x, pre_step = coefficient_052 )
 
     end procedure taylor_series_cos_052_real64
 
 
     module procedure taylor_series_cos_053_real64
 
-        res = horner_052( x = x, pre_step = (coefficient_052 + x * coefficient_053) )
+        res = taylor_series_cos_052_real64(x)
 
     end procedure taylor_series_cos_053_real64
 
 
     module procedure taylor_series_cos_054_real64
 
-        res = horner_053( x = x, pre_step = (coefficient_053 + x * coefficient_054) )
+        res = horner_053( x = x, pre_step = coefficient_054 )
 
     end procedure taylor_series_cos_054_real64
 
 
     module procedure taylor_series_cos_055_real64
 
-        res = horner_054( x = x, pre_step = (coefficient_054 + x * coefficient_055) )
+        res = taylor_series_cos_054_real64(x)
 
     end procedure taylor_series_cos_055_real64
 
 
     module procedure taylor_series_cos_056_real64
 
-        res = horner_055( x = x, pre_step = (coefficient_055 + x * coefficient_056) )
+        res = horner_055( x = x, pre_step = coefficient_056 )
 
     end procedure taylor_series_cos_056_real64
 
 
     module procedure taylor_series_cos_057_real64
 
-        res = horner_056( x = x, pre_step = (coefficient_056 + x * coefficient_057) )
+        res = taylor_series_cos_056_real64(x)
 
     end procedure taylor_series_cos_057_real64
 
 
     module procedure taylor_series_cos_058_real64
 
-        res = horner_057( x = x, pre_step = (coefficient_057 + x * coefficient_058) )
+        res = horner_057( x = x, pre_step = coefficient_058 )
 
     end procedure taylor_series_cos_058_real64
 
 
     module procedure taylor_series_cos_059_real64
 
-        res = horner_058( x = x, pre_step = (coefficient_058 + x * coefficient_059) )
+        res = taylor_series_cos_058_real64(x)
 
     end procedure taylor_series_cos_059_real64
 
 
     module procedure taylor_series_cos_060_real64
 
-        res = horner_059( x = x, pre_step = (coefficient_059 + x * coefficient_060) )
+        res = horner_059( x = x, pre_step = coefficient_060 )
 
     end procedure taylor_series_cos_060_real64
 
 
     module procedure taylor_series_cos_061_real64
 
-        res = horner_060( x = x, pre_step = (coefficient_060 + x * coefficient_061) )
+        res = taylor_series_cos_060_real64(x)
 
     end procedure taylor_series_cos_061_real64
 
 
     module procedure taylor_series_cos_062_real64
 
-        res = horner_061( x = x, pre_step = (coefficient_061 + x * coefficient_062) )
+        res = horner_061( x = x, pre_step = coefficient_062 )
 
     end procedure taylor_series_cos_062_real64
 
 
     module procedure taylor_series_cos_063_real64
 
-        res = horner_062( x = x, pre_step = (coefficient_062 + x * coefficient_063) )
+        res = taylor_series_cos_062_real64(x)
 
     end procedure taylor_series_cos_063_real64
 
 
     module procedure taylor_series_cos_064_real64
 
-        res = horner_063( x = x, pre_step = (coefficient_063 + x * coefficient_064) )
+        res = horner_063( x = x, pre_step = coefficient_064 )
 
     end procedure taylor_series_cos_064_real64
 
 
     module procedure taylor_series_cos_065_real64
 
-        res = horner_064( x = x, pre_step = (coefficient_064 + x * coefficient_065) )
+        res = taylor_series_cos_064_real64(x)
 
     end procedure taylor_series_cos_065_real64
 
 
     module procedure taylor_series_cos_066_real64
 
-        res = horner_065( x = x, pre_step = (coefficient_065 + x * coefficient_066) )
+        res = horner_065( x = x, pre_step = coefficient_066 )
 
     end procedure taylor_series_cos_066_real64
 
 
     module procedure taylor_series_cos_067_real64
 
-        res = horner_066( x = x, pre_step = (coefficient_066 + x * coefficient_067) )
+        res = taylor_series_cos_066_real64(x)
 
     end procedure taylor_series_cos_067_real64
 
 
     module procedure taylor_series_cos_068_real64
 
-        res = horner_067( x = x, pre_step = (coefficient_067 + x * coefficient_068) )
+        res = horner_067( x = x, pre_step = coefficient_068 )
 
     end procedure taylor_series_cos_068_real64
 
 
     module procedure taylor_series_cos_069_real64
 
-        res = horner_068( x = x, pre_step = (coefficient_068 + x * coefficient_069) )
+        res = taylor_series_cos_068_real64(x)
 
     end procedure taylor_series_cos_069_real64
 
 
     module procedure taylor_series_cos_070_real64
 
-        res = horner_069( x = x, pre_step = (coefficient_069 + x * coefficient_070) )
+        res = horner_069( x = x, pre_step = coefficient_070 )
 
     end procedure taylor_series_cos_070_real64
 
 
     module procedure taylor_series_cos_071_real64
 
-        res = horner_070( x = x, pre_step = (coefficient_070 + x * coefficient_071) )
+        res = taylor_series_cos_070_real64(x)
 
     end procedure taylor_series_cos_071_real64
 
 
     module procedure taylor_series_cos_072_real64
 
-        res = horner_071( x = x, pre_step = (coefficient_071 + x * coefficient_072) )
+        res = horner_071( x = x, pre_step = coefficient_072 )
 
     end procedure taylor_series_cos_072_real64
 
 
     module procedure taylor_series_cos_073_real64
 
-        res = horner_072( x = x, pre_step = (coefficient_072 + x * coefficient_073) )
+        res = taylor_series_cos_072_real64(x)
 
     end procedure taylor_series_cos_073_real64
 
 
     module procedure taylor_series_cos_074_real64
 
-        res = horner_073( x = x, pre_step = (coefficient_073 + x * coefficient_074) )
+        res = horner_073( x = x, pre_step = coefficient_074 )
 
     end procedure taylor_series_cos_074_real64
 
 
     module procedure taylor_series_cos_075_real64
 
-        res = horner_074( x = x, pre_step = (coefficient_074 + x * coefficient_075) )
+        res = taylor_series_cos_074_real64(x)
 
     end procedure taylor_series_cos_075_real64
 
 
     module procedure taylor_series_cos_076_real64
 
-        res = horner_075( x = x, pre_step = (coefficient_075 + x * coefficient_076) )
+        res = horner_075( x = x, pre_step = coefficient_076 )
 
     end procedure taylor_series_cos_076_real64
 
 
     module procedure taylor_series_cos_077_real64
 
-        res = horner_076( x = x, pre_step = (coefficient_076 + x * coefficient_077) )
+        res = taylor_series_cos_076_real64(x)
 
     end procedure taylor_series_cos_077_real64
 
 
     module procedure taylor_series_cos_078_real64
 
-        res = horner_077( x = x, pre_step = (coefficient_077 + x * coefficient_078) )
+        res = horner_077( x = x, pre_step = coefficient_078 )
 
     end procedure taylor_series_cos_078_real64
 
 
     module procedure taylor_series_cos_079_real64
 
-        res = horner_078( x = x, pre_step = (coefficient_078 + x * coefficient_079) )
+        res = taylor_series_cos_078_real64(x)
 
     end procedure taylor_series_cos_079_real64
 
 
     module procedure taylor_series_cos_080_real64
 
-        res = horner_079( x = x, pre_step = (coefficient_079 + x * coefficient_080) )
+        res = horner_079( x = x, pre_step = coefficient_080 )
 
     end procedure taylor_series_cos_080_real64
 
 
     module procedure taylor_series_cos_081_real64
 
-        res = horner_080( x = x, pre_step = (coefficient_080 + x * coefficient_081) )
+        res = taylor_series_cos_080_real64(x)
 
     end procedure taylor_series_cos_081_real64
 
 
     module procedure taylor_series_cos_082_real64
 
-        res = horner_081( x = x, pre_step = (coefficient_081 + x * coefficient_082) )
+        res = horner_081( x = x, pre_step = coefficient_082 )
 
     end procedure taylor_series_cos_082_real64
 
 
     module procedure taylor_series_cos_083_real64
 
-        res = horner_082( x = x, pre_step = (coefficient_082 + x * coefficient_083) )
+        res = taylor_series_cos_082_real64(x)
 
     end procedure taylor_series_cos_083_real64
 
 
     module procedure taylor_series_cos_084_real64
 
-        res = horner_083( x = x, pre_step = (coefficient_083 + x * coefficient_084) )
+        res = horner_083( x = x, pre_step = coefficient_084 )
 
     end procedure taylor_series_cos_084_real64
 
 
     module procedure taylor_series_cos_085_real64
 
-        res = horner_084( x = x, pre_step = (coefficient_084 + x * coefficient_085) )
+        res = taylor_series_cos_084_real64(x)
 
     end procedure taylor_series_cos_085_real64
 
 
     module procedure taylor_series_cos_086_real64
 
-        res = horner_085( x = x, pre_step = (coefficient_085 + x * coefficient_086) )
+        res = horner_085( x = x, pre_step = coefficient_086 )
 
     end procedure taylor_series_cos_086_real64
 
 
     module procedure taylor_series_cos_087_real64
 
-        res = horner_086( x = x, pre_step = (coefficient_086 + x * coefficient_087) )
+        res = taylor_series_cos_086_real64(x)
 
     end procedure taylor_series_cos_087_real64
 
 
     module procedure taylor_series_cos_088_real64
 
-        res = horner_087( x = x, pre_step = (coefficient_087 + x * coefficient_088) )
+        res = horner_087( x = x, pre_step = coefficient_088 )
 
     end procedure taylor_series_cos_088_real64
 
 
     module procedure taylor_series_cos_089_real64
 
-        res = horner_088( x = x, pre_step = (coefficient_088 + x * coefficient_089) )
+        res = taylor_series_cos_088_real64(x)
 
     end procedure taylor_series_cos_089_real64
 
 
     module procedure taylor_series_cos_090_real64
 
-        res = horner_089( x = x, pre_step = (coefficient_089 + x * coefficient_090) )
+        res = horner_089( x = x, pre_step = coefficient_090 )
 
     end procedure taylor_series_cos_090_real64
 
 
     module procedure taylor_series_cos_091_real64
 
-        res = horner_090( x = x, pre_step = (coefficient_090 + x * coefficient_091) )
+        res = taylor_series_cos_090_real64(x)
 
     end procedure taylor_series_cos_091_real64
 
 
     module procedure taylor_series_cos_092_real64
 
-        res = horner_091( x = x, pre_step = (coefficient_091 + x * coefficient_092) )
+        res = horner_091( x = x, pre_step = coefficient_092 )
 
     end procedure taylor_series_cos_092_real64
 
 
     module procedure taylor_series_cos_093_real64
 
-        res = horner_092( x = x, pre_step = (coefficient_092 + x * coefficient_093) )
+        res = taylor_series_cos_092_real64(x)
 
     end procedure taylor_series_cos_093_real64
 
 
     module procedure taylor_series_cos_094_real64
 
-        res = horner_093( x = x, pre_step = (coefficient_093 + x * coefficient_094) )
+        res = horner_093( x = x, pre_step = coefficient_094 )
 
     end procedure taylor_series_cos_094_real64
 
 
     module procedure taylor_series_cos_095_real64
 
-        res = horner_094( x = x, pre_step = (coefficient_094 + x * coefficient_095) )
+        res = taylor_series_cos_094_real64(x)
 
     end procedure taylor_series_cos_095_real64
 
 
     module procedure taylor_series_cos_096_real64
 
-        res = horner_095( x = x, pre_step = (coefficient_095 + x * coefficient_096) )
+        res = horner_095( x = x, pre_step = coefficient_096 )
 
     end procedure taylor_series_cos_096_real64
 
 
     module procedure taylor_series_cos_097_real64
 
-        res = horner_096( x = x, pre_step = (coefficient_096 + x * coefficient_097) )
+        res = taylor_series_cos_096_real64(x)
 
     end procedure taylor_series_cos_097_real64
 
 
     module procedure taylor_series_cos_098_real64
 
-        res = horner_097( x = x, pre_step = (coefficient_097 + x * coefficient_098) )
+        res = horner_097( x = x, pre_step = coefficient_098 )
 
     end procedure taylor_series_cos_098_real64
 
 
     module procedure taylor_series_cos_099_real64
 
-        res = horner_098( x = x, pre_step = (coefficient_098 + x * coefficient_099) )
+        res = taylor_series_cos_098_real64(x)
 
     end procedure taylor_series_cos_099_real64
 
 
     module procedure taylor_series_cos_100_real64
 
-        res = horner_099( x = x, pre_step = (coefficient_099 + x * coefficient_100) )
+        res = horner_099( x = x, pre_step = coefficient_100 )
 
     end procedure taylor_series_cos_100_real64
 
 
     module procedure taylor_series_cos_101_real64
 
-        res = horner_100( x = x, pre_step = (coefficient_100 + x * coefficient_101) )
+        res = taylor_series_cos_100_real64(x)
 
     end procedure taylor_series_cos_101_real64
 
 
     module procedure taylor_series_cos_102_real64
 
-        res = horner_101( x = x, pre_step = (coefficient_101 + x * coefficient_102) )
+        res = horner_101( x = x, pre_step = coefficient_102 )
 
     end procedure taylor_series_cos_102_real64
 
 
     module procedure taylor_series_cos_103_real64
 
-        res = horner_102( x = x, pre_step = (coefficient_102 + x * coefficient_103) )
+        res = taylor_series_cos_102_real64(x)
 
     end procedure taylor_series_cos_103_real64
 
 
     module procedure taylor_series_cos_104_real64
 
-        res = horner_103( x = x, pre_step = (coefficient_103 + x * coefficient_104) )
+        res = horner_103( x = x, pre_step = coefficient_104 )
 
     end procedure taylor_series_cos_104_real64
 
 
     module procedure taylor_series_cos_105_real64
 
-        res = horner_104( x = x, pre_step = (coefficient_104 + x * coefficient_105) )
+        res = taylor_series_cos_104_real64(x)
 
     end procedure taylor_series_cos_105_real64
 
 
     module procedure taylor_series_cos_106_real64
 
-        res = horner_105( x = x, pre_step = (coefficient_105 + x * coefficient_106) )
+        res = horner_105( x = x, pre_step = coefficient_106 )
 
     end procedure taylor_series_cos_106_real64
 
 
     module procedure taylor_series_cos_107_real64
 
-        res = horner_106( x = x, pre_step = (coefficient_106 + x * coefficient_107) )
+        res = taylor_series_cos_106_real64(x)
 
     end procedure taylor_series_cos_107_real64
 
 
     module procedure taylor_series_cos_108_real64
 
-        res = horner_107( x = x, pre_step = (coefficient_107 + x * coefficient_108) )
+        res = horner_107( x = x, pre_step = coefficient_108 )
 
     end procedure taylor_series_cos_108_real64
 
 
     module procedure taylor_series_cos_109_real64
 
-        res = horner_108( x = x, pre_step = (coefficient_108 + x * coefficient_109) )
+        res = taylor_series_cos_108_real64(x)
 
     end procedure taylor_series_cos_109_real64
 
 
     module procedure taylor_series_cos_110_real64
 
-        res = horner_109( x = x, pre_step = (coefficient_109 + x * coefficient_110) )
+        res = horner_109( x = x, pre_step = coefficient_110 )
 
     end procedure taylor_series_cos_110_real64
 
 
     module procedure taylor_series_cos_111_real64
 
-        res = horner_110( x = x, pre_step = (coefficient_110 + x * coefficient_111) )
+        res = taylor_series_cos_110_real64(x)
 
     end procedure taylor_series_cos_111_real64
 
 
     module procedure taylor_series_cos_112_real64
 
-        res = horner_111( x = x, pre_step = (coefficient_111 + x * coefficient_112) )
+        res = horner_111( x = x, pre_step = coefficient_112 )
 
     end procedure taylor_series_cos_112_real64
 
 
     module procedure taylor_series_cos_113_real64
 
-        res = horner_112( x = x, pre_step = (coefficient_112 + x * coefficient_113) )
+        res = taylor_series_cos_112_real64(x)
 
     end procedure taylor_series_cos_113_real64
 
 
     module procedure taylor_series_cos_114_real64
 
-        res = horner_113( x = x, pre_step = (coefficient_113 + x * coefficient_114) )
+        res = horner_113( x = x, pre_step = coefficient_114 )
 
     end procedure taylor_series_cos_114_real64
 
 
     module procedure taylor_series_cos_115_real64
 
-        res = horner_114( x = x, pre_step = (coefficient_114 + x * coefficient_115) )
+        res = taylor_series_cos_114_real64(x)
 
     end procedure taylor_series_cos_115_real64
 
 
     module procedure taylor_series_cos_116_real64
 
-        res = horner_115( x = x, pre_step = (coefficient_115 + x * coefficient_116) )
+        res = horner_115( x = x, pre_step = coefficient_116 )
 
     end procedure taylor_series_cos_116_real64
 
 
     module procedure taylor_series_cos_117_real64
 
-        res = horner_116( x = x, pre_step = (coefficient_116 + x * coefficient_117) )
+        res = taylor_series_cos_116_real64(x)
 
     end procedure taylor_series_cos_117_real64
 
 
     module procedure taylor_series_cos_118_real64
 
-        res = horner_117( x = x, pre_step = (coefficient_117 + x * coefficient_118) )
+        res = horner_117( x = x, pre_step = coefficient_118 )
 
     end procedure taylor_series_cos_118_real64
 
 
     module procedure taylor_series_cos_119_real64
 
-        res = horner_118( x = x, pre_step = (coefficient_118 + x * coefficient_119) )
+        res = taylor_series_cos_118_real64(x)
 
     end procedure taylor_series_cos_119_real64
 
 
     module procedure taylor_series_cos_120_real64
 
-        res = horner_119( x = x, pre_step = (coefficient_119 + x * coefficient_120) )
+        res = horner_119( x = x, pre_step = coefficient_120 )
 
     end procedure taylor_series_cos_120_real64
 
 
     module procedure taylor_series_cos_121_real64
 
-        res = horner_120( x = x, pre_step = (coefficient_120 + x * coefficient_121) )
+        res = taylor_series_cos_120_real64(x)
 
     end procedure taylor_series_cos_121_real64
 
 
     module procedure taylor_series_cos_122_real64
 
-        res = horner_121( x = x, pre_step = (coefficient_121 + x * coefficient_122) )
+        res = horner_121( x = x, pre_step = coefficient_122 )
 
     end procedure taylor_series_cos_122_real64
 
 
     module procedure taylor_series_cos_123_real64
 
-        res = horner_122( x = x, pre_step = (coefficient_122 + x * coefficient_123) )
+        res = taylor_series_cos_122_real64(x)
 
     end procedure taylor_series_cos_123_real64
 
 
     module procedure taylor_series_cos_124_real64
 
-        res = horner_123( x = x, pre_step = (coefficient_123 + x * coefficient_124) )
+        res = horner_123( x = x, pre_step = coefficient_124 )
 
     end procedure taylor_series_cos_124_real64
 
 
     module procedure taylor_series_cos_125_real64
 
-        res = horner_124( x = x, pre_step = (coefficient_124 + x * coefficient_125) )
+        res = taylor_series_cos_124_real64(x)
 
     end procedure taylor_series_cos_125_real64
 
 
     module procedure taylor_series_cos_126_real64
 
-        res = horner_125( x = x, pre_step = (coefficient_125 + x * coefficient_126) )
+        res = horner_125( x = x, pre_step = coefficient_126 )
 
     end procedure taylor_series_cos_126_real64
 
 
     module procedure taylor_series_cos_127_real64
 
-        res = horner_126( x = x, pre_step = (coefficient_126 + x * coefficient_127) )
+        res = taylor_series_cos_126_real64(x)
 
     end procedure taylor_series_cos_127_real64
 
 
     module procedure taylor_series_cos_128_real64
 
-        res = horner_127( x = x, pre_step = (coefficient_127 + x * coefficient_128) )
+        res = horner_127( x = x, pre_step = coefficient_128 )
 
     end procedure taylor_series_cos_128_real64
 
 
     module procedure taylor_series_cos_129_real64
 
-        res = horner_128( x = x, pre_step = (coefficient_128 + x * coefficient_129) )
+        res = taylor_series_cos_128_real64(x)
 
     end procedure taylor_series_cos_129_real64
 
 
     module procedure taylor_series_cos_130_real64
 
-        res = horner_129( x = x, pre_step = (coefficient_129 + x * coefficient_130) )
+        res = horner_129( x = x, pre_step = coefficient_130 )
 
     end procedure taylor_series_cos_130_real64
 
 
     module procedure taylor_series_cos_131_real64
 
-        res = horner_130( x = x, pre_step = (coefficient_130 + x * coefficient_131) )
+        res = taylor_series_cos_130_real64(x)
 
     end procedure taylor_series_cos_131_real64
 
 
     module procedure taylor_series_cos_132_real64
 
-        res = horner_131( x = x, pre_step = (coefficient_131 + x * coefficient_132) )
+        res = horner_131( x = x, pre_step = coefficient_132 )
 
     end procedure taylor_series_cos_132_real64
 
 
     module procedure taylor_series_cos_133_real64
 
-        res = horner_132( x = x, pre_step = (coefficient_132 + x * coefficient_133) )
+        res = taylor_series_cos_132_real64(x)
 
     end procedure taylor_series_cos_133_real64
 
 
     module procedure taylor_series_cos_134_real64
 
-        res = horner_133( x = x, pre_step = (coefficient_133 + x * coefficient_134) )
+        res = horner_133( x = x, pre_step = coefficient_134 )
 
     end procedure taylor_series_cos_134_real64
 
 
     module procedure taylor_series_cos_135_real64
 
-        res = horner_134( x = x, pre_step = (coefficient_134 + x * coefficient_135) )
+        res = taylor_series_cos_134_real64(x)
 
     end procedure taylor_series_cos_135_real64
 
 
     module procedure taylor_series_cos_136_real64
 
-        res = horner_135( x = x, pre_step = (coefficient_135 + x * coefficient_136) )
+        res = horner_135( x = x, pre_step = coefficient_136 )
 
     end procedure taylor_series_cos_136_real64
 
 
     module procedure taylor_series_cos_137_real64
 
-        res = horner_136( x = x, pre_step = (coefficient_136 + x * coefficient_137) )
+        res = taylor_series_cos_136_real64(x)
 
     end procedure taylor_series_cos_137_real64
 
 
     module procedure taylor_series_cos_138_real64
 
-        res = horner_137( x = x, pre_step = (coefficient_137 + x * coefficient_138) )
+        res = horner_137( x = x, pre_step = coefficient_138 )
 
     end procedure taylor_series_cos_138_real64
 
 
     module procedure taylor_series_cos_139_real64
 
-        res = horner_138( x = x, pre_step = (coefficient_138 + x * coefficient_139) )
+        res = taylor_series_cos_138_real64(x)
 
     end procedure taylor_series_cos_139_real64
 
 
     module procedure taylor_series_cos_140_real64
 
-        res = horner_139( x = x, pre_step = (coefficient_139 + x * coefficient_140) )
+        res = horner_139( x = x, pre_step = coefficient_140 )
 
     end procedure taylor_series_cos_140_real64
 
 
     module procedure taylor_series_cos_141_real64
 
-        res = horner_140( x = x, pre_step = (coefficient_140 + x * coefficient_141) )
+        res = taylor_series_cos_140_real64(x)
 
     end procedure taylor_series_cos_141_real64
 
 
     module procedure taylor_series_cos_142_real64
 
-        res = horner_141( x = x, pre_step = (coefficient_141 + x * coefficient_142) )
+        res = horner_141( x = x, pre_step = coefficient_142 )
 
     end procedure taylor_series_cos_142_real64
 
 
     module procedure taylor_series_cos_143_real64
 
-        res = horner_142( x = x, pre_step = (coefficient_142 + x * coefficient_143) )
+        res = taylor_series_cos_142_real64(x)
 
     end procedure taylor_series_cos_143_real64
 
 
     module procedure taylor_series_cos_144_real64
 
-        res = horner_143( x = x, pre_step = (coefficient_143 + x * coefficient_144) )
+        res = horner_143( x = x, pre_step = coefficient_144 )
 
     end procedure taylor_series_cos_144_real64
 
 
     module procedure taylor_series_cos_145_real64
 
-        res = horner_144( x = x, pre_step = (coefficient_144 + x * coefficient_145) )
+        res = taylor_series_cos_144_real64(x)
 
     end procedure taylor_series_cos_145_real64
 
 
     module procedure taylor_series_cos_146_real64
 
-        res = horner_145( x = x, pre_step = (coefficient_145 + x * coefficient_146) )
+        res = horner_145( x = x, pre_step = coefficient_146 )
 
     end procedure taylor_series_cos_146_real64
 
 
     module procedure taylor_series_cos_147_real64
 
-        res = horner_146( x = x, pre_step = (coefficient_146 + x * coefficient_147) )
+        res = taylor_series_cos_146_real64(x)
 
     end procedure taylor_series_cos_147_real64
 
 
     module procedure taylor_series_cos_148_real64
 
-        res = horner_147( x = x, pre_step = (coefficient_147 + x * coefficient_148) )
+        res = horner_147( x = x, pre_step = coefficient_148 )
 
     end procedure taylor_series_cos_148_real64
 
 
     module procedure taylor_series_cos_149_real64
 
-        res = horner_148( x = x, pre_step = (coefficient_148 + x * coefficient_149) )
+        res = taylor_series_cos_148_real64(x)
 
     end procedure taylor_series_cos_149_real64
 
 
     module procedure taylor_series_cos_150_real64
 
-        res = horner_149( x = x, pre_step = (coefficient_149 + x * coefficient_150) )
+        res = horner_149( x = x, pre_step = coefficient_150 )
 
     end procedure taylor_series_cos_150_real64
 
 
     module procedure taylor_series_cos_151_real64
 
-        res = horner_150( x = x, pre_step = (coefficient_150 + x * coefficient_151) )
+        res = taylor_series_cos_150_real64(x)
 
     end procedure taylor_series_cos_151_real64
 
 
     module procedure taylor_series_cos_152_real64
 
-        res = horner_151( x = x, pre_step = (coefficient_151 + x * coefficient_152) )
+        res = horner_151( x = x, pre_step = coefficient_152 )
 
     end procedure taylor_series_cos_152_real64
 
 
     module procedure taylor_series_cos_153_real64
 
-        res = horner_152( x = x, pre_step = (coefficient_152 + x * coefficient_153) )
+        res = taylor_series_cos_152_real64(x)
 
     end procedure taylor_series_cos_153_real64
 
 
     module procedure taylor_series_cos_154_real64
 
-        res = horner_153( x = x, pre_step = (coefficient_153 + x * coefficient_154) )
+        res = horner_153( x = x, pre_step = coefficient_154 )
 
     end procedure taylor_series_cos_154_real64
 
 
     module procedure taylor_series_cos_155_real64
 
-        res = horner_154( x = x, pre_step = (coefficient_154 + x * coefficient_155) )
+        res = taylor_series_cos_154_real64(x)
 
     end procedure taylor_series_cos_155_real64
 
 
     module procedure taylor_series_cos_156_real64
 
-        res = horner_155( x = x, pre_step = (coefficient_155 + x * coefficient_156) )
+        res = horner_155( x = x, pre_step = coefficient_156 )
 
     end procedure taylor_series_cos_156_real64
 
 
     module procedure taylor_series_cos_157_real64
 
-        res = horner_156( x = x, pre_step = (coefficient_156 + x * coefficient_157) )
+        res = taylor_series_cos_156_real64(x)
 
     end procedure taylor_series_cos_157_real64
 
 
     module procedure taylor_series_cos_158_real64
 
-        res = horner_157( x = x, pre_step = (coefficient_157 + x * coefficient_158) )
+        res = horner_157( x = x, pre_step = coefficient_158 )
 
     end procedure taylor_series_cos_158_real64
 
 
     module procedure taylor_series_cos_159_real64
 
-        res = horner_158( x = x, pre_step = (coefficient_158 + x * coefficient_159) )
+        res = taylor_series_cos_158_real64(x)
 
     end procedure taylor_series_cos_159_real64
 
 
     module procedure taylor_series_cos_160_real64
 
-        res = horner_159( x = x, pre_step = (coefficient_159 + x * coefficient_160) )
+        res = horner_159( x = x, pre_step = coefficient_160 )
 
     end procedure taylor_series_cos_160_real64
 
 
     module procedure taylor_series_cos_161_real64
 
-        res = horner_160( x = x, pre_step = (coefficient_160 + x * coefficient_161) )
+        res = taylor_series_cos_160_real64(x)
 
     end procedure taylor_series_cos_161_real64
 
 
     module procedure taylor_series_cos_162_real64
 
-        res = horner_161( x = x, pre_step = (coefficient_161 + x * coefficient_162) )
+        res = horner_161( x = x, pre_step = coefficient_162 )
 
     end procedure taylor_series_cos_162_real64
 
 
     module procedure taylor_series_cos_163_real64
 
-        res = horner_162( x = x, pre_step = (coefficient_162 + x * coefficient_163) )
+        res = taylor_series_cos_162_real64(x)
 
     end procedure taylor_series_cos_163_real64
 
 
     module procedure taylor_series_cos_164_real64
 
-        res = horner_163( x = x, pre_step = (coefficient_163 + x * coefficient_164) )
+        res = horner_163( x = x, pre_step = coefficient_164 )
 
     end procedure taylor_series_cos_164_real64
 
 
     module procedure taylor_series_cos_165_real64
 
-        res = horner_164( x = x, pre_step = (coefficient_164 + x * coefficient_165) )
+        res = taylor_series_cos_164_real64(x)
 
     end procedure taylor_series_cos_165_real64
 
 
     module procedure taylor_series_cos_166_real64
 
-        res = horner_165( x = x, pre_step = (coefficient_165 + x * coefficient_166) )
+        res = horner_165( x = x, pre_step = coefficient_166 )
 
     end procedure taylor_series_cos_166_real64
 
 
     module procedure taylor_series_cos_167_real64
 
-        res = horner_166( x = x, pre_step = (coefficient_166 + x * coefficient_167) )
+        res = taylor_series_cos_166_real64(x)
 
     end procedure taylor_series_cos_167_real64
 
 
     module procedure taylor_series_cos_168_real64
 
-        res = horner_167( x = x, pre_step = (coefficient_167 + x * coefficient_168) )
+        res = horner_167( x = x, pre_step = coefficient_168 )
 
     end procedure taylor_series_cos_168_real64
 
 
     module procedure taylor_series_cos_169_real64
 
-        res = horner_168( x = x, pre_step = (coefficient_168 + x * coefficient_169) )
+        res = taylor_series_cos_168_real64(x)
 
     end procedure taylor_series_cos_169_real64
 
 
     module procedure taylor_series_cos_170_real64
 
-        res = horner_169( x = x, pre_step = (coefficient_169 + x * coefficient_170) )
+        res = horner_169( x = x, pre_step = coefficient_170 )
 
     end procedure taylor_series_cos_170_real64
 
 
     module procedure taylor_series_cos_171_real64
 
-        res = horner_170( x = x, pre_step = (coefficient_170 + x * coefficient_171) )
+        res = taylor_series_cos_170_real64(x)
 
     end procedure taylor_series_cos_171_real64
 
 
     module procedure taylor_series_cos_172_real64
 
-        res = horner_171( x = x, pre_step = (coefficient_171 + x * coefficient_172) )
+        res = horner_171( x = x, pre_step = coefficient_172 )
 
     end procedure taylor_series_cos_172_real64
 
 
     module procedure taylor_series_cos_173_real64
 
-        res = horner_172( x = x, pre_step = (coefficient_172 + x * coefficient_173) )
+        res = taylor_series_cos_172_real64(x)
 
     end procedure taylor_series_cos_173_real64
 
 
     module procedure taylor_series_cos_174_real64
 
-        res = horner_173( x = x, pre_step = (coefficient_173 + x * coefficient_174) )
+        res = horner_173( x = x, pre_step = coefficient_174 )
 
     end procedure taylor_series_cos_174_real64
 
 
     module procedure taylor_series_cos_175_real64
 
-        res = horner_174( x = x, pre_step = (coefficient_174 + x * coefficient_175) )
+        res = taylor_series_cos_174_real64(x)
 
     end procedure taylor_series_cos_175_real64
 
 
     module procedure taylor_series_cos_176_real64
 
-        res = horner_175( x = x, pre_step = (coefficient_175 + x * coefficient_176) )
+        res = horner_175( x = x, pre_step = coefficient_176 )
 
     end procedure taylor_series_cos_176_real64
 
