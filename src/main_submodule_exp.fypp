@@ -11,34 +11,16 @@
 !> ${SUBMODULE_DESCRIPTION}$
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
-    implicit none
-
-
-    #:for DEGREE in range(MAXVAL_DEGREE_EXP)
-        #:mute
-
-            #:set LHS = 'real(' + REAL_KIND + '), parameter :: ' + COEFFICIENT_NAME(DEGREE)
-            #:set RHS = ''
-            #:set RES = ''
-
-            #:if DEGREE < 2
-                #:set RHS = '1.0_' + REAL_KIND
-            #:else
-                #:set RHS = COEFFICIENT_NAME(DEGREE - 1) + ' / ' + str(DEGREE).rjust(DIGITS_DEGREE)
-            #:endif
-
-            #:if RHS != ''
-                #:set RES = LHS + ' = ' + RHS
-            #:endif
-
-        #:endmute
-    #:if RES != ''
-    ${RES}$
-    #:endif
-    #:del LHS
-    #:del RHS
-    #:del RES
+    #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND
+    use, non_intrinsic :: ${REQUIRED_MODULE_NAME}$ , only: &! 
+    #:del REQUIRED_MODULE_NAME
+    #:for DEGREE in range(MAXVAL_DEGREE_EXP - 1)
+        @{COEFFICIENT_NAME(${DEGREE}$)}@ => @{PARAMETER_INV_FACTORIAL(${DEGREE}$)}@ , &!
     #:endfor
+        @{COEFFICIENT_NAME(${MAXVAL_DEGREE_EXP - 1}$)}@ => @{PARAMETER_INV_FACTORIAL(${MAXVAL_DEGREE_EXP - 1}$)}@
+
+
+    implicit none
 
 
     contains
