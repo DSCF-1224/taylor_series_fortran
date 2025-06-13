@@ -1,187 +1,234 @@
 !> Implementation of `taylor_series_sin_***` for `real64`.
 submodule (taylor_series_fortran) imp_taylor_series_sin_real64
 
+    use, non_intrinsic :: inv_factorial_real64 , only: &! 
+        coefficient_001 => inv_factorial_001 , &!
+                           inv_factorial_003 , &!
+        coefficient_005 => inv_factorial_005 , &!
+                           inv_factorial_007 , &!
+        coefficient_009 => inv_factorial_009 , &!
+                           inv_factorial_011 , &!
+        coefficient_013 => inv_factorial_013 , &!
+                           inv_factorial_015 , &!
+        coefficient_017 => inv_factorial_017 , &!
+                           inv_factorial_019 , &!
+        coefficient_021 => inv_factorial_021 , &!
+                           inv_factorial_023 , &!
+        coefficient_025 => inv_factorial_025 , &!
+                           inv_factorial_027 , &!
+        coefficient_029 => inv_factorial_029 , &!
+                           inv_factorial_031 , &!
+        coefficient_033 => inv_factorial_033 , &!
+                           inv_factorial_035 , &!
+        coefficient_037 => inv_factorial_037 , &!
+                           inv_factorial_039 , &!
+        coefficient_041 => inv_factorial_041 , &!
+                           inv_factorial_043 , &!
+        coefficient_045 => inv_factorial_045 , &!
+                           inv_factorial_047 , &!
+        coefficient_049 => inv_factorial_049 , &!
+                           inv_factorial_051 , &!
+        coefficient_053 => inv_factorial_053 , &!
+                           inv_factorial_055 , &!
+        coefficient_057 => inv_factorial_057 , &!
+                           inv_factorial_059 , &!
+        coefficient_061 => inv_factorial_061 , &!
+                           inv_factorial_063 , &!
+        coefficient_065 => inv_factorial_065 , &!
+                           inv_factorial_067 , &!
+        coefficient_069 => inv_factorial_069 , &!
+                           inv_factorial_071 , &!
+        coefficient_073 => inv_factorial_073 , &!
+                           inv_factorial_075 , &!
+        coefficient_077 => inv_factorial_077 , &!
+                           inv_factorial_079 , &!
+        coefficient_081 => inv_factorial_081 , &!
+                           inv_factorial_083 , &!
+        coefficient_085 => inv_factorial_085 , &!
+                           inv_factorial_087 , &!
+        coefficient_089 => inv_factorial_089 , &!
+                           inv_factorial_091 , &!
+        coefficient_093 => inv_factorial_093 , &!
+                           inv_factorial_095 , &!
+        coefficient_097 => inv_factorial_097 , &!
+                           inv_factorial_099 , &!
+        coefficient_101 => inv_factorial_101 , &!
+                           inv_factorial_103 , &!
+        coefficient_105 => inv_factorial_105 , &!
+                           inv_factorial_107 , &!
+        coefficient_109 => inv_factorial_109 , &!
+                           inv_factorial_111 , &!
+        coefficient_113 => inv_factorial_113 , &!
+                           inv_factorial_115 , &!
+        coefficient_117 => inv_factorial_117 , &!
+                           inv_factorial_119 , &!
+        coefficient_121 => inv_factorial_121 , &!
+                           inv_factorial_123 , &!
+        coefficient_125 => inv_factorial_125 , &!
+                           inv_factorial_127 , &!
+        coefficient_129 => inv_factorial_129 , &!
+                           inv_factorial_131 , &!
+        coefficient_133 => inv_factorial_133 , &!
+                           inv_factorial_135 , &!
+        coefficient_137 => inv_factorial_137 , &!
+                           inv_factorial_139 , &!
+        coefficient_141 => inv_factorial_141 , &!
+                           inv_factorial_143 , &!
+        coefficient_145 => inv_factorial_145 , &!
+                           inv_factorial_147 , &!
+        coefficient_149 => inv_factorial_149 , &!
+                           inv_factorial_151 , &!
+        coefficient_153 => inv_factorial_153 , &!
+                           inv_factorial_155 , &!
+        coefficient_157 => inv_factorial_157 , &!
+                           inv_factorial_159 , &!
+        coefficient_161 => inv_factorial_161 , &!
+                           inv_factorial_163 , &!
+        coefficient_165 => inv_factorial_165 , &!
+                           inv_factorial_167 , &!
+        coefficient_169 => inv_factorial_169 , &!
+                           inv_factorial_171 , &!
+        coefficient_173 => inv_factorial_173 , &!
+                           inv_factorial_175 , &!
+        coefficient_177 => inv_factorial_177
+
+
     implicit none
 
 
     real(real64), parameter :: coefficient_000 =   0.0_real64
-    real(real64), parameter :: coefficient_001 =   1.0_real64
     real(real64), parameter :: coefficient_002 =   0.0_real64
-    real(real64), parameter :: coefficient_003 = - coefficient_001 / (  2 *   3)
+    real(real64), parameter :: coefficient_003 = - inv_factorial_003
     real(real64), parameter :: coefficient_004 =   0.0_real64
-    real(real64), parameter :: coefficient_005 = - coefficient_003 / (  4 *   5)
     real(real64), parameter :: coefficient_006 =   0.0_real64
-    real(real64), parameter :: coefficient_007 = - coefficient_005 / (  6 *   7)
+    real(real64), parameter :: coefficient_007 = - inv_factorial_007
     real(real64), parameter :: coefficient_008 =   0.0_real64
-    real(real64), parameter :: coefficient_009 = - coefficient_007 / (  8 *   9)
     real(real64), parameter :: coefficient_010 =   0.0_real64
-    real(real64), parameter :: coefficient_011 = - coefficient_009 / ( 10 *  11)
+    real(real64), parameter :: coefficient_011 = - inv_factorial_011
     real(real64), parameter :: coefficient_012 =   0.0_real64
-    real(real64), parameter :: coefficient_013 = - coefficient_011 / ( 12 *  13)
     real(real64), parameter :: coefficient_014 =   0.0_real64
-    real(real64), parameter :: coefficient_015 = - coefficient_013 / ( 14 *  15)
+    real(real64), parameter :: coefficient_015 = - inv_factorial_015
     real(real64), parameter :: coefficient_016 =   0.0_real64
-    real(real64), parameter :: coefficient_017 = - coefficient_015 / ( 16 *  17)
     real(real64), parameter :: coefficient_018 =   0.0_real64
-    real(real64), parameter :: coefficient_019 = - coefficient_017 / ( 18 *  19)
+    real(real64), parameter :: coefficient_019 = - inv_factorial_019
     real(real64), parameter :: coefficient_020 =   0.0_real64
-    real(real64), parameter :: coefficient_021 = - coefficient_019 / ( 20 *  21)
     real(real64), parameter :: coefficient_022 =   0.0_real64
-    real(real64), parameter :: coefficient_023 = - coefficient_021 / ( 22 *  23)
+    real(real64), parameter :: coefficient_023 = - inv_factorial_023
     real(real64), parameter :: coefficient_024 =   0.0_real64
-    real(real64), parameter :: coefficient_025 = - coefficient_023 / ( 24 *  25)
     real(real64), parameter :: coefficient_026 =   0.0_real64
-    real(real64), parameter :: coefficient_027 = - coefficient_025 / ( 26 *  27)
+    real(real64), parameter :: coefficient_027 = - inv_factorial_027
     real(real64), parameter :: coefficient_028 =   0.0_real64
-    real(real64), parameter :: coefficient_029 = - coefficient_027 / ( 28 *  29)
     real(real64), parameter :: coefficient_030 =   0.0_real64
-    real(real64), parameter :: coefficient_031 = - coefficient_029 / ( 30 *  31)
+    real(real64), parameter :: coefficient_031 = - inv_factorial_031
     real(real64), parameter :: coefficient_032 =   0.0_real64
-    real(real64), parameter :: coefficient_033 = - coefficient_031 / ( 32 *  33)
     real(real64), parameter :: coefficient_034 =   0.0_real64
-    real(real64), parameter :: coefficient_035 = - coefficient_033 / ( 34 *  35)
+    real(real64), parameter :: coefficient_035 = - inv_factorial_035
     real(real64), parameter :: coefficient_036 =   0.0_real64
-    real(real64), parameter :: coefficient_037 = - coefficient_035 / ( 36 *  37)
     real(real64), parameter :: coefficient_038 =   0.0_real64
-    real(real64), parameter :: coefficient_039 = - coefficient_037 / ( 38 *  39)
+    real(real64), parameter :: coefficient_039 = - inv_factorial_039
     real(real64), parameter :: coefficient_040 =   0.0_real64
-    real(real64), parameter :: coefficient_041 = - coefficient_039 / ( 40 *  41)
     real(real64), parameter :: coefficient_042 =   0.0_real64
-    real(real64), parameter :: coefficient_043 = - coefficient_041 / ( 42 *  43)
+    real(real64), parameter :: coefficient_043 = - inv_factorial_043
     real(real64), parameter :: coefficient_044 =   0.0_real64
-    real(real64), parameter :: coefficient_045 = - coefficient_043 / ( 44 *  45)
     real(real64), parameter :: coefficient_046 =   0.0_real64
-    real(real64), parameter :: coefficient_047 = - coefficient_045 / ( 46 *  47)
+    real(real64), parameter :: coefficient_047 = - inv_factorial_047
     real(real64), parameter :: coefficient_048 =   0.0_real64
-    real(real64), parameter :: coefficient_049 = - coefficient_047 / ( 48 *  49)
     real(real64), parameter :: coefficient_050 =   0.0_real64
-    real(real64), parameter :: coefficient_051 = - coefficient_049 / ( 50 *  51)
+    real(real64), parameter :: coefficient_051 = - inv_factorial_051
     real(real64), parameter :: coefficient_052 =   0.0_real64
-    real(real64), parameter :: coefficient_053 = - coefficient_051 / ( 52 *  53)
     real(real64), parameter :: coefficient_054 =   0.0_real64
-    real(real64), parameter :: coefficient_055 = - coefficient_053 / ( 54 *  55)
+    real(real64), parameter :: coefficient_055 = - inv_factorial_055
     real(real64), parameter :: coefficient_056 =   0.0_real64
-    real(real64), parameter :: coefficient_057 = - coefficient_055 / ( 56 *  57)
     real(real64), parameter :: coefficient_058 =   0.0_real64
-    real(real64), parameter :: coefficient_059 = - coefficient_057 / ( 58 *  59)
+    real(real64), parameter :: coefficient_059 = - inv_factorial_059
     real(real64), parameter :: coefficient_060 =   0.0_real64
-    real(real64), parameter :: coefficient_061 = - coefficient_059 / ( 60 *  61)
     real(real64), parameter :: coefficient_062 =   0.0_real64
-    real(real64), parameter :: coefficient_063 = - coefficient_061 / ( 62 *  63)
+    real(real64), parameter :: coefficient_063 = - inv_factorial_063
     real(real64), parameter :: coefficient_064 =   0.0_real64
-    real(real64), parameter :: coefficient_065 = - coefficient_063 / ( 64 *  65)
     real(real64), parameter :: coefficient_066 =   0.0_real64
-    real(real64), parameter :: coefficient_067 = - coefficient_065 / ( 66 *  67)
+    real(real64), parameter :: coefficient_067 = - inv_factorial_067
     real(real64), parameter :: coefficient_068 =   0.0_real64
-    real(real64), parameter :: coefficient_069 = - coefficient_067 / ( 68 *  69)
     real(real64), parameter :: coefficient_070 =   0.0_real64
-    real(real64), parameter :: coefficient_071 = - coefficient_069 / ( 70 *  71)
+    real(real64), parameter :: coefficient_071 = - inv_factorial_071
     real(real64), parameter :: coefficient_072 =   0.0_real64
-    real(real64), parameter :: coefficient_073 = - coefficient_071 / ( 72 *  73)
     real(real64), parameter :: coefficient_074 =   0.0_real64
-    real(real64), parameter :: coefficient_075 = - coefficient_073 / ( 74 *  75)
+    real(real64), parameter :: coefficient_075 = - inv_factorial_075
     real(real64), parameter :: coefficient_076 =   0.0_real64
-    real(real64), parameter :: coefficient_077 = - coefficient_075 / ( 76 *  77)
     real(real64), parameter :: coefficient_078 =   0.0_real64
-    real(real64), parameter :: coefficient_079 = - coefficient_077 / ( 78 *  79)
+    real(real64), parameter :: coefficient_079 = - inv_factorial_079
     real(real64), parameter :: coefficient_080 =   0.0_real64
-    real(real64), parameter :: coefficient_081 = - coefficient_079 / ( 80 *  81)
     real(real64), parameter :: coefficient_082 =   0.0_real64
-    real(real64), parameter :: coefficient_083 = - coefficient_081 / ( 82 *  83)
+    real(real64), parameter :: coefficient_083 = - inv_factorial_083
     real(real64), parameter :: coefficient_084 =   0.0_real64
-    real(real64), parameter :: coefficient_085 = - coefficient_083 / ( 84 *  85)
     real(real64), parameter :: coefficient_086 =   0.0_real64
-    real(real64), parameter :: coefficient_087 = - coefficient_085 / ( 86 *  87)
+    real(real64), parameter :: coefficient_087 = - inv_factorial_087
     real(real64), parameter :: coefficient_088 =   0.0_real64
-    real(real64), parameter :: coefficient_089 = - coefficient_087 / ( 88 *  89)
     real(real64), parameter :: coefficient_090 =   0.0_real64
-    real(real64), parameter :: coefficient_091 = - coefficient_089 / ( 90 *  91)
+    real(real64), parameter :: coefficient_091 = - inv_factorial_091
     real(real64), parameter :: coefficient_092 =   0.0_real64
-    real(real64), parameter :: coefficient_093 = - coefficient_091 / ( 92 *  93)
     real(real64), parameter :: coefficient_094 =   0.0_real64
-    real(real64), parameter :: coefficient_095 = - coefficient_093 / ( 94 *  95)
+    real(real64), parameter :: coefficient_095 = - inv_factorial_095
     real(real64), parameter :: coefficient_096 =   0.0_real64
-    real(real64), parameter :: coefficient_097 = - coefficient_095 / ( 96 *  97)
     real(real64), parameter :: coefficient_098 =   0.0_real64
-    real(real64), parameter :: coefficient_099 = - coefficient_097 / ( 98 *  99)
+    real(real64), parameter :: coefficient_099 = - inv_factorial_099
     real(real64), parameter :: coefficient_100 =   0.0_real64
-    real(real64), parameter :: coefficient_101 = - coefficient_099 / (100 * 101)
     real(real64), parameter :: coefficient_102 =   0.0_real64
-    real(real64), parameter :: coefficient_103 = - coefficient_101 / (102 * 103)
+    real(real64), parameter :: coefficient_103 = - inv_factorial_103
     real(real64), parameter :: coefficient_104 =   0.0_real64
-    real(real64), parameter :: coefficient_105 = - coefficient_103 / (104 * 105)
     real(real64), parameter :: coefficient_106 =   0.0_real64
-    real(real64), parameter :: coefficient_107 = - coefficient_105 / (106 * 107)
+    real(real64), parameter :: coefficient_107 = - inv_factorial_107
     real(real64), parameter :: coefficient_108 =   0.0_real64
-    real(real64), parameter :: coefficient_109 = - coefficient_107 / (108 * 109)
     real(real64), parameter :: coefficient_110 =   0.0_real64
-    real(real64), parameter :: coefficient_111 = - coefficient_109 / (110 * 111)
+    real(real64), parameter :: coefficient_111 = - inv_factorial_111
     real(real64), parameter :: coefficient_112 =   0.0_real64
-    real(real64), parameter :: coefficient_113 = - coefficient_111 / (112 * 113)
     real(real64), parameter :: coefficient_114 =   0.0_real64
-    real(real64), parameter :: coefficient_115 = - coefficient_113 / (114 * 115)
+    real(real64), parameter :: coefficient_115 = - inv_factorial_115
     real(real64), parameter :: coefficient_116 =   0.0_real64
-    real(real64), parameter :: coefficient_117 = - coefficient_115 / (116 * 117)
     real(real64), parameter :: coefficient_118 =   0.0_real64
-    real(real64), parameter :: coefficient_119 = - coefficient_117 / (118 * 119)
+    real(real64), parameter :: coefficient_119 = - inv_factorial_119
     real(real64), parameter :: coefficient_120 =   0.0_real64
-    real(real64), parameter :: coefficient_121 = - coefficient_119 / (120 * 121)
     real(real64), parameter :: coefficient_122 =   0.0_real64
-    real(real64), parameter :: coefficient_123 = - coefficient_121 / (122 * 123)
+    real(real64), parameter :: coefficient_123 = - inv_factorial_123
     real(real64), parameter :: coefficient_124 =   0.0_real64
-    real(real64), parameter :: coefficient_125 = - coefficient_123 / (124 * 125)
     real(real64), parameter :: coefficient_126 =   0.0_real64
-    real(real64), parameter :: coefficient_127 = - coefficient_125 / (126 * 127)
+    real(real64), parameter :: coefficient_127 = - inv_factorial_127
     real(real64), parameter :: coefficient_128 =   0.0_real64
-    real(real64), parameter :: coefficient_129 = - coefficient_127 / (128 * 129)
     real(real64), parameter :: coefficient_130 =   0.0_real64
-    real(real64), parameter :: coefficient_131 = - coefficient_129 / (130 * 131)
+    real(real64), parameter :: coefficient_131 = - inv_factorial_131
     real(real64), parameter :: coefficient_132 =   0.0_real64
-    real(real64), parameter :: coefficient_133 = - coefficient_131 / (132 * 133)
     real(real64), parameter :: coefficient_134 =   0.0_real64
-    real(real64), parameter :: coefficient_135 = - coefficient_133 / (134 * 135)
+    real(real64), parameter :: coefficient_135 = - inv_factorial_135
     real(real64), parameter :: coefficient_136 =   0.0_real64
-    real(real64), parameter :: coefficient_137 = - coefficient_135 / (136 * 137)
     real(real64), parameter :: coefficient_138 =   0.0_real64
-    real(real64), parameter :: coefficient_139 = - coefficient_137 / (138 * 139)
+    real(real64), parameter :: coefficient_139 = - inv_factorial_139
     real(real64), parameter :: coefficient_140 =   0.0_real64
-    real(real64), parameter :: coefficient_141 = - coefficient_139 / (140 * 141)
     real(real64), parameter :: coefficient_142 =   0.0_real64
-    real(real64), parameter :: coefficient_143 = - coefficient_141 / (142 * 143)
+    real(real64), parameter :: coefficient_143 = - inv_factorial_143
     real(real64), parameter :: coefficient_144 =   0.0_real64
-    real(real64), parameter :: coefficient_145 = - coefficient_143 / (144 * 145)
     real(real64), parameter :: coefficient_146 =   0.0_real64
-    real(real64), parameter :: coefficient_147 = - coefficient_145 / (146 * 147)
+    real(real64), parameter :: coefficient_147 = - inv_factorial_147
     real(real64), parameter :: coefficient_148 =   0.0_real64
-    real(real64), parameter :: coefficient_149 = - coefficient_147 / (148 * 149)
     real(real64), parameter :: coefficient_150 =   0.0_real64
-    real(real64), parameter :: coefficient_151 = - coefficient_149 / (150 * 151)
+    real(real64), parameter :: coefficient_151 = - inv_factorial_151
     real(real64), parameter :: coefficient_152 =   0.0_real64
-    real(real64), parameter :: coefficient_153 = - coefficient_151 / (152 * 153)
     real(real64), parameter :: coefficient_154 =   0.0_real64
-    real(real64), parameter :: coefficient_155 = - coefficient_153 / (154 * 155)
+    real(real64), parameter :: coefficient_155 = - inv_factorial_155
     real(real64), parameter :: coefficient_156 =   0.0_real64
-    real(real64), parameter :: coefficient_157 = - coefficient_155 / (156 * 157)
     real(real64), parameter :: coefficient_158 =   0.0_real64
-    real(real64), parameter :: coefficient_159 = - coefficient_157 / (158 * 159)
+    real(real64), parameter :: coefficient_159 = - inv_factorial_159
     real(real64), parameter :: coefficient_160 =   0.0_real64
-    real(real64), parameter :: coefficient_161 = - coefficient_159 / (160 * 161)
     real(real64), parameter :: coefficient_162 =   0.0_real64
-    real(real64), parameter :: coefficient_163 = - coefficient_161 / (162 * 163)
+    real(real64), parameter :: coefficient_163 = - inv_factorial_163
     real(real64), parameter :: coefficient_164 =   0.0_real64
-    real(real64), parameter :: coefficient_165 = - coefficient_163 / (164 * 165)
     real(real64), parameter :: coefficient_166 =   0.0_real64
-    real(real64), parameter :: coefficient_167 = - coefficient_165 / (166 * 167)
+    real(real64), parameter :: coefficient_167 = - inv_factorial_167
     real(real64), parameter :: coefficient_168 =   0.0_real64
-    real(real64), parameter :: coefficient_169 = - coefficient_167 / (168 * 169)
     real(real64), parameter :: coefficient_170 =   0.0_real64
-    real(real64), parameter :: coefficient_171 = - coefficient_169 / (170 * 171)
+    real(real64), parameter :: coefficient_171 = - inv_factorial_171
     real(real64), parameter :: coefficient_172 =   0.0_real64
-    real(real64), parameter :: coefficient_173 = - coefficient_171 / (172 * 173)
     real(real64), parameter :: coefficient_174 =   0.0_real64
-    real(real64), parameter :: coefficient_175 = - coefficient_173 / (174 * 175)
+    real(real64), parameter :: coefficient_175 = - inv_factorial_175
     real(real64), parameter :: coefficient_176 =   0.0_real64
-    real(real64), parameter :: coefficient_177 = - coefficient_175 / (176 * 177)
 
 
     contains

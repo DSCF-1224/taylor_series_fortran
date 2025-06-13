@@ -1,47 +1,59 @@
 !> Implementation of `taylor_series_sin_***` for `real32`.
 submodule (taylor_series_fortran) imp_taylor_series_sin_real32
 
+    use, non_intrinsic :: inv_factorial_real32 , only: &! 
+        coefficient_001 => inv_factorial_001 , &!
+                           inv_factorial_003 , &!
+        coefficient_005 => inv_factorial_005 , &!
+                           inv_factorial_007 , &!
+        coefficient_009 => inv_factorial_009 , &!
+                           inv_factorial_011 , &!
+        coefficient_013 => inv_factorial_013 , &!
+                           inv_factorial_015 , &!
+        coefficient_017 => inv_factorial_017 , &!
+                           inv_factorial_019 , &!
+        coefficient_021 => inv_factorial_021 , &!
+                           inv_factorial_023 , &!
+        coefficient_025 => inv_factorial_025 , &!
+                           inv_factorial_027 , &!
+        coefficient_029 => inv_factorial_029 , &!
+                           inv_factorial_031 , &!
+        coefficient_033 => inv_factorial_033 , &!
+                           inv_factorial_035 , &!
+        coefficient_037 => inv_factorial_037
+
+
     implicit none
 
 
     real(real32), parameter :: coefficient_000 =   0.0_real32
-    real(real32), parameter :: coefficient_001 =   1.0_real32
     real(real32), parameter :: coefficient_002 =   0.0_real32
-    real(real32), parameter :: coefficient_003 = - coefficient_001 / (  2 *   3)
+    real(real32), parameter :: coefficient_003 = - inv_factorial_003
     real(real32), parameter :: coefficient_004 =   0.0_real32
-    real(real32), parameter :: coefficient_005 = - coefficient_003 / (  4 *   5)
     real(real32), parameter :: coefficient_006 =   0.0_real32
-    real(real32), parameter :: coefficient_007 = - coefficient_005 / (  6 *   7)
+    real(real32), parameter :: coefficient_007 = - inv_factorial_007
     real(real32), parameter :: coefficient_008 =   0.0_real32
-    real(real32), parameter :: coefficient_009 = - coefficient_007 / (  8 *   9)
     real(real32), parameter :: coefficient_010 =   0.0_real32
-    real(real32), parameter :: coefficient_011 = - coefficient_009 / ( 10 *  11)
+    real(real32), parameter :: coefficient_011 = - inv_factorial_011
     real(real32), parameter :: coefficient_012 =   0.0_real32
-    real(real32), parameter :: coefficient_013 = - coefficient_011 / ( 12 *  13)
     real(real32), parameter :: coefficient_014 =   0.0_real32
-    real(real32), parameter :: coefficient_015 = - coefficient_013 / ( 14 *  15)
+    real(real32), parameter :: coefficient_015 = - inv_factorial_015
     real(real32), parameter :: coefficient_016 =   0.0_real32
-    real(real32), parameter :: coefficient_017 = - coefficient_015 / ( 16 *  17)
     real(real32), parameter :: coefficient_018 =   0.0_real32
-    real(real32), parameter :: coefficient_019 = - coefficient_017 / ( 18 *  19)
+    real(real32), parameter :: coefficient_019 = - inv_factorial_019
     real(real32), parameter :: coefficient_020 =   0.0_real32
-    real(real32), parameter :: coefficient_021 = - coefficient_019 / ( 20 *  21)
     real(real32), parameter :: coefficient_022 =   0.0_real32
-    real(real32), parameter :: coefficient_023 = - coefficient_021 / ( 22 *  23)
+    real(real32), parameter :: coefficient_023 = - inv_factorial_023
     real(real32), parameter :: coefficient_024 =   0.0_real32
-    real(real32), parameter :: coefficient_025 = - coefficient_023 / ( 24 *  25)
     real(real32), parameter :: coefficient_026 =   0.0_real32
-    real(real32), parameter :: coefficient_027 = - coefficient_025 / ( 26 *  27)
+    real(real32), parameter :: coefficient_027 = - inv_factorial_027
     real(real32), parameter :: coefficient_028 =   0.0_real32
-    real(real32), parameter :: coefficient_029 = - coefficient_027 / ( 28 *  29)
     real(real32), parameter :: coefficient_030 =   0.0_real32
-    real(real32), parameter :: coefficient_031 = - coefficient_029 / ( 30 *  31)
+    real(real32), parameter :: coefficient_031 = - inv_factorial_031
     real(real32), parameter :: coefficient_032 =   0.0_real32
-    real(real32), parameter :: coefficient_033 = - coefficient_031 / ( 32 *  33)
     real(real32), parameter :: coefficient_034 =   0.0_real32
-    real(real32), parameter :: coefficient_035 = - coefficient_033 / ( 34 *  35)
+    real(real32), parameter :: coefficient_035 = - inv_factorial_035
     real(real32), parameter :: coefficient_036 =   0.0_real32
-    real(real32), parameter :: coefficient_037 = - coefficient_035 / ( 36 *  37)
 
 
     contains
