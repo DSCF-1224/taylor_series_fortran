@@ -7,14 +7,15 @@
 #:endmute
 reset session
 
-set terminal svg noenhanced
+set terminal svg
 set output '${FILE_NAME}$.svg'
 
 set title 'cos(x) (using ${REAL_KIND}$)'
 
 set xlabel 'x'
 
-set ylabel 'taylor_series_cos(x)'
+#:set Y_LABEL = INTERFACE_TAYLOR_SERIES_COS('') + '(x)'
+set ylabel '${Y_LABEL.replace('_', '\\_')}$'
 set yrange [-2:2]
 
 set key outside right center title 'degree'

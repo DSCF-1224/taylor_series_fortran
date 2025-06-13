@@ -16,7 +16,8 @@ set xlabel 'x'
 
 set logscale y 10
 set format y '{10}^{%L}'
-set ylabel 'taylor_series_exp(x)'
+#:set Y_LABEL = INTERFACE_TAYLOR_SERIES_EXP('') + '(x)'
+set ylabel '${Y_LABEL.replace('_', '\\_')}$'
 
 set key outside right center title 'degree'
 
