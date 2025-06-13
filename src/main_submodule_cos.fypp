@@ -11,6 +11,30 @@
 !> ${SUBMODULE_DESCRIPTION}$
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
+    #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND
+    use, non_intrinsic :: ${REQUIRED_MODULE_NAME}$ , only: &! 
+    #:del REQUIRED_MODULE_NAME
+    #:for DEGREE in range(2, MAXVAL_DEGREE_COS, 2)
+        #:mute
+
+            #:set RES = COEFFICIENT_NAME(DEGREE) + ' => '
+
+            #:if ( (DEGREE / 2) % 2 ) != 0
+                #:set RES = ' ' * len(RES)
+            #:endif
+
+            #:set RES = RES + PARAMETER_INV_FACTORIAL(DEGREE)
+
+            #:if DEGREE < (MAXVAL_DEGREE_COS - 2)
+                #:set RES = RES + ' , &!'
+            #:endif
+
+        #:endmute
+        ${RES}$
+        #:del RES
+    #:endfor
+
+
     implicit none
 
 
@@ -22,11 +46,19 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
             #:set RES = ''
 
             #:if (DEGREE % 2) == 0
+
                 #:if DEGREE == 0
                     #:set RHS = '  1.0_' + REAL_KIND
                 #:else
-                    #:set RHS = '- ' + COEFFICIENT_NAME(DEGREE - 2) + ' / (' + str(DEGREE - 1).rjust(DIGITS_DEGREE) + ' * ' + str(DEGREE).rjust(DIGITS_DEGREE) + ')'
+
+                    #:if ( (DEGREE / 2) % 2 ) == 0
+                        #:set RHS = ''
+                    #:else
+                        #:set RHS = '- ' + PARAMETER_INV_FACTORIAL(DEGREE)
+                    #:endif
+
                 #:endif
+
             #:else
                 #:set RHS = '  0.0_' + REAL_KIND
             #:endif

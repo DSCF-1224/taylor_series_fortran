@@ -135,9 +135,21 @@
     #:enddef
 
 
+
     #:def FUNCTION_HORNER(degree)
         #:set RES = 'horner_' + str(degree).zfill(DIGITS_DEGREE)
         $:RES
+    #:enddef
+
+
+
+    #:def PARAMETER_INV_FACTORIAL(degree)
+        #:set RES = 'inv_factorial_'
+        #:if degree != ''
+            #:set RES = RES + str(degree).zfill(DIGITS_DEGREE)
+        #:endif
+        $:RES
+        #:del RES
     #:enddef
 
 
