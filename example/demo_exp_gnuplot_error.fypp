@@ -19,7 +19,7 @@ set format y '{10}^{%L}'
 set ylabel 'abs error (taylor series .vs. intrinsic)'
 
 set logscale cb 10
-set cbrange [1:${MAXVAL_DEGREE}$]
+set cbrange [1:${RANGE_STOP_DEGREE}$]
 set cblabel 'degree of taylor series'
 
 plot \

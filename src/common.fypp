@@ -18,23 +18,23 @@
     #! Error: Arithmetic underflow at (1) [-Werror=underflow]
     #! f951: all warnings being treated as errors
 
-    #:set MAXVAL_DEGREE_EXP_REAL32 =  39
-    #:set MAXVAL_DEGREE_EXP_REAL64 = 178
-    #:set MAXVAL_DEGREE_EXP        = MAXVAL_DEGREE_EXP_REAL64
-    #:set MAXVAL_DEGREE            = MAXVAL_DEGREE_EXP_REAL64
+    #:set RANGE_STOP_DEGREE_EXP_REAL32 =  39
+    #:set RANGE_STOP_DEGREE_EXP_REAL64 = 178
+    #:set RANGE_STOP_DEGREE_EXP        = RANGE_STOP_DEGREE_EXP_REAL64
+    #:set RANGE_STOP_DEGREE            = RANGE_STOP_DEGREE_EXP_REAL64
 
-    #:set MAXVAL_DEGREE_COS_REAL32 =  39
-    #:set MAXVAL_DEGREE_COS_REAL64 = 177
-    #:set MAXVAL_DEGREE_COS        =                    MAXVAL_DEGREE_COS_REAL64
-    #:set MAXVAL_DEGREE            = max(MAXVAL_DEGREE, MAXVAL_DEGREE_COS_REAL64)
+    #:set RANGE_STOP_DEGREE_COS_REAL32 =  39
+    #:set RANGE_STOP_DEGREE_COS_REAL64 = 177
+    #:set RANGE_STOP_DEGREE_COS        =                        RANGE_STOP_DEGREE_COS_REAL64
+    #:set RANGE_STOP_DEGREE            = max(RANGE_STOP_DEGREE, RANGE_STOP_DEGREE_COS_REAL64)
 
-    #:set MAXVAL_DEGREE_SIN_REAL32 =  38
-    #:set MAXVAL_DEGREE_SIN_REAL64 = 178
-    #:set MAXVAL_DEGREE_SIN        =                    MAXVAL_DEGREE_SIN_REAL64
-    #:set MAXVAL_DEGREE            = max(MAXVAL_DEGREE, MAXVAL_DEGREE_SIN_REAL64)
+    #:set RANGE_STOP_DEGREE_SIN_REAL32 =  38
+    #:set RANGE_STOP_DEGREE_SIN_REAL64 = 178
+    #:set RANGE_STOP_DEGREE_SIN        =                        RANGE_STOP_DEGREE_SIN_REAL64
+    #:set RANGE_STOP_DEGREE            = max(RANGE_STOP_DEGREE, RANGE_STOP_DEGREE_SIN_REAL64)
 
-    #:if MAXVAL_DEGREE < 1
-        #:stop '`MAXVAL_DEGREE` must be greater than zero !'
+    #:if RANGE_STOP_DEGREE < 1
+        #:stop '`RANGE_STOP_DEGREE` must be greater than zero !'
     #:endif
 
 
