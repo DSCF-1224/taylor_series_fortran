@@ -25,7 +25,7 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
             #:set RES = RES + PARAMETER_INV_FACTORIAL(DEGREE)
 
-            #:if DEGREE < (RANGE_STOP_DEGREE_SIN - 2)
+            #:if DEGREE < MAXVAL_DEGREE_SIN
                 #:set RES = RES + ' , &!'
             #:endif
 
@@ -99,7 +99,7 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     #:endfor
 
-    #:for DEGREE in range(RANGE_STOP_DEGREE_SIN - 1)
+    #:for DEGREE in range(MAXVAL_DEGREE_SIN)
 
     #:block BLOCK_DECLARE_HORNER('', REAL_KIND, DEGREE)
     #:endblock BLOCK_DECLARE_HORNER

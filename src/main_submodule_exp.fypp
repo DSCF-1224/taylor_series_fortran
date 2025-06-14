@@ -14,10 +14,10 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
     #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND
     use, non_intrinsic :: ${REQUIRED_MODULE_NAME}$ , only: &! 
     #:del REQUIRED_MODULE_NAME
-    #:for DEGREE in range(RANGE_STOP_DEGREE_EXP - 1)
+    #:for DEGREE in range(MAXVAL_DEGREE_EXP)
         @{COEFFICIENT_NAME(${DEGREE}$)}@ => @{PARAMETER_INV_FACTORIAL(${DEGREE}$)}@ , &!
     #:endfor
-        @{COEFFICIENT_NAME(${RANGE_STOP_DEGREE_EXP - 1}$)}@ => @{PARAMETER_INV_FACTORIAL(${RANGE_STOP_DEGREE_EXP - 1}$)}@
+        @{COEFFICIENT_NAME(${MAXVAL_DEGREE_EXP}$)}@ => @{PARAMETER_INV_FACTORIAL(${MAXVAL_DEGREE_EXP}$)}@
 
 
     implicit none
@@ -41,7 +41,7 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     #:endfor
 
-    #:for DEGREE in range(RANGE_STOP_DEGREE_EXP - 1)
+    #:for DEGREE in range(MAXVAL_DEGREE_EXP)
 
     #:block BLOCK_DECLARE_HORNER('', REAL_KIND, DEGREE)
     #:endblock BLOCK_DECLARE_HORNER
