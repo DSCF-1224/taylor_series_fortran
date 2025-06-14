@@ -44,6 +44,13 @@ module ${MODULE_NAME}$
     #:del INTERFACE_NAME
 
 
+    #:for DEGREE in range(RANGE_STOP_DEGREE_SIN)
+    #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_SINH(DEGREE)
+    public :: ${INTERFACE_NAME}$
+    #:endfor
+    #:del INTERFACE_NAME
+
+
 
 
     #:for DEGREE in range(RANGE_STOP_DEGREE_COS)
@@ -69,8 +76,6 @@ module ${MODULE_NAME}$
 
 
     #:endfor
-
-
 
 
     #:for DEGREE in range(RANGE_STOP_DEGREE_COS)
@@ -129,6 +134,31 @@ module ${MODULE_NAME}$
     interface ${INTERFACE_NAME}$
     #:for KIND in REAL_KINDS
         #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_SIN(DEGREE, KIND)
+        #:set STATEMENT = 'real( ' + KIND.ljust(7) + ' ) module elemental function ' + FUNCTION_NAME.ljust(29) + ' (x) result(res); real( ' + KIND.ljust(7) + ' ), intent(in) :: x; end function'
+        #:if (KIND == 'real32') and (DEGREE >= RANGE_STOP_DEGREE_SIN_REAL32)
+            #:set STATEMENT = ''
+        #:elif (KIND == 'real64') and (DEGREE >= RANGE_STOP_DEGREE_SIN_REAL64)
+            #:set STATEMENT = ''
+        #:endif
+        #:if STATEMENT != ''
+        ${STATEMENT}$
+        #:endif
+        #:del FUNCTION_NAME
+        #:del STATEMENT
+    #:endfor
+    end interface
+    #:del INTERFACE_NAME
+
+
+    #:endfor
+
+
+    #:for DEGREE in range(RANGE_STOP_DEGREE_SIN)
+    #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_SINH(DEGREE)
+    !> `sin(x)` approximation by a @{TO_ORDINAL(${DEGREE}$)}@ order Taylor series
+    interface ${INTERFACE_NAME}$
+    #:for KIND in REAL_KINDS
+        #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_SINH(DEGREE, KIND)
         #:set STATEMENT = 'real( ' + KIND.ljust(7) + ' ) module elemental function ' + FUNCTION_NAME.ljust(29) + ' (x) result(res); real( ' + KIND.ljust(7) + ' ), intent(in) :: x; end function'
         #:if (KIND == 'real32') and (DEGREE >= RANGE_STOP_DEGREE_SIN_REAL32)
             #:set STATEMENT = ''

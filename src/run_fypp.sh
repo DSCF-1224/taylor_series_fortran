@@ -17,6 +17,10 @@ fypp -F -DWITH_REAL32   main_submodule_sin.fypp  main_submodule_sin_real32.f90
 fypp -F -DWITH_REAL64   main_submodule_sin.fypp  main_submodule_sin_real64.f90
 fypp -F -DWITH_REAL128  main_submodule_sin.fypp  main_submodule_sin_real128.f90
 
+fypp -F -DWITH_REAL32   main_submodule_sinh.fypp main_submodule_sinh_real32.f90
+fypp -F -DWITH_REAL64   main_submodule_sinh.fypp main_submodule_sinh_real64.f90
+fypp -F -DWITH_REAL128  main_submodule_sinh.fypp main_submodule_sinh_real128.f90
+
 fypp -F -DWITH_REAL32   inv_factorial.fypp       inv_factorial_real32.f90
 fypp -F -DWITH_REAL64   inv_factorial.fypp       inv_factorial_real64.f90
 fypp -F -DWITH_REAL128  inv_factorial.fypp       inv_factorial_real128.f90

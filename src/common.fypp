@@ -132,6 +132,14 @@
 
 
 
+    #:def INTERFACE_TAYLOR_SERIES_SINH(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('sinh', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
     #:def FUNCTION_TAYLOR_SERIES_COS(degree, kind)
         #:set RES = INTERFACE_TAYLOR_SERIES_COS(degree) + '_' + kind
         $:RES
@@ -158,6 +166,14 @@
 
     #:def FUNCTION_TAYLOR_SERIES_SIN(degree, kind)
         #:set RES = INTERFACE_TAYLOR_SERIES_SIN(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_SINH(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_SINH(degree) + '_' + kind
         $:RES
         #:del RES
     #:enddef

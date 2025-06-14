@@ -1,0 +1,32 @@
+#:mute
+
+    #:include 'common.fypp'
+
+    #:set FILE_NAME = _FILE_.replace('_gnuplot', '').replace('.fypp', '') + '_' + REAL_KIND
+
+#:endmute
+reset session
+
+set terminal svg
+set output '${FILE_NAME}$.svg'
+
+set title 'sinh(x) (using ${REAL_KIND}$)'
+
+set xlabel 'x'
+
+#:set Y_LABEL = INTERFACE_TAYLOR_SERIES_SINH('') + '(x)'
+set ylabel '${Y_LABEL.replace('_', '\\_')}$'
+set yrange [-100:100]
+
+set key outside right center title 'degree'
+
+plot \
+    sinh(x) \
+        linecolor black \
+        title 'intrinsic' , \
+    for [i = 0:10] \
+        '${FILE_NAME.replace('_series', '')}$.dat' \
+            using 2:3 \
+            every 1:2:i:0:i:(${RANGE_STOP_DEGREE}$ - 1) \
+            with points pointtype (i + 1) linecolor black pointsize 0.5 \
+            title sprintf('%${DIGITS_DEGREE}$.${DIGITS_DEGREE}$d', i)
