@@ -62,7 +62,7 @@ program ${PROGRAM_NAME}$
         real(${REAL_KIND}$) :: taylor_series
 
 
-        #:for DEGREE in range(MAXVAL_DEGREE_SIN)
+        #:for DEGREE in range(RANGE_STOP_DEGREE_SIN)
         #:set TARGET_INTERFACE = INTERFACE_TAYLOR_SERIES_SIN(DEGREE)
         taylor_series = ${TARGET_INTERFACE}$(x); write( file_unit, '${FMT_DEMO}$' ) ${str(DEGREE).rjust(DIGITS_DEGREE)}$, x, taylor_series, reference, (taylor_series - reference)
         #:endfor
