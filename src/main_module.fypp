@@ -23,6 +23,13 @@ module ${MODULE_NAME}$
     #:del INTERFACE_NAME
 
 
+    #:for DEGREE in range(RANGE_STOP_DEGREE_COS)
+    #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_COSH(DEGREE)
+    public :: ${INTERFACE_NAME}$
+    #:endfor
+    #:del INTERFACE_NAME
+
+
     #:for DEGREE in range(RANGE_STOP_DEGREE_EXP)
     #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_EXP(DEGREE)
     public :: ${INTERFACE_NAME}$
@@ -45,6 +52,33 @@ module ${MODULE_NAME}$
     interface ${INTERFACE_NAME}$
     #:for KIND in REAL_KINDS
         #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_COS(DEGREE, KIND)
+        #:set STATEMENT = 'real( ' + KIND.ljust(7) + ' ) module elemental function ' + FUNCTION_NAME.ljust(29) + ' (x) result(res); real( ' + KIND.ljust(7) + ' ), intent(in) :: x; end function'
+        #:if (KIND == 'real32') and (DEGREE >= RANGE_STOP_DEGREE_COS_REAL32)
+            #:set STATEMENT = ''
+        #:elif (KIND == 'real64') and (DEGREE >= RANGE_STOP_DEGREE_COS_REAL64)
+            #:set STATEMENT = ''
+        #:endif
+        #:if STATEMENT != ''
+        ${STATEMENT}$
+        #:endif
+        #:del FUNCTION_NAME
+        #:del STATEMENT
+    #:endfor
+    end interface
+    #:del INTERFACE_NAME
+
+
+    #:endfor
+
+
+
+
+    #:for DEGREE in range(RANGE_STOP_DEGREE_COS)
+    #:set INTERFACE_NAME = INTERFACE_TAYLOR_SERIES_COSH(DEGREE)
+    !> `cosh(x)` approximation by a @{TO_ORDINAL(${DEGREE}$)}@ order Taylor series
+    interface ${INTERFACE_NAME}$
+    #:for KIND in REAL_KINDS
+        #:set FUNCTION_NAME = FUNCTION_TAYLOR_SERIES_COSH(DEGREE, KIND)
         #:set STATEMENT = 'real( ' + KIND.ljust(7) + ' ) module elemental function ' + FUNCTION_NAME.ljust(29) + ' (x) result(res); real( ' + KIND.ljust(7) + ' ), intent(in) :: x; end function'
         #:if (KIND == 'real32') and (DEGREE >= RANGE_STOP_DEGREE_COS_REAL32)
             #:set STATEMENT = ''

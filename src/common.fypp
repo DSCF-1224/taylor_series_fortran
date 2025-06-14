@@ -108,6 +108,14 @@
 
 
 
+    #:def INTERFACE_TAYLOR_SERIES_COSH(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('cosh', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
     #:def INTERFACE_TAYLOR_SERIES_EXP(degree)
         #:set RES = INTERFACE_TAYLOR_SERIES_BASE('exp', degree)
         $:RES
@@ -126,6 +134,14 @@
 
     #:def FUNCTION_TAYLOR_SERIES_COS(degree, kind)
         #:set RES = INTERFACE_TAYLOR_SERIES_COS(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_COSH(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_COSH(degree) + '_' + kind
         $:RES
         #:del RES
     #:enddef
