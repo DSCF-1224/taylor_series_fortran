@@ -3,57 +3,76 @@
     #:set REAL_KINDS = ['real32', 'real64', 'real128']
 
 
-    ! ././src/submodule_cos_real32.f90:46:64:
-    ! 
-    !    46 |     real(real32), parameter :: coefficient040 = - coefficient038 / ( 39 *  40)
-    !       |                                                                1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    ! f951: all warnings being treated as errors
-    ! ././src/submodule_cos_real64.f90:184:64:
-    ! 
-    !   184 |     real(real64), parameter :: coefficient178 = - coefficient176 / (177 * 178)
-    !       |                                                                1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    ! f951: all warnings being treated as errors
-    #:set MAXVAL_DEGREE_COS_REAL32 =  39
-    #:set MAXVAL_DEGREE_COS_REAL64 = 177
-    #:set MAXVAL_DEGREE_COS        = MAXVAL_DEGREE_COS_REAL64
-    #:set MAXVAL_DEGREE            = MAXVAL_DEGREE_COS_REAL64
 
-    ! ././src/submodule_exp_real32.f90:45:62:
-    ! 
-    !    45 |     real(real32), parameter :: coefficient039 = coefficient038 /  39
-    !       |                                                              1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    ! f951: all warnings being treated as errors
-    ! ././src/submodule_exp_real64.f90:184:62:
-    ! 
-    !   184 |     real(real64), parameter :: coefficient178 = coefficient177 / 178
-    !       |                                                              1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    #:set MAXVAL_DEGREE_EXP_REAL32 =  39
-    #:set MAXVAL_DEGREE_EXP_REAL64 = 178
-    #:set MAXVAL_DEGREE_EXP        =                    MAXVAL_DEGREE_EXP_REAL64
-    #:set MAXVAL_DEGREE            = max(MAXVAL_DEGREE, MAXVAL_DEGREE_EXP_REAL64)
+    #! ././src/inv_factorial_real32.f90:51:76:
+    #! 
+    #!    51 |     real(real32), parameter, public :: inv_factorial_039 = inv_factorial_038 /  39
+    #!       |                                                                            1
+    #! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    #! f951: all warnings being treated as errors
 
-    ! ././src/submodule_sin_real32.f90:45:64:
-    ! 
-    !    45 |     real(real32), parameter :: coefficient039 = - coefficient037 / ( 38 *  39)
-    !       |                                                                1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    ! f951: all warnings being treated as errors
-    ! ././src/submodule_sin_real64.f90:185:64:
-    ! 
-    !   185 |     real(real64), parameter :: coefficient179 = - coefficient177 / (178 * 179)
-    !       |                                                                1
-    ! Error: Arithmetic underflow at (1) [-Werror=underflow]
-    #:set MAXVAL_DEGREE_SIN_REAL32 =  38
-    #:set MAXVAL_DEGREE_SIN_REAL64 = 178
-    #:set MAXVAL_DEGREE_SIN        =                    MAXVAL_DEGREE_SIN_REAL64
-    #:set MAXVAL_DEGREE            = max(MAXVAL_DEGREE, MAXVAL_DEGREE_SIN_REAL64)
+    #! ././src/inv_factorial_real64.f90:190:76:
+    #! 
+    #!   190 |     real(real64), parameter, public :: inv_factorial_178 = inv_factorial_177 / 178
+    #!       |                                                                            1
+    #! Error: Arithmetic underflow at (1) [-Werror=underflow]
+    #! f951: all warnings being treated as errors
 
-    #:if MAXVAL_DEGREE < 1
-        #:stop '`MAXVAL_DEGREE` must be greater than zero !'
+    #:set RANGE_STOP_DEGREE_EXP_REAL32 =  39
+    #:set RANGE_STOP_DEGREE_EXP_REAL64 = 178
+    #:set RANGE_STOP_DEGREE_EXP        = RANGE_STOP_DEGREE_EXP_REAL64
+    #:set RANGE_STOP_DEGREE            = RANGE_STOP_DEGREE_EXP_REAL64
+
+    #:set MAXVAL_DEGREE_EXP_REAL32     = RANGE_STOP_DEGREE_EXP_REAL32 - 1
+    #:set MAXVAL_DEGREE_EXP_REAL64     = RANGE_STOP_DEGREE_EXP_REAL64 - 1
+    #:set MAXVAL_DEGREE_EXP            = RANGE_STOP_DEGREE_EXP        - 1
+
+
+
+    #:if (RANGE_STOP_DEGREE_EXP_REAL32 % 2) != 0
+        #:set RANGE_STOP_DEGREE_COS_REAL32 = RANGE_STOP_DEGREE_EXP_REAL32
+    #:else
+        #:set RANGE_STOP_DEGREE_COS_REAL32 = RANGE_STOP_DEGREE_EXP_REAL32 - 1
+    #:endif
+
+    #:if (RANGE_STOP_DEGREE_EXP_REAL64 % 2) != 0
+        #:set RANGE_STOP_DEGREE_COS_REAL64 = RANGE_STOP_DEGREE_EXP_REAL64
+    #:else
+        #:set RANGE_STOP_DEGREE_COS_REAL64 = RANGE_STOP_DEGREE_EXP_REAL64 - 1
+    #:endif
+
+    #:set RANGE_STOP_DEGREE_COS    =                        RANGE_STOP_DEGREE_COS_REAL64
+    #:set RANGE_STOP_DEGREE        = max(RANGE_STOP_DEGREE, RANGE_STOP_DEGREE_COS_REAL64)
+
+    #:set MAXVAL_DEGREE_COS_REAL32 = RANGE_STOP_DEGREE_COS_REAL32 - 1
+    #:set MAXVAL_DEGREE_COS_REAL64 = RANGE_STOP_DEGREE_COS_REAL64 - 1
+    #:set MAXVAL_DEGREE_COS        = RANGE_STOP_DEGREE_COS        - 1
+
+
+
+    #:if (RANGE_STOP_DEGREE_EXP_REAL32 % 2) != 0
+        #:set RANGE_STOP_DEGREE_SIN_REAL32 = RANGE_STOP_DEGREE_EXP_REAL32 - 1
+    #:else
+        #:set RANGE_STOP_DEGREE_SIN_REAL32 = RANGE_STOP_DEGREE_EXP_REAL32
+    #:endif
+
+    #:if (RANGE_STOP_DEGREE_EXP_REAL64 % 2) != 0
+        #:set RANGE_STOP_DEGREE_SIN_REAL64 = RANGE_STOP_DEGREE_EXP_REAL64 - 1
+    #:else
+        #:set RANGE_STOP_DEGREE_SIN_REAL64 = RANGE_STOP_DEGREE_EXP_REAL64
+    #:endif
+
+    #:set RANGE_STOP_DEGREE_SIN    =                        RANGE_STOP_DEGREE_SIN_REAL64
+    #:set RANGE_STOP_DEGREE        = max(RANGE_STOP_DEGREE, RANGE_STOP_DEGREE_SIN_REAL64)
+
+    #:set MAXVAL_DEGREE_SIN_REAL32 = RANGE_STOP_DEGREE_SIN_REAL32 - 1
+    #:set MAXVAL_DEGREE_SIN_REAL64 = RANGE_STOP_DEGREE_SIN_REAL64 - 1
+    #:set MAXVAL_DEGREE_SIN        = RANGE_STOP_DEGREE_SIN        - 1
+
+
+
+    #:if RANGE_STOP_DEGREE < 1
+        #:stop '`RANGE_STOP_DEGREE` must be greater than zero !'
     #:endif
 
 
@@ -89,6 +108,14 @@
 
 
 
+    #:def INTERFACE_TAYLOR_SERIES_COSH(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('cosh', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
     #:def INTERFACE_TAYLOR_SERIES_EXP(degree)
         #:set RES = INTERFACE_TAYLOR_SERIES_BASE('exp', degree)
         $:RES
@@ -105,8 +132,24 @@
 
 
 
+    #:def INTERFACE_TAYLOR_SERIES_SINH(degree)
+        #:set RES = INTERFACE_TAYLOR_SERIES_BASE('sinh', degree)
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
     #:def FUNCTION_TAYLOR_SERIES_COS(degree, kind)
         #:set RES = INTERFACE_TAYLOR_SERIES_COS(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_COSH(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_COSH(degree) + '_' + kind
         $:RES
         #:del RES
     #:enddef
@@ -123,6 +166,14 @@
 
     #:def FUNCTION_TAYLOR_SERIES_SIN(degree, kind)
         #:set RES = INTERFACE_TAYLOR_SERIES_SIN(degree) + '_' + kind
+        $:RES
+        #:del RES
+    #:enddef
+
+
+
+    #:def FUNCTION_TAYLOR_SERIES_SINH(degree, kind)
+        #:set RES = INTERFACE_TAYLOR_SERIES_SINH(degree) + '_' + kind
         $:RES
         #:del RES
     #:enddef

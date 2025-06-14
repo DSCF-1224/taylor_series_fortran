@@ -10,7 +10,7 @@ reset session
 set terminal svg
 set output '${FILE_NAME}$.svg'
 
-set title 'exp(x) (using ${REAL_KIND}$)'
+set title 'sinh(x) (using ${REAL_KIND}$)'
 
 set xlabel 'x'
 

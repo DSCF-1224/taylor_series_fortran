@@ -15,7 +15,9 @@ program ${PROGRAM_NAME}$
     implicit none
 
 
-    real(${REAL_KIND}$), parameter :: step_x = 2 * acos(-1.0_${REAL_KIND}$) / ( ${NUM_TEST_POINTS}$ )
+    real(${REAL_KIND}$), parameter :: minval_x = -10
+    real(${REAL_KIND}$), parameter :: maxval_x =  10
+    real(${REAL_KIND}$), parameter ::   step_x = (maxval_x - minval_x) / ${NUM_TEST_POINTS}$
 
 
     call execute_demo
@@ -29,7 +31,7 @@ program ${PROGRAM_NAME}$
 
         integer :: i, file_unit
 
-        real(${REAL_KIND}$) :: reference, x
+        real(${REAL_KIND}$) :: x
 
 
         open( &!
@@ -41,9 +43,8 @@ program ${PROGRAM_NAME}$
 
 
         do i = 0, ${NUM_TEST_POINTS}$
-            x         = i * step_x
-            reference = sin(x)
-            call execute_demo_unit( file_unit, x = x, reference = reference )
+            x = minval_x + (i * step_x)
+            call execute_demo_unit( file_unit, x = x, reference = sinh(x) )
         end do
 
 
@@ -63,7 +64,7 @@ program ${PROGRAM_NAME}$
 
 
         #:for DEGREE in range(RANGE_STOP_DEGREE_SIN)
-        #:set TARGET_INTERFACE = INTERFACE_TAYLOR_SERIES_SIN(DEGREE)
+        #:set TARGET_INTERFACE = INTERFACE_TAYLOR_SERIES_SINH(DEGREE)
         taylor_series = ${TARGET_INTERFACE}$(x); write( file_unit, '${FMT_DEMO}$' ) ${str(DEGREE).rjust(DIGITS_DEGREE)}$, x, taylor_series, reference, (taylor_series - reference)
         #:endfor
         write( file_unit, '${FMT_DEMO}$' )

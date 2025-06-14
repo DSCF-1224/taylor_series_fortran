@@ -3,9 +3,9 @@
     #:include 'common.fypp'
     #:include 'with_real.fypp'
 
-    #:set SUBMODULE_NAME = 'imp_' + INTERFACE_TAYLOR_SERIES_EXP('') + '_' + REAL_KIND
+    #:set SUBMODULE_NAME = 'imp_' + INTERFACE_TAYLOR_SERIES_SINH('') + '_' + REAL_KIND
 
-    #:set SUBMODULE_DESCRIPTION = 'Implementation of `' + INTERFACE_TAYLOR_SERIES_EXP("*" * 3) + '` for `' + REAL_KIND + '`.'
+    #:set SUBMODULE_DESCRIPTION = 'Implementation of `' + INTERFACE_TAYLOR_SERIES_SINH("*" * 3) + '` for `' + REAL_KIND + '`.'
 
 #:endmute
 !> ${SUBMODULE_DESCRIPTION}$
@@ -14,26 +14,35 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
     #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND
     use, non_intrinsic :: ${REQUIRED_MODULE_NAME}$ , only: &! 
     #:del REQUIRED_MODULE_NAME
-    #:for DEGREE in range(MAXVAL_DEGREE_EXP)
+    #:for DEGREE in range(1, MAXVAL_DEGREE_SIN, 2)
         @{COEFFICIENT_NAME(${DEGREE}$)}@ => @{PARAMETER_INV_FACTORIAL(${DEGREE}$)}@ , &!
     #:endfor
-        @{COEFFICIENT_NAME(${MAXVAL_DEGREE_EXP}$)}@ => @{PARAMETER_INV_FACTORIAL(${MAXVAL_DEGREE_EXP}$)}@
+        @{COEFFICIENT_NAME(${MAXVAL_DEGREE_SIN}$)}@ => @{PARAMETER_INV_FACTORIAL(${MAXVAL_DEGREE_SIN}$)}@
 
 
     implicit none
 
 
+    #:for DEGREE in range(0, RANGE_STOP_DEGREE_SIN, 2)
+    real(${REAL_KIND}$), parameter :: @{COEFFICIENT_NAME(${DEGREE}$)}@ = 0.0_${REAL_KIND}$
+    #:endfor
+
+
     contains
 
-    #:for DEGREE in range(RANGE_STOP_DEGREE_EXP)
+    #:for DEGREE in range(RANGE_STOP_DEGREE_SIN)
 
-    #:set PROCEDURE_NAME = FUNCTION_TAYLOR_SERIES_EXP(DEGREE, REAL_KIND)
+    #:set PROCEDURE_NAME = FUNCTION_TAYLOR_SERIES_SINH(DEGREE, REAL_KIND)
     module procedure ${PROCEDURE_NAME}$
 
-    #:if DEGREE > 0
+    #:if (DEGREE % 2) != 0
         res = @{FUNCTION_HORNER(${DEGREE - 1}$)}@( x = x, pre_step = @{COEFFICIENT_NAME(${DEGREE}$)}@ )
     #:else
+    #:if DEGREE > 0
+        res = @{FUNCTION_TAYLOR_SERIES_SINH(${DEGREE - 1}$, ${REAL_KIND}$)}@(x)
+    #:else
         res = @{FUNCTION_HORNER(0)}@( x = x, pre_step = 0.0_${REAL_KIND}$ )
+    #:endif
     #:endif
 
     end procedure ${PROCEDURE_NAME}$
@@ -41,7 +50,7 @@ submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     #:endfor
 
-    #:for DEGREE in range(MAXVAL_DEGREE_EXP)
+    #:for DEGREE in range(MAXVAL_DEGREE_SIN)
 
     #:block BLOCK_DECLARE_HORNER('', REAL_KIND, DEGREE)
     #:endblock BLOCK_DECLARE_HORNER
