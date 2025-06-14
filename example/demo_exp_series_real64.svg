@@ -848,7 +848,7 @@
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M72.53,54.01 L72.53,422.40 L439.97,422.40 L439.97,54.01 L72.53,54.01 Z  '/>	<g transform="translate(19.18,238.21) rotate(270.00)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" >taylor</tspan><tspan font-family="Arial"  font-size="9.6" dy="3.60px">s</tspan><tspan font-family="Arial"  font-size="12.0" dy="-3.60px">eries</tspan><tspan font-family="Arial"  font-size="9.6" dy="3.60px">e</tspan><tspan font-family="Arial"  font-size="12.0" dy="-3.60px">xp(x)</tspan></text>
+		<text><tspan font-family="Arial" >taylor_series_exp(x)</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
