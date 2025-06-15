@@ -1,4 +1,9 @@
 !> Implementation of `taylor_series_exp_***` for `real64`.
+!! @note
+!! [main_submodule_exp_real64.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_exp_real64.f90)
+!! [demo_exp_error_real64.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_exp_error_real64.svg)
+!! [demo_exp_series_real64.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_exp_series_real64.svg)
+!! @endnote
 submodule (taylor_series_fortran) imp_taylor_series_exp_real64
 
     use, non_intrinsic :: inv_factorial_real64 , only: &! 

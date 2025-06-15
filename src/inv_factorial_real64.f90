@@ -1,3 +1,7 @@
+!! `parameters` declaration: reciprocal of factorial (for `real64`)
+!! @note
+!! [taylor_series_fortran/src/inv_factorial_real64.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/inv_factorial_real64.f90)
+!! @endnote
 module inv_factorial_real64
 
     use, intrinsic :: iso_fortran_env, only: real64

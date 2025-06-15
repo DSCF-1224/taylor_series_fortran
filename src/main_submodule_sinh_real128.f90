@@ -1,4 +1,9 @@
 !> Implementation of `taylor_series_sinh_***` for `real128`.
+!! @note
+!! [main_submodule_sinh_real128.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_sinh_real128.f90)
+!! [demo_sinh_error_real128.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_sinh_error_real128.svg)
+!! [demo_sinh_series_real128.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_sinh_series_real128.svg)
+!! @endnote
 submodule (taylor_series_fortran) imp_taylor_series_sinh_real128
 
     use, non_intrinsic :: inv_factorial_real128 , only: &! 

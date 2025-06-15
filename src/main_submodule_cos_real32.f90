@@ -1,4 +1,9 @@
-!> Implementation of `taylor_series_cos_***` for `real32`.
+!! Implementation of `taylor_series_cos_***` for `real32`.
+!! @note
+!! [main_submodule_cos_real32.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_cos_real32.f90)<br>
+!! [demo_cos_error_real32.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_error_real32.svg)<br>
+!! [demo_cos_series_real32.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_series_real32.svg)
+!! @endnote
 submodule (taylor_series_fortran) imp_taylor_series_cos_real32
 
     use, non_intrinsic :: inv_factorial_real32 , only: &! 

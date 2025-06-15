@@ -1,4 +1,9 @@
-!> Implementation of `taylor_series_cos_***` for `real128`.
+!! Implementation of `taylor_series_cos_***` for `real128`.
+!! @note
+!! [main_submodule_cos_real128.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_cos_real128.f90)<br>
+!! [demo_cos_error_real128.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_error_real128.svg)<br>
+!! [demo_cos_series_real128.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_series_real128.svg)
+!! @endnote
 submodule (taylor_series_fortran) imp_taylor_series_cos_real128
 
     use, non_intrinsic :: inv_factorial_real128 , only: &! 
