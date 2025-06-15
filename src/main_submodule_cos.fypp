@@ -8,7 +8,12 @@
     #:set SUBMODULE_DESCRIPTION = 'Implementation of `' + INTERFACE_TAYLOR_SERIES_COS("*" * 3) + '` for `' + REAL_KIND + '`.'
 
 #:endmute
-!> ${SUBMODULE_DESCRIPTION}$
+!! ${SUBMODULE_DESCRIPTION}$
+!! @note
+!! [main_submodule_cos_${REAL_KIND}$.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_cos_${REAL_KIND}$.f90)<br>
+!! [demo_cos_error_${REAL_KIND}$.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_error_${REAL_KIND}$.svg)<br>
+!! [demo_cos_series_${REAL_KIND}$.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cos_series_${REAL_KIND}$.svg)
+!! @endnote
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND

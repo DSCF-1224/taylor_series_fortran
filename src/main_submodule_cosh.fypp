@@ -9,6 +9,11 @@
 
 #:endmute
 !> ${SUBMODULE_DESCRIPTION}$
+!! @note
+!! [main_submodule_cosh_${REAL_KIND}$.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/main_submodule_cosh_${REAL_KIND}$.f90)
+!! [demo_cosh_error_${REAL_KIND}$.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cosh_error_${REAL_KIND}$.svg)
+!! [demo_cosh_series_${REAL_KIND}$.svg](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/example/demo_cosh_series_${REAL_KIND}$.svg)
+!! @endnote
 submodule (${MODULE_NAME}$) ${SUBMODULE_NAME}$
 
     #:set REQUIRED_MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND

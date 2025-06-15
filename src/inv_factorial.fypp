@@ -7,6 +7,10 @@
     #:set MODULE_NAME = PARAMETER_INV_FACTORIAL('') + REAL_KIND
 
 #:endmute
+!! `parameters` declaration: reciprocal of factorial (for `${REAL_KIND}$`)
+!! @note
+!! [taylor_series_fortran/src/inv_factorial_${REAL_KIND}$.f90](https://github.com/DSCF-1224/taylor_series_fortran/blob/github-pages/src/inv_factorial_${REAL_KIND}$.f90)
+!! @endnote
 module ${MODULE_NAME}$
 
     use, intrinsic :: iso_fortran_env, only: ${REAL_KIND}$
